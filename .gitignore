@@ -1,1 +1,9 @@
 .DS_Store
+
+# BOM export files
+.csv
+.tsv
+.xml
+# backup
+.bak
+
