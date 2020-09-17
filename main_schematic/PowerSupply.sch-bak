@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 6 7
 Title ""
 Date ""
 Rev ""
@@ -719,35 +719,7 @@ Wire Wire Line
 Wire Wire Line
 	2500 3600 3500 3600
 Connection ~ 3500 3600
-$Comp
-L Device:Ferrite_Bead FB?
-U 1 1 5F6A3C11
-P 8650 4150
-F 0 "FB?" V 8376 4150 50  0000 C CNN
-F 1 "Ferrite_Bead" V 8467 4150 50  0000 C CNN
-F 2 "" V 8580 4150 50  0001 C CNN
-F 3 "~" H 8650 4150 50  0001 C CNN
-	1    8650 4150
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 5F6A49D4
-P 9050 4150
-F 0 "R?" V 9109 4196 50  0000 L CNN
-F 1 "1" V 9050 4100 24  0000 L CNN
-F 2 "" H 9050 4150 50  0001 C CNN
-F 3 "~" H 9050 4150 50  0001 C CNN
-	1    9050 4150
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	8950 4150 8800 4150
-Wire Wire Line
-	8500 4150 8200 4150
 Connection ~ 7900 4150
-Wire Wire Line
-	9150 4150 9850 4150
 $Comp
 L power:GND #PWR?
 U 1 1 5F6B716F
@@ -769,13 +741,10 @@ Wire Wire Line
 Connection ~ 7600 2300
 Wire Wire Line
 	8200 4000 8200 4150
-Connection ~ 8200 4150
 Wire Wire Line
 	8200 4150 7900 4150
 Wire Wire Line
 	1950 4000 1950 4150
-Text HLabel 9850 4150 2    50   Input ~ 0
-3.3VA
 Text HLabel 8200 4000 1    50   Input ~ 0
 3.3V
 Text HLabel 8000 2200 1    50   Input ~ 0
