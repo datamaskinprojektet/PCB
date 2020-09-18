@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 6 8
 Title ""
 Date ""
 Rev ""
@@ -746,8 +746,6 @@ Wire Wire Line
 Wire Wire Line
 	8500 4150 8200 4150
 Connection ~ 7900 4150
-Wire Wire Line
-	9150 4150 9850 4150
 $Comp
 L power:GND #PWR?
 U 1 1 5F6B716F
@@ -769,13 +767,10 @@ Wire Wire Line
 Connection ~ 7600 2300
 Wire Wire Line
 	8200 4000 8200 4150
-Connection ~ 8200 4150
 Wire Wire Line
 	8200 4150 7900 4150
 Wire Wire Line
 	1950 4000 1950 4150
-Text HLabel 9850 4150 2    50   Input ~ 0
-3.3VA
 Text HLabel 8200 4000 1    50   Input ~ 0
 3.3V
 Text HLabel 8000 2200 1    50   Input ~ 0
