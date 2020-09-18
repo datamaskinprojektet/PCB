@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name main_schematic-rescue)(type Legacy)(uri ${KIPRJMOD}/main_schematic-rescue.lib)(options "")(descr ""))
+  (lib (name EFM32GG)(type Legacy)(uri ${KIPRJMOD}/EFM32GG.lib)(options "")(descr ""))
+)
