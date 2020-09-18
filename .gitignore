@@ -6,4 +6,5 @@
 .xml
 # backup
 .bak
+.*-bak
 
