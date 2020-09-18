@@ -5,6 +5,6 @@
 .tsv
 .xml
 # backup
-.bak
-.*-bak
+*.bak
+*.*-bak
 
