@@ -15,175 +15,146 @@ Comment4 ""
 $EndDescr
 $Comp
 L EFM32GG:EFM32_GG990 U6
-U 1 1 5F653B30
-P 3550 2150
-F 0 "U6" H 3550 3565 50  0000 C CNN
-F 1 "EFM32_GG990" H 3550 3474 50  0000 C CNN
-F 2 "" H 4300 1950 50  0001 C CNN
-F 3 "" H 4300 1950 50  0001 C CNN
-	1    3550 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L EFM32GG:EFM32_GG990 U6
 U 2 1 5F656ACE
-P 3550 6000
-F 0 "U6" H 3550 7415 50  0000 C CNN
-F 1 "EFM32_GG990" H 3550 7324 50  0000 C CNN
-F 2 "" H 4300 5800 50  0001 C CNN
-F 3 "" H 4300 5800 50  0001 C CNN
-	2    3550 6000
+P 3550 5350
+F 0 "U6" H 3550 6765 50  0000 C CNN
+F 1 "EFM32_GG990" H 3550 6674 50  0000 C CNN
+F 2 "" H 4300 5150 50  0001 C CNN
+F 3 "" H 4300 5150 50  0001 C CNN
+	2    3550 5350
 	1    0    0    -1  
 $EndComp
-Text Label 4050 7200 0    50   ~ 0
+Text Label 4050 6550 0    50   ~ 0
 EBI_AD0
-Text Label 4050 7100 0    50   ~ 0
+Text Label 4050 6450 0    50   ~ 0
 EBI_AD1
-Text Label 4050 7000 0    50   ~ 0
+Text Label 4050 6350 0    50   ~ 0
 EBI_AD2
-Text Label 4050 6900 0    50   ~ 0
+Text Label 4050 6250 0    50   ~ 0
 EBI_AD3
-Text Label 4050 6800 0    50   ~ 0
+Text Label 4050 6150 0    50   ~ 0
 EBI_AD4
-Text Label 4050 6700 0    50   ~ 0
+Text Label 4050 6050 0    50   ~ 0
 EBI_AD5
-Text Label 4050 6600 0    50   ~ 0
+Text Label 4050 5950 0    50   ~ 0
 EBI_AD6
-Text Label 4050 6500 0    50   ~ 0
+Text Label 4050 5850 0    50   ~ 0
 EBI_AD7
 Entry Wire Line
-	4350 7100 4450 7200
+	4350 6450 4450 6550
 Wire Wire Line
-	4050 7100 4350 7100
+	4050 6450 4350 6450
 Wire Wire Line
-	4050 7000 4350 7000
+	4050 6350 4350 6350
 Wire Wire Line
-	4050 6900 4350 6900
+	4050 6250 4350 6250
 Wire Wire Line
-	4050 6800 4350 6800
+	4050 6150 4350 6150
 Wire Wire Line
-	4050 6700 4350 6700
+	4050 6050 4350 6050
 Wire Wire Line
-	4050 6600 4350 6600
+	4050 5950 4350 5950
 Wire Wire Line
-	4050 6500 4350 6500
+	4050 5850 4350 5850
 Entry Wire Line
-	4350 7000 4450 7100
+	4350 6350 4450 6450
 Entry Wire Line
-	4350 6900 4450 7000
+	4350 6250 4450 6350
 Entry Wire Line
-	4350 6800 4450 6900
+	4350 6150 4450 6250
 Entry Wire Line
-	4350 6700 4450 6800
+	4350 6050 4450 6150
 Entry Wire Line
-	4350 6600 4450 6700
+	4350 5950 4450 6050
 Entry Wire Line
-	4350 6500 4450 6600
+	4350 5850 4450 5950
 Wire Wire Line
-	4050 7200 4350 7200
+	4050 6550 4350 6550
 Entry Wire Line
-	4350 7200 4450 7300
-Text Label 4450 6450 0    50   ~ 0
+	4350 6550 4450 6650
+Text Label 4450 5800 0    50   ~ 0
 EBI_AD[0..15]
-Wire Wire Line
-	3050 1000 2700 1000
-Wire Wire Line
-	3050 1100 2700 1100
-Wire Wire Line
-	3050 1200 2700 1200
-Wire Wire Line
-	3050 1300 2700 1300
-Wire Wire Line
-	3050 1400 2700 1400
-Wire Wire Line
-	3050 1500 2700 1500
-Wire Wire Line
-	3050 1600 2700 1600
-Wire Wire Line
-	3050 2500 2700 2500
-Text Label 2700 1000 0    50   ~ 0
+Text Label 2050 1000 0    50   ~ 0
 EBI_AD9
-Text Label 2700 1100 0    50   ~ 0
+Text Label 2050 1100 0    50   ~ 0
 EBI_AD10
-Text Label 2700 1200 0    50   ~ 0
+Text Label 2050 1200 0    50   ~ 0
 EBI_AD11
-Text Label 2700 1300 0    50   ~ 0
+Text Label 2050 1300 0    50   ~ 0
 EBI_AD12
-Text Label 2700 1400 0    50   ~ 0
+Text Label 2050 1400 0    50   ~ 0
 EBI_AD13
-Text Label 2700 1500 0    50   ~ 0
+Text Label 2050 1500 0    50   ~ 0
 EBI_AD14
-Text Label 2700 1600 0    50   ~ 0
+Text Label 2050 1600 0    50   ~ 0
 EBI_AD15
-Text Label 2700 2500 0    50   ~ 0
+Text Label 2050 2500 0    50   ~ 0
 EBI_AD8
 Entry Wire Line
-	2600 900  2700 1000
+	1950 900  2050 1000
 Entry Wire Line
-	2600 1000 2700 1100
+	1950 1000 2050 1100
 Entry Wire Line
-	2600 1100 2700 1200
+	1950 1100 2050 1200
 Entry Wire Line
-	2600 1200 2700 1300
+	1950 1200 2050 1300
 Entry Wire Line
-	2600 1300 2700 1400
+	1950 1300 2050 1400
 Entry Wire Line
-	2600 1400 2700 1500
+	1950 1400 2050 1500
 Entry Wire Line
-	2600 1500 2700 1600
+	1950 1500 2050 1600
 Entry Wire Line
-	2600 2400 2700 2500
-Text Label 2600 1300 1    50   ~ 0
+	1950 2400 2050 2500
+Text Label 1950 1300 1    50   ~ 0
 EBI_AD[0..15]
 Text HLabel 4300 1400 2    50   Input ~ 0
 EBI_ALE
-Wire Wire Line
-	4300 1400 4050 1400
 Entry Wire Line
-	2550 5650 2650 5750
+	2550 5000 2650 5100
 Entry Wire Line
-	2550 5750 2650 5850
+	2550 5100 2650 5200
 Entry Wire Line
-	2550 5850 2650 5950
+	2550 5200 2650 5300
 Entry Wire Line
-	2550 5950 2650 6050
-Text Label 2700 5750 0    50   ~ 0
+	2550 5300 2650 5400
+Text Label 2700 5100 0    50   ~ 0
 EBI_CS0
-Text Label 2700 5850 0    50   ~ 0
+Text Label 2700 5200 0    50   ~ 0
 EBI_CS1
-Text Label 2700 5950 0    50   ~ 0
+Text Label 2700 5300 0    50   ~ 0
 EBI_CS2
-Text Label 2700 6050 0    50   ~ 0
+Text Label 2700 5400 0    50   ~ 0
 EBI_CS3
 Wire Wire Line
-	2650 5750 3050 5750
+	2650 5100 3050 5100
 Wire Wire Line
-	2650 5850 3050 5850
+	2650 5200 3050 5200
 Wire Wire Line
-	2650 5950 3050 5950
+	2650 5300 3050 5300
 Wire Wire Line
-	2650 6050 3050 6050
-Text HLabel 2550 5600 0    50   Input ~ 0
+	2650 5400 3050 5400
+Text HLabel 2550 4950 0    50   Input ~ 0
 EBI_CS[0..3]
 Wire Wire Line
-	4050 5550 4350 5550
+	4050 4900 4350 4900
 Wire Wire Line
-	4350 5450 4050 5450
-Text HLabel 4350 5450 2    50   Input ~ 0
+	4350 4800 4050 4800
+Text HLabel 4350 4800 2    50   Input ~ 0
 EBI_RE
-Text HLabel 4350 5550 2    50   Input ~ 0
+Text HLabel 4350 4900 2    50   Input ~ 0
 EBI_WE
-Text HLabel 4350 6150 2    50   Input ~ 0
+Text HLabel 4350 5500 2    50   Input ~ 0
 EBI_ARDY
 Wire Wire Line
-	4350 6150 4050 6150
+	4350 5500 4050 5500
 Wire Wire Line
-	4050 5650 4350 5650
+	4050 5000 4350 5000
 Wire Wire Line
-	4050 5750 4350 5750
-Text HLabel 4350 5650 2    50   Input ~ 0
+	4050 5100 4350 5100
+Text HLabel 4350 5000 2    50   Input ~ 0
 EBI_BL1
-Text HLabel 4350 5750 2    50   Input ~ 0
+Text HLabel 4350 5100 2    50   Input ~ 0
 EBI_BL0
 Wire Wire Line
 	8950 2850 8950 2900
@@ -618,12 +589,151 @@ Wire Notes Line
 	5100 3900 5100 500 
 Text Notes 7650 800  0    118  ~ 0
 MCU POWER
-Text HLabel 2600 2500 0    50   Input ~ 0
+Text HLabel 1950 2500 0    50   Input ~ 0
 EBI_AD[0..15]
+Text Label 2700 2300 0    50   ~ 0
+EBI_A1
+Text Label 2700 2400 0    50   ~ 0
+EBI_A2
+Text Label 4100 3250 0    50   ~ 0
+EBI_A3
+Text Label 4100 3150 0    50   ~ 0
+EBI_A4
+Entry Wire Line
+	4350 3150 4450 3250
+Entry Wire Line
+	4350 3250 4450 3350
+Text HLabel 2600 2150 0    50   Input ~ 0
+EBI_A[0..15]
+Entry Wire Line
+	2600 2300 2700 2400
+Entry Wire Line
+	2600 2200 2700 2300
+Wire Wire Line
+	3050 2300 2700 2300
+Wire Wire Line
+	4350 3150 4050 3150
+Wire Wire Line
+	4350 3250 4050 3250
+Wire Wire Line
+	3050 1200 2050 1200
+Wire Wire Line
+	3050 1300 2050 1300
+Wire Wire Line
+	4300 1400 4050 1400
+Wire Wire Line
+	3050 1100 2050 1100
+Entry Wire Line
+	2600 2100 2700 2200
+Text Label 2700 2200 0    50   ~ 0
+EBI_A0
+$Comp
+L EFM32GG:EFM32_GG990 U6
+U 1 1 5F653B30
+P 3550 2150
+F 0 "U6" H 3550 3565 50  0000 C CNN
+F 1 "EFM32_GG990" H 3550 3474 50  0000 C CNN
+F 2 "" H 4300 1950 50  0001 C CNN
+F 3 "" H 4300 1950 50  0001 C CNN
+	1    3550 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 2200 2700 2200
+Wire Wire Line
+	4050 1900 4350 1900
+Wire Wire Line
+	4050 1800 4350 1800
+Text Label 4100 1900 0    50   ~ 0
+EBI_A5
+Text Label 4100 1800 0    50   ~ 0
+EBI_A6
+Entry Wire Line
+	4350 1800 4450 1900
+Entry Wire Line
+	4350 1900 4450 2000
+Wire Wire Line
+	3050 5850 2650 5850
+Wire Wire Line
+	3050 5950 2650 5950
+Entry Wire Line
+	2550 5850 2650 5950
+Entry Wire Line
+	2550 5750 2650 5850
+Text Label 2600 2250 2    50   ~ 0
+EBI_A[0..15]
+Text Label 4450 3300 0    50   ~ 0
+EBI_A[0..15]
+Text Label 2550 5800 2    50   ~ 0
+EBI_A[0..15]
+Wire Wire Line
+	4050 1600 4350 1600
+Wire Wire Line
+	4050 1500 4350 1500
+Text Label 4100 1600 0    50   ~ 0
+EBI_A9
+Text Label 4100 1500 0    50   ~ 0
+EBI_A10
+Entry Wire Line
+	4350 1500 4450 1600
+Entry Wire Line
+	4350 1600 4450 1700
+Wire Wire Line
+	3050 6250 2650 6250
+Wire Wire Line
+	3050 6350 2650 6350
+Wire Wire Line
+	3050 6450 2650 6450
+Wire Wire Line
+	3050 6550 2650 6550
+Text Label 2700 5850 0    50   ~ 0
+EBI_A7
+Text Label 2700 5950 0    50   ~ 0
+EBI_A8
+Text Label 2700 6250 0    50   ~ 0
+EBI_A11
+Text Label 2700 6350 0    50   ~ 0
+EBI_A12
+Text Label 2700 6450 0    50   ~ 0
+EBI_A13
+Text Label 2700 6550 0    50   ~ 0
+EBI_A14
+Entry Wire Line
+	2550 6150 2650 6250
+Entry Wire Line
+	2550 6250 2650 6350
+Entry Wire Line
+	2550 6350 2650 6450
+Entry Wire Line
+	2550 6450 2650 6550
+Wire Wire Line
+	4050 1700 4350 1700
+Entry Wire Line
+	4350 1700 4450 1800
+Text Label 4100 1700 0    50   ~ 0
+EBI_A15
+Wire Wire Line
+	2700 2400 3050 2400
+Wire Wire Line
+	3050 1000 2050 1000
+Wire Wire Line
+	2050 1400 3050 1400
+Wire Wire Line
+	2050 1500 3050 1500
+Wire Wire Line
+	2050 1600 3050 1600
+Wire Wire Line
+	2050 2500 3050 2500
 Wire Bus Line
-	2550 5600 2550 6100
+	2600 2050 2600 2300
 Wire Bus Line
-	2600 750  2600 2550
+	2550 4950 2550 5450
 Wire Bus Line
-	4450 6450 4450 7300
+	2550 5700 2550 6450
+Wire Bus Line
+	4450 1550 4450 3400
+Wire Bus Line
+	1950 750  1950 2550
+Wire Bus Line
+	4450 5800 4450 6650
 $EndSCHEMATC
