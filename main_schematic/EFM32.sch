@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 8
+Sheet 9 9
 Title ""
 Date ""
 Rev ""
@@ -35,12 +35,6 @@ F 3 "" H 4300 5800 50  0001 C CNN
 	2    3550 6000
 	1    0    0    -1  
 $EndComp
-Text HLabel 1150 2000 0    50   Input ~ 0
-EBI_AD[0..15]
-Wire Bus Line
-	1150 2000 1350 2000
-Text Label 1300 2000 1    50   ~ 0
-EBI_AD[0..15]
 Text Label 4050 7200 0    50   ~ 0
 EBI_AD0
 Text Label 4050 7100 0    50   ~ 0
@@ -557,16 +551,16 @@ F 3 "~" H 5850 3050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7450 1750 6050 1750
+	5300 2050 5300 1750
 $Comp
-L Device:C C62
-U 1 1 5F70367C
-P 6050 1900
-F 0 "C62" H 6165 1946 50  0000 L CNN
-F 1 "100N" H 6165 1855 50  0000 L CNN
-F 2 "" H 6088 1750 50  0001 C CNN
-F 3 "~" H 6050 1900 50  0001 C CNN
-	1    6050 1900
+L power:GND #PWR?
+U 1 1 5F705BEA
+P 5300 2050
+F 0 "#PWR?" H 5300 1800 50  0001 C CNN
+F 1 "GND" H 5305 1877 50  0000 C CNN
+F 2 "" H 5300 2050 50  0001 C CNN
+F 3 "" H 5300 2050 50  0001 C CNN
+	1    5300 2050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -578,6 +572,19 @@ F 1 "GND" H 6055 1877 50  0000 C CNN
 F 2 "" H 6050 2050 50  0001 C CNN
 F 3 "" H 6050 2050 50  0001 C CNN
 	1    6050 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 1750 6050 1750
+$Comp
+L Device:C C62
+U 1 1 5F70367C
+P 6050 1900
+F 0 "C62" H 6165 1946 50  0000 L CNN
+F 1 "100N" H 6165 1855 50  0000 L CNN
+F 2 "" H 6088 1750 50  0001 C CNN
+F 3 "~" H 6050 1900 50  0001 C CNN
+	1    6050 1900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -603,21 +610,16 @@ F 3 "~" H 5500 1750 50  0001 C CNN
 	1    5500 1750
 	0    1    1    0   
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5F705BEA
-P 5300 2050
-F 0 "#PWR?" H 5300 1800 50  0001 C CNN
-F 1 "GND" H 5305 1877 50  0000 C CNN
-F 2 "" H 5300 2050 50  0001 C CNN
-F 3 "" H 5300 2050 50  0001 C CNN
-	1    5300 2050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5300 2050 5300 1750
 Wire Wire Line
 	5300 1750 5350 1750
+Wire Notes Line
+	11200 3900 5100 3900
+Wire Notes Line
+	5100 3900 5100 500 
+Text Notes 7650 800  0    118  ~ 0
+MCU POWER
+Text HLabel 2600 2500 0    50   Input ~ 0
+EBI_AD[0..15]
 Wire Bus Line
 	2550 5600 2550 6100
 Wire Bus Line

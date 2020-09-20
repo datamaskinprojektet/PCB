@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -178,16 +178,5 @@ F 2 "" H 9450 1850 50  0001 C CNN
 F 3 "~" H 9450 1850 50  0001 C CNN
 	1    9450 1850
 	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5F67EB89
-P 7200 -1600
-F 0 "#PWR?" H 7200 -1750 50  0001 C CNN
-F 1 "+3.3V" H 7200 -1450 50  0000 C CNN
-F 2 "" H 7200 -1600 50  0001 C CNN
-F 3 "" H 7200 -1600 50  0001 C CNN
-	1    7200 -1600
-	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
