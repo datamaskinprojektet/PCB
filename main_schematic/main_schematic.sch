@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 10
 Title ""
 Date ""
 Rev ""
@@ -178,5 +178,11 @@ F6 "EBI_WE" I R 3300 1900 50
 F7 "EBI_ARDY" I R 3300 2050 50 
 F8 "EBI_BL1" I R 3300 2150 50 
 F9 "EBI_BL0" I R 3300 2250 50 
+$EndSheet
+$Sheet
+S 950  5950 2050 1250
+U 5F70E372
+F0 "HDMI" 50
+F1 "HDMI.sch" 50
 $EndSheet
 $EndSCHEMATC
