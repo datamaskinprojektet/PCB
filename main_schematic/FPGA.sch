@@ -345,16 +345,16 @@ Wire Wire Line
 	5550 2850 5250 2850
 Text Label 5350 2150 0    50   ~ 0
 Flash_CLK
-Text Label 6450 7100 2    50   ~ 0
+Text Label 6800 7250 2    50   ~ 0
 Flash_CLK
-Text Label 6450 7250 2    50   ~ 0
+Text Label 6800 7400 2    50   ~ 0
 Flash_MOSI
-Text Label 6450 6950 2    50   ~ 0
+Text Label 6800 7100 2    50   ~ 0
 Flash_RESET
 Wire Wire Line
-	5900 7100 6450 7100
+	6250 7250 6800 7250
 Wire Wire Line
-	5900 7250 6450 7250
+	6250 7400 6800 7400
 $Comp
 L Device:C_Small C29
 U 1 1 5F6DCE52
@@ -1258,29 +1258,35 @@ F 3 "" H 1650 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5900 6950 6450 6950
-Text Label 4250 7250 0    50   ~ 0
+	6250 7100 6800 7100
+Text Label 4600 7400 0    50   ~ 0
 Flash_WP
-Text Label 4250 7100 0    50   ~ 0
+Text Label 4600 7250 0    50   ~ 0
 Flash_MISO
-Text Label 4250 6950 0    50   ~ 0
+Text Label 4600 7100 0    50   ~ 0
 Flash_CS
 Wire Wire Line
-	4250 7250 4800 7250
+	4600 7400 5150 7400
 Wire Wire Line
-	4800 7100 4250 7100
+	5150 7250 4600 7250
 Wire Wire Line
-	4250 6950 4800 6950
+	4600 7100 5150 7100
 $Sheet
-S 4800 6800 1100 600 
+S 5150 6950 1100 600 
 U 5FB3012C
 F0 "Flash_SPI" 50
 F1 "Flash_SPI.sch" 50
-F2 "Flash_RESET" I R 5900 6950 50 
-F3 "Flash_CLK" I R 5900 7100 50 
-F4 "Flash_MOSI" I R 5900 7250 50 
-F5 "Flash_CS" I L 4800 6950 50 
-F6 "Flash_MISO" I L 4800 7100 50 
-F7 "Flash_WP" I L 4800 7250 50 
+F2 "Flash_RESET" I R 6250 7100 50 
+F3 "Flash_CLK" I R 6250 7250 50 
+F4 "Flash_MOSI" I R 6250 7400 50 
+F5 "Flash_CS" I L 5150 7100 50 
+F6 "Flash_MISO" I L 5150 7250 50 
+F7 "Flash_WP" I L 5150 7400 50 
+$EndSheet
+$Sheet
+S 4500 5000 1500 1400
+U 5FBF90B8
+F0 "SRAM" 50
+F1 "SRAM.sch" 50
 $EndSheet
 $EndSCHEMATC
