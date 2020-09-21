@@ -156,8 +156,6 @@ Text HLabel 4350 5000 2    50   Input ~ 0
 EBI_BL1
 Text HLabel 4350 5100 2    50   Input ~ 0
 EBI_BL0
-Wire Wire Line
-	8950 2850 8950 2900
 Connection ~ 8950 2950
 Wire Wire Line
 	8950 2950 8950 3050
@@ -186,19 +184,6 @@ Connection ~ 8950 2450
 Wire Wire Line
 	8950 2450 8950 2550
 Connection ~ 8950 2550
-Wire Wire Line
-	8950 2550 8950 2600
-$Comp
-L Device:C C50
-U 1 1 5F68B36A
-P 9150 2750
-F 0 "C50" H 9150 2850 50  0000 L CNN
-F 1 "100N" H 9150 2650 50  0000 L CNN
-F 2 "" H 9188 2600 50  0001 C CNN
-F 3 "~" H 9150 2750 50  0001 C CNN
-	1    9150 2750
-	1    0    0    -1  
-$EndComp
 $Comp
 L EFM32GG:EFM32_GG990 U6
 U 3 1 5F6585E4
@@ -210,18 +195,6 @@ F 3 "" H 8950 2400 50  0001 C CNN
 	3    8200 2600
 	1    0    0    -1  
 $EndComp
-Connection ~ 8950 2600
-Wire Wire Line
-	8950 2600 8950 2650
-Connection ~ 9150 2600
-Wire Wire Line
-	9150 2600 8950 2600
-Wire Wire Line
-	8950 2900 9150 2900
-Connection ~ 8950 2900
-Wire Wire Line
-	8950 2900 8950 2950
-Connection ~ 9150 2900
 $Comp
 L Device:C C55
 U 1 1 5F6A0E34
@@ -259,9 +232,6 @@ F 3 "" H 10650 3050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8950 3350 8950 3450
-Wire Wire Line
-	10650 2900 10650 3050
-Connection ~ 10350 2900
 $Comp
 L power:GND #PWR?
 U 1 1 5F6584CA
@@ -323,25 +293,6 @@ F 3 "" H 6550 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 6550 2100
-Connection ~ 10050 2900
-Connection ~ 9750 2900
-Connection ~ 9450 2900
-Connection ~ 9450 2600
-Wire Wire Line
-	10650 2900 10350 2900
-Wire Wire Line
-	10050 2900 10350 2900
-Wire Wire Line
-	9750 2900 10050 2900
-Wire Wire Line
-	9450 2900 9750 2900
-Wire Wire Line
-	9150 2900 9450 2900
-Wire Wire Line
-	9450 2600 9150 2600
-Connection ~ 10350 2600
-Wire Wire Line
-	10350 2600 10650 2600
 $Comp
 L Device:C C56
 U 1 1 5F652679
@@ -353,59 +304,6 @@ F 3 "~" H 10650 2750 50  0001 C CNN
 	1    10650 2750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10050 2600 9750 2600
-Connection ~ 10050 2600
-Wire Wire Line
-	9750 2600 9450 2600
-Connection ~ 9750 2600
-Wire Wire Line
-	10350 2600 10050 2600
-$Comp
-L Device:C C54
-U 1 1 5F69894B
-P 10350 2750
-F 0 "C54" H 10350 2850 50  0000 L CNN
-F 1 "100N" H 10350 2650 50  0000 L CNN
-F 2 "" H 10388 2600 50  0001 C CNN
-F 3 "~" H 10350 2750 50  0001 C CNN
-	1    10350 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C53
-U 1 1 5F6983F8
-P 10050 2750
-F 0 "C53" H 10050 2850 50  0000 L CNN
-F 1 "100N" H 10050 2650 50  0000 L CNN
-F 2 "" H 10088 2600 50  0001 C CNN
-F 3 "~" H 10050 2750 50  0001 C CNN
-	1    10050 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C52
-U 1 1 5F69808B
-P 9750 2750
-F 0 "C52" H 9750 2850 50  0000 L CNN
-F 1 "100N" H 9750 2650 50  0000 L CNN
-F 2 "" H 9788 2600 50  0001 C CNN
-F 3 "~" H 9750 2750 50  0001 C CNN
-	1    9750 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C51
-U 1 1 5F697D55
-P 9450 2750
-F 0 "C51" H 9450 2850 50  0000 L CNN
-F 1 "100N" H 9450 2650 50  0000 L CNN
-F 2 "" H 9488 2600 50  0001 C CNN
-F 3 "~" H 9450 2750 50  0001 C CNN
-	1    9450 2750
-	1    0    0    -1  
-$EndComp
-Connection ~ 10650 2900
 Wire Wire Line
 	7450 2850 7450 2950
 Connection ~ 7450 2950
@@ -724,6 +622,123 @@ Wire Wire Line
 	2050 1600 3050 1600
 Wire Wire Line
 	2050 2500 3050 2500
+$Comp
+L Device:C C52
+U 1 1 5F69808B
+P 9750 2750
+F 0 "C52" H 9750 2850 50  0000 L CNN
+F 1 "100N" H 9750 2650 50  0000 L CNN
+F 2 "" H 9788 2600 50  0001 C CNN
+F 3 "~" H 9750 2750 50  0001 C CNN
+	1    9750 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C53
+U 1 1 5F6983F8
+P 10050 2750
+F 0 "C53" H 10050 2850 50  0000 L CNN
+F 1 "100N" H 10050 2650 50  0000 L CNN
+F 2 "" H 10088 2600 50  0001 C CNN
+F 3 "~" H 10050 2750 50  0001 C CNN
+	1    10050 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C54
+U 1 1 5F69894B
+P 10350 2750
+F 0 "C54" H 10350 2850 50  0000 L CNN
+F 1 "100N" H 10350 2650 50  0000 L CNN
+F 2 "" H 10388 2600 50  0001 C CNN
+F 3 "~" H 10350 2750 50  0001 C CNN
+	1    10350 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C50
+U 1 1 5F68B36A
+P 9150 2750
+F 0 "C50" H 9150 2850 50  0000 L CNN
+F 1 "100N" H 9150 2650 50  0000 L CNN
+F 2 "" H 9188 2600 50  0001 C CNN
+F 3 "~" H 9150 2750 50  0001 C CNN
+	1    9150 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C51
+U 1 1 5F697D55
+P 9450 2750
+F 0 "C51" H 9450 2850 50  0000 L CNN
+F 1 "100N" H 9450 2650 50  0000 L CNN
+F 2 "" H 9488 2600 50  0001 C CNN
+F 3 "~" H 9450 2750 50  0001 C CNN
+	1    9450 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 2550 8950 2650
+Wire Wire Line
+	8950 2950 9150 2950
+Wire Wire Line
+	10650 2950 10650 3050
+Wire Wire Line
+	8950 2850 8950 2950
+Wire Wire Line
+	8950 2550 9150 2550
+Wire Wire Line
+	9150 2600 9150 2550
+Connection ~ 9150 2550
+Wire Wire Line
+	9150 2550 9450 2550
+Wire Wire Line
+	9150 2900 9150 2950
+Connection ~ 9150 2950
+Wire Wire Line
+	9150 2950 9450 2950
+Wire Wire Line
+	9450 2900 9450 2950
+Connection ~ 9450 2950
+Wire Wire Line
+	10050 2950 10050 2900
+Wire Wire Line
+	9450 2950 9750 2950
+Connection ~ 10050 2950
+Wire Wire Line
+	10050 2950 10350 2950
+Wire Wire Line
+	9750 2900 9750 2950
+Connection ~ 9750 2950
+Wire Wire Line
+	9750 2950 10050 2950
+Wire Wire Line
+	10350 2900 10350 2950
+Connection ~ 10350 2950
+Wire Wire Line
+	10350 2950 10650 2950
+Wire Wire Line
+	10650 2900 10650 2950
+Connection ~ 10650 2950
+Wire Wire Line
+	10650 2600 10650 2550
+Wire Wire Line
+	10350 2550 10350 2600
+Connection ~ 10350 2550
+Wire Wire Line
+	10350 2550 10650 2550
+Wire Wire Line
+	10050 2550 10050 2600
+Connection ~ 10050 2550
+Wire Wire Line
+	10050 2550 10350 2550
+Wire Wire Line
+	9750 2550 9750 2600
+Connection ~ 9750 2550
+Wire Wire Line
+	9750 2550 10050 2550
+Wire Wire Line
+	9450 2600 9450 2550
 Wire Bus Line
 	2600 2050 2600 2300
 Wire Bus Line
@@ -736,4 +751,7 @@ Wire Bus Line
 	1950 750  1950 2550
 Wire Bus Line
 	4450 5800 4450 6650
+Connection ~ 9450 2550
+Wire Wire Line
+	9450 2550 9750 2550
 $EndSCHEMATC
