@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 9
+Sheet 1 10
 Title ""
 Date ""
 Rev ""
@@ -204,4 +204,10 @@ F 3 "~" H 9150 750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 9150 750 
+$Sheet
+S 950  5950 2050 1250
+U 5F70E372
+F0 "HDMI" 50
+F1 "HDMI.sch" 50
+$EndSheet
 $EndSCHEMATC
