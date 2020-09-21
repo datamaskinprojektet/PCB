@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 11
+Sheet 4 12
 Title ""
 Date ""
 Rev ""
@@ -19,7 +19,7 @@ U 2 1 5FA5FCD2
 P 3250 3900
 F 0 "U3" H 3250 925 50  0000 C CNN
 F 1 "XC7A100T-FTG256" H 3250 834 50  0000 C CNN
-F 2 "" H 3250 3900 50  0001 C CNN
+F 2 "Package_BGA:Xilinx_FTG256" H 3250 3900 50  0001 C CNN
 F 3 "" H 3250 3900 50  0000 C CNN
 	2    3250 3900
 	1    0    0    -1  
@@ -305,24 +305,6 @@ Wire Wire Line
 	5250 4500 6950 4500
 Wire Wire Line
 	5250 4800 7150 4800
-Wire Wire Line
-	5250 3300 7150 3300
-Wire Wire Line
-	5250 3500 7150 3500
-Wire Wire Line
-	5250 4600 7150 4600
-Wire Wire Line
-	5250 5200 7150 5200
-Wire Wire Line
-	5250 5300 6950 5300
-Wire Bus Line
-	6850 1500 6850 5550
-Wire Bus Line
-	7250 1500 7250 5550
-Wire Bus Line
-	7050 1500 7050 5550
-Wire Bus Line
-	6600 1500 6600 5550
 Text HLabel 6600 1500 1    50   BiDi ~ 0
 HDMI_TMDS[0:7]
 Text HLabel 6850 1500 1    50   BiDi ~ 0
@@ -343,4 +325,22 @@ Text HLabel 5800 2700 2    50   BiDi ~ 0
 HDMI_HPD
 Text HLabel 5800 2800 2    50   BiDi ~ 0
 HDMI_CEC
+Wire Wire Line
+	5250 3300 7150 3300
+Wire Wire Line
+	5250 3500 7150 3500
+Wire Wire Line
+	5250 4600 7150 4600
+Wire Wire Line
+	5250 5200 7150 5200
+Wire Wire Line
+	5250 5300 6950 5300
+Wire Bus Line
+	6850 1500 6850 5550
+Wire Bus Line
+	7250 1500 7250 5550
+Wire Bus Line
+	7050 1500 7050 5550
+Wire Bus Line
+	6600 1500 6600 5550
 $EndSCHEMATC

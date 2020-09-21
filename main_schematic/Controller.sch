@@ -1,0 +1,612 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 12 12
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:RJ45 J11
+U 1 1 5F6B9DDC
+P 3900 1400
+F 0 "J11" H 3957 2067 50  0000 C CNN
+F 1 "RJ45" H 3957 1976 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 3900 1425 50  0001 C CNN
+F 3 "~" V 3900 1425 50  0001 C CNN
+	1    3900 1400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 1000 3350 1000
+Wire Wire Line
+	3350 1000 3350 1100
+Wire Wire Line
+	3350 1100 3500 1100
+Wire Wire Line
+	3500 1600 3350 1600
+Wire Wire Line
+	3350 1600 3350 1700
+Wire Wire Line
+	3350 1700 3500 1700
+Wire Wire Line
+	3350 1700 3350 1750
+Connection ~ 3350 1700
+Wire Wire Line
+	3350 1000 3350 950 
+Connection ~ 3350 1000
+Text Label 3000 1200 0    50   ~ 0
+CTRL_MISO
+Text Label 3000 1300 0    50   ~ 0
+CTRL_MOSI
+Text Label 3000 1400 0    50   ~ 0
+CTRL_SCK
+Wire Wire Line
+	3500 1500 3350 1500
+Wire Wire Line
+	3350 1500 3350 1600
+Connection ~ 3350 1600
+$Comp
+L power:GND #PWR?
+U 1 1 5F6BE319
+P 3350 1750
+F 0 "#PWR?" H 3350 1500 50  0001 C CNN
+F 1 "GND" H 3355 1577 50  0000 C CNN
+F 2 "" H 3350 1750 50  0001 C CNN
+F 3 "" H 3350 1750 50  0001 C CNN
+	1    3350 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F6BE61E
+P 3350 950
+F 0 "#PWR?" H 3350 800 50  0001 C CNN
+F 1 "+3.3V" H 3365 1123 50  0000 C CNN
+F 2 "" H 3350 950 50  0001 C CNN
+F 3 "" H 3350 950 50  0001 C CNN
+	1    3350 950 
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	2500 1300 2600 1200
+Entry Wire Line
+	2500 1400 2600 1300
+Entry Wire Line
+	2500 1500 2600 1400
+Wire Wire Line
+	2600 1200 3500 1200
+Wire Wire Line
+	2600 1300 3500 1300
+Wire Wire Line
+	2600 1400 3500 1400
+$Comp
+L Connector:RJ45 J12
+U 1 1 5F6C21C7
+P 3900 2700
+F 0 "J12" H 3957 3367 50  0000 C CNN
+F 1 "RJ45" H 3957 3276 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 3900 2725 50  0001 C CNN
+F 3 "~" V 3900 2725 50  0001 C CNN
+	1    3900 2700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 2300 3350 2300
+Wire Wire Line
+	3350 2300 3350 2400
+Wire Wire Line
+	3350 2400 3500 2400
+Wire Wire Line
+	3500 2900 3350 2900
+Wire Wire Line
+	3350 2900 3350 3000
+Wire Wire Line
+	3350 3000 3500 3000
+Wire Wire Line
+	3350 3000 3350 3050
+Connection ~ 3350 3000
+Wire Wire Line
+	3350 2300 3350 2250
+Connection ~ 3350 2300
+Text Label 3000 2500 0    50   ~ 0
+CTRL_MISO
+Text Label 3000 2600 0    50   ~ 0
+CTRL_MOSI
+Text Label 3000 2700 0    50   ~ 0
+CTRL_SCK
+Wire Wire Line
+	3500 2800 3350 2800
+Wire Wire Line
+	3350 2800 3350 2900
+Connection ~ 3350 2900
+$Comp
+L power:GND #PWR?
+U 1 1 5F6C21DD
+P 3350 3050
+F 0 "#PWR?" H 3350 2800 50  0001 C CNN
+F 1 "GND" H 3355 2877 50  0000 C CNN
+F 2 "" H 3350 3050 50  0001 C CNN
+F 3 "" H 3350 3050 50  0001 C CNN
+	1    3350 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F6C21E3
+P 3350 2250
+F 0 "#PWR?" H 3350 2100 50  0001 C CNN
+F 1 "+3.3V" H 3365 2423 50  0000 C CNN
+F 2 "" H 3350 2250 50  0001 C CNN
+F 3 "" H 3350 2250 50  0001 C CNN
+	1    3350 2250
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	2500 2600 2600 2500
+Entry Wire Line
+	2500 2700 2600 2600
+Entry Wire Line
+	2500 2800 2600 2700
+Wire Wire Line
+	2600 2500 3500 2500
+Wire Wire Line
+	2600 2600 3500 2600
+Wire Wire Line
+	2600 2700 3500 2700
+$Comp
+L Connector:RJ45 J13
+U 1 1 5F6C539A
+P 3900 4000
+F 0 "J13" H 3957 4667 50  0000 C CNN
+F 1 "RJ45" H 3957 4576 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 3900 4025 50  0001 C CNN
+F 3 "~" V 3900 4025 50  0001 C CNN
+	1    3900 4000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 3600 3350 3600
+Wire Wire Line
+	3350 3600 3350 3700
+Wire Wire Line
+	3350 3700 3500 3700
+Wire Wire Line
+	3500 4200 3350 4200
+Wire Wire Line
+	3350 4200 3350 4300
+Wire Wire Line
+	3350 4300 3500 4300
+Wire Wire Line
+	3350 4300 3350 4350
+Connection ~ 3350 4300
+Wire Wire Line
+	3350 3600 3350 3550
+Connection ~ 3350 3600
+Text Label 3000 3800 0    50   ~ 0
+CTRL_MISO
+Text Label 3000 3900 0    50   ~ 0
+CTRL_MOSI
+Text Label 3000 4000 0    50   ~ 0
+CTRL_SCK
+Wire Wire Line
+	3500 4100 3350 4100
+Wire Wire Line
+	3350 4100 3350 4200
+Connection ~ 3350 4200
+$Comp
+L power:GND #PWR?
+U 1 1 5F6C53B0
+P 3350 4350
+F 0 "#PWR?" H 3350 4100 50  0001 C CNN
+F 1 "GND" H 3355 4177 50  0000 C CNN
+F 2 "" H 3350 4350 50  0001 C CNN
+F 3 "" H 3350 4350 50  0001 C CNN
+	1    3350 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F6C53B6
+P 3350 3550
+F 0 "#PWR?" H 3350 3400 50  0001 C CNN
+F 1 "+3.3V" H 3365 3723 50  0000 C CNN
+F 2 "" H 3350 3550 50  0001 C CNN
+F 3 "" H 3350 3550 50  0001 C CNN
+	1    3350 3550
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	2500 3900 2600 3800
+Entry Wire Line
+	2500 4000 2600 3900
+Entry Wire Line
+	2500 4100 2600 4000
+Wire Wire Line
+	2600 3800 3500 3800
+Wire Wire Line
+	2600 3900 3500 3900
+Wire Wire Line
+	2600 4000 3500 4000
+$Comp
+L Connector:RJ45 J14
+U 1 1 5F6C53C2
+P 3900 5300
+F 0 "J14" H 3957 5967 50  0000 C CNN
+F 1 "RJ45" H 3957 5876 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 3900 5325 50  0001 C CNN
+F 3 "~" V 3900 5325 50  0001 C CNN
+	1    3900 5300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 4900 3350 4900
+Wire Wire Line
+	3350 4900 3350 5000
+Wire Wire Line
+	3350 5000 3500 5000
+Wire Wire Line
+	3500 5500 3350 5500
+Wire Wire Line
+	3350 5500 3350 5600
+Wire Wire Line
+	3350 5600 3500 5600
+Wire Wire Line
+	3350 5600 3350 5650
+Connection ~ 3350 5600
+Wire Wire Line
+	3350 4900 3350 4850
+Connection ~ 3350 4900
+Text Label 3000 5100 0    50   ~ 0
+CTRL_MISO
+Text Label 3000 5200 0    50   ~ 0
+CTRL_MOSI
+Text Label 3000 5300 0    50   ~ 0
+CTRL_SCK
+Wire Wire Line
+	3500 5400 3350 5400
+Wire Wire Line
+	3350 5400 3350 5500
+Connection ~ 3350 5500
+$Comp
+L power:GND #PWR?
+U 1 1 5F6C53D8
+P 3350 5650
+F 0 "#PWR?" H 3350 5400 50  0001 C CNN
+F 1 "GND" H 3355 5477 50  0000 C CNN
+F 2 "" H 3350 5650 50  0001 C CNN
+F 3 "" H 3350 5650 50  0001 C CNN
+	1    3350 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F6C53DE
+P 3350 4850
+F 0 "#PWR?" H 3350 4700 50  0001 C CNN
+F 1 "+3.3V" H 3365 5023 50  0000 C CNN
+F 2 "" H 3350 4850 50  0001 C CNN
+F 3 "" H 3350 4850 50  0001 C CNN
+	1    3350 4850
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	2500 5200 2600 5100
+Entry Wire Line
+	2500 5300 2600 5200
+Entry Wire Line
+	2500 5400 2600 5300
+Wire Wire Line
+	2600 5100 3500 5100
+Wire Wire Line
+	2600 5200 3500 5200
+Wire Wire Line
+	2600 5300 3500 5300
+$Comp
+L Connector:RJ45 J7
+U 1 1 5F6D43C1
+P 1100 1400
+F 0 "J7" H 1157 2067 50  0000 C CNN
+F 1 "RJ45" H 1157 1976 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 1100 1425 50  0001 C CNN
+F 3 "~" V 1100 1425 50  0001 C CNN
+	1    1100 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 1000 1650 1000
+Wire Wire Line
+	1650 1000 1650 1100
+Wire Wire Line
+	1650 1100 1500 1100
+Wire Wire Line
+	1500 1600 1650 1600
+Wire Wire Line
+	1650 1600 1650 1700
+Wire Wire Line
+	1650 1700 1500 1700
+Wire Wire Line
+	1650 1700 1650 1750
+Connection ~ 1650 1700
+Wire Wire Line
+	1650 1000 1650 950 
+Connection ~ 1650 1000
+Text Label 2000 1200 2    50   ~ 0
+CTRL_MISO
+Text Label 2000 1300 2    50   ~ 0
+CTRL_MOSI
+Text Label 2000 1400 2    50   ~ 0
+CTRL_SCK
+Wire Wire Line
+	1500 1500 1650 1500
+Wire Wire Line
+	1650 1500 1650 1600
+Connection ~ 1650 1600
+$Comp
+L power:GND #PWR?
+U 1 1 5F6D43D7
+P 1650 1750
+F 0 "#PWR?" H 1650 1500 50  0001 C CNN
+F 1 "GND" H 1655 1577 50  0000 C CNN
+F 2 "" H 1650 1750 50  0001 C CNN
+F 3 "" H 1650 1750 50  0001 C CNN
+	1    1650 1750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F6D43DD
+P 1650 950
+F 0 "#PWR?" H 1650 800 50  0001 C CNN
+F 1 "+3.3V" H 1665 1123 50  0000 C CNN
+F 2 "" H 1650 950 50  0001 C CNN
+F 3 "" H 1650 950 50  0001 C CNN
+	1    1650 950 
+	-1   0    0    -1  
+$EndComp
+Entry Wire Line
+	2500 1300 2400 1200
+Entry Wire Line
+	2500 1400 2400 1300
+Entry Wire Line
+	2500 1500 2400 1400
+Wire Wire Line
+	2400 1200 1500 1200
+Wire Wire Line
+	2400 1300 1500 1300
+Wire Wire Line
+	2400 1400 1500 1400
+$Comp
+L Connector:RJ45 J8
+U 1 1 5F6D43E9
+P 1100 2700
+F 0 "J8" H 1157 3367 50  0000 C CNN
+F 1 "RJ45" H 1157 3276 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 1100 2725 50  0001 C CNN
+F 3 "~" V 1100 2725 50  0001 C CNN
+	1    1100 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 2300 1650 2300
+Wire Wire Line
+	1650 2300 1650 2400
+Wire Wire Line
+	1650 2400 1500 2400
+Wire Wire Line
+	1500 2900 1650 2900
+Wire Wire Line
+	1650 2900 1650 3000
+Wire Wire Line
+	1650 3000 1500 3000
+Wire Wire Line
+	1650 3000 1650 3050
+Connection ~ 1650 3000
+Wire Wire Line
+	1650 2300 1650 2250
+Connection ~ 1650 2300
+Text Label 2000 2500 2    50   ~ 0
+CTRL_MISO
+Text Label 2000 2600 2    50   ~ 0
+CTRL_MOSI
+Text Label 2000 2700 2    50   ~ 0
+CTRL_SCK
+Wire Wire Line
+	1500 2800 1650 2800
+Wire Wire Line
+	1650 2800 1650 2900
+Connection ~ 1650 2900
+$Comp
+L power:GND #PWR?
+U 1 1 5F6D43FF
+P 1650 3050
+F 0 "#PWR?" H 1650 2800 50  0001 C CNN
+F 1 "GND" H 1655 2877 50  0000 C CNN
+F 2 "" H 1650 3050 50  0001 C CNN
+F 3 "" H 1650 3050 50  0001 C CNN
+	1    1650 3050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F6D4405
+P 1650 2250
+F 0 "#PWR?" H 1650 2100 50  0001 C CNN
+F 1 "+3.3V" H 1665 2423 50  0000 C CNN
+F 2 "" H 1650 2250 50  0001 C CNN
+F 3 "" H 1650 2250 50  0001 C CNN
+	1    1650 2250
+	-1   0    0    -1  
+$EndComp
+Entry Wire Line
+	2500 2600 2400 2500
+Entry Wire Line
+	2500 2700 2400 2600
+Entry Wire Line
+	2500 2800 2400 2700
+Wire Wire Line
+	2400 2500 1500 2500
+Wire Wire Line
+	2400 2600 1500 2600
+Wire Wire Line
+	2400 2700 1500 2700
+$Comp
+L Connector:RJ45 J9
+U 1 1 5F6D4411
+P 1100 4000
+F 0 "J9" H 1157 4667 50  0000 C CNN
+F 1 "RJ45" H 1157 4576 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 1100 4025 50  0001 C CNN
+F 3 "~" V 1100 4025 50  0001 C CNN
+	1    1100 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 3600 1650 3600
+Wire Wire Line
+	1650 3600 1650 3700
+Wire Wire Line
+	1650 3700 1500 3700
+Wire Wire Line
+	1500 4200 1650 4200
+Wire Wire Line
+	1650 4200 1650 4300
+Wire Wire Line
+	1650 4300 1500 4300
+Wire Wire Line
+	1650 4300 1650 4350
+Connection ~ 1650 4300
+Wire Wire Line
+	1650 3600 1650 3550
+Connection ~ 1650 3600
+Text Label 2000 3800 2    50   ~ 0
+CTRL_MISO
+Text Label 2000 3900 2    50   ~ 0
+CTRL_MOSI
+Text Label 2000 4000 2    50   ~ 0
+CTRL_SCK
+Wire Wire Line
+	1500 4100 1650 4100
+Wire Wire Line
+	1650 4100 1650 4200
+Connection ~ 1650 4200
+$Comp
+L power:GND #PWR?
+U 1 1 5F6D4427
+P 1650 4350
+F 0 "#PWR?" H 1650 4100 50  0001 C CNN
+F 1 "GND" H 1655 4177 50  0000 C CNN
+F 2 "" H 1650 4350 50  0001 C CNN
+F 3 "" H 1650 4350 50  0001 C CNN
+	1    1650 4350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F6D442D
+P 1650 3550
+F 0 "#PWR?" H 1650 3400 50  0001 C CNN
+F 1 "+3.3V" H 1665 3723 50  0000 C CNN
+F 2 "" H 1650 3550 50  0001 C CNN
+F 3 "" H 1650 3550 50  0001 C CNN
+	1    1650 3550
+	-1   0    0    -1  
+$EndComp
+Entry Wire Line
+	2500 3900 2400 3800
+Entry Wire Line
+	2500 4000 2400 3900
+Entry Wire Line
+	2500 4100 2400 4000
+Wire Wire Line
+	2400 3800 1500 3800
+Wire Wire Line
+	2400 3900 1500 3900
+Wire Wire Line
+	2400 4000 1500 4000
+$Comp
+L Connector:RJ45 J10
+U 1 1 5F6D4439
+P 1100 5300
+F 0 "J10" H 1157 5967 50  0000 C CNN
+F 1 "RJ45" H 1157 5876 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 1100 5325 50  0001 C CNN
+F 3 "~" V 1100 5325 50  0001 C CNN
+	1    1100 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 4900 1650 4900
+Wire Wire Line
+	1650 4900 1650 5000
+Wire Wire Line
+	1650 5000 1500 5000
+Wire Wire Line
+	1500 5500 1650 5500
+Wire Wire Line
+	1650 5500 1650 5600
+Wire Wire Line
+	1650 5600 1500 5600
+Wire Wire Line
+	1650 5600 1650 5650
+Connection ~ 1650 5600
+Wire Wire Line
+	1650 4900 1650 4850
+Connection ~ 1650 4900
+Text Label 2000 5100 2    50   ~ 0
+CTRL_MISO
+Text Label 2000 5200 2    50   ~ 0
+CTRL_MOSI
+Text Label 2000 5300 2    50   ~ 0
+CTRL_SCK
+Wire Wire Line
+	1500 5400 1650 5400
+Wire Wire Line
+	1650 5400 1650 5500
+Connection ~ 1650 5500
+$Comp
+L power:GND #PWR?
+U 1 1 5F6D444F
+P 1650 5650
+F 0 "#PWR?" H 1650 5400 50  0001 C CNN
+F 1 "GND" H 1655 5477 50  0000 C CNN
+F 2 "" H 1650 5650 50  0001 C CNN
+F 3 "" H 1650 5650 50  0001 C CNN
+	1    1650 5650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F6D4455
+P 1650 4850
+F 0 "#PWR?" H 1650 4700 50  0001 C CNN
+F 1 "+3.3V" H 1665 5023 50  0000 C CNN
+F 2 "" H 1650 4850 50  0001 C CNN
+F 3 "" H 1650 4850 50  0001 C CNN
+	1    1650 4850
+	-1   0    0    -1  
+$EndComp
+Entry Wire Line
+	2500 5200 2400 5100
+Entry Wire Line
+	2500 5300 2400 5200
+Entry Wire Line
+	2500 5400 2400 5300
+Wire Wire Line
+	2400 5100 1500 5100
+Wire Wire Line
+	2400 5200 1500 5200
+Wire Wire Line
+	2400 5300 1500 5300
+Wire Bus Line
+	2500 1050 2500 5400
+Text HLabel 2500 1050 0    50   Input ~ 0
+CTRL_SPI
+$EndSCHEMATC

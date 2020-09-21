@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 11
+Sheet 1 12
 Title ""
 Date ""
 Rev ""
@@ -72,7 +72,7 @@ AR Path="/5F5F6048/5FB132A4" Ref="FB?"  Part="1"
 AR Path="/5FB132A4" Ref="FB2"  Part="1" 
 F 0 "FB2" V 9176 1200 50  0000 C CNN
 F 1 "Ferrite_Bead" V 9267 1200 50  0000 C CNN
-F 2 "" V 9380 1200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 9380 1200 50  0001 C CNN
 F 3 "~" H 9450 1200 50  0001 C CNN
 	1    9450 1200
 	-1   0    0    -1  
@@ -85,7 +85,7 @@ AR Path="/5F5F6048/5FB132AA" Ref="R?"  Part="1"
 AR Path="/5FB132AA" Ref="R10"  Part="1" 
 F 0 "R10" V 9550 900 50  0000 L CNN
 F 1 "1" V 9450 900 24  0000 L CNN
-F 2 "" H 9450 950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 9450 950 50  0001 C CNN
 F 3 "~" H 9450 950 50  0001 C CNN
 	1    9450 950 
 	1    0    0    -1  
@@ -163,7 +163,7 @@ U 1 1 5FB01312
 P 9450 2550
 F 0 "J3" V 9550 2400 50  0000 R CNN
 F 1 "1.0V_SW" V 9450 2400 28  0000 R CNN
-F 2 "" H 9450 2550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9450 2550 50  0001 C CNN
 F 3 "~" H 9450 2550 50  0001 C CNN
 	1    9450 2550
 	0    -1   -1   0   
@@ -174,7 +174,7 @@ U 1 1 5FB00D01
 P 9450 2200
 F 0 "J2" V 9550 2050 50  0000 R CNN
 F 1 "1.8V_SW" V 9450 2050 28  0000 R CNN
-F 2 "" H 9450 2200 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9450 2200 50  0001 C CNN
 F 3 "~" H 9450 2200 50  0001 C CNN
 	1    9450 2200
 	0    -1   -1   0   
@@ -185,7 +185,7 @@ U 1 1 5FB0042C
 P 9450 1850
 F 0 "J1" V 9550 1700 50  0000 R CNN
 F 1 "3.3V_SW" V 9450 1700 28  0000 R CNN
-F 2 "" H 9450 1850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9450 1850 50  0001 C CNN
 F 3 "~" H 9450 1850 50  0001 C CNN
 	1    9450 1850
 	0    -1   -1   0   
@@ -263,7 +263,7 @@ AR Path="/5F70E372/5F75FAF5" Ref="R?"  Part="1"
 AR Path="/5F75FAF5" Ref="R16"  Part="1" 
 F 0 "R16" H 5091 7254 50  0000 R CNN
 F 1 "1M" H 5091 7345 50  0000 R CNN
-F 2 "" H 5150 7300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5150 7300 50  0001 C CNN
 F 3 "~" H 5150 7300 50  0001 C CNN
 	1    5150 7300
 	-1   0    0    1   
@@ -276,7 +276,7 @@ AR Path="/5F70E372/5F75FAFB" Ref="C?"  Part="1"
 AR Path="/5F75FAFB" Ref="C48"  Part="1" 
 F 0 "C48" H 5542 7346 50  0000 L CNN
 F 1 "1nF" H 5542 7255 50  0000 L CNN
-F 2 "" H 5450 7300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5450 7300 50  0001 C CNN
 F 3 "~" H 5450 7300 50  0001 C CNN
 	1    5450 7300
 	1    0    0    -1  
@@ -360,4 +360,11 @@ Wire Wire Line
 	5200 5050 5200 6350
 Wire Bus Line
 	5100 4950 5100 6150
+$Sheet
+S 950  6000 850  1100
+U 5F6A6156
+F0 "Controller" 50
+F1 "Controller.sch" 50
+F2 "CTRL_SPI" I R 1800 6300 50 
+$EndSheet
 $EndSCHEMATC
