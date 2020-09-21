@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 10
+Sheet 4 11
 Title ""
 Date ""
 Rev ""
@@ -67,4 +67,144 @@ Text Notes 7600 1150 0    50   ~ 0
 HEADERS
 Text Notes 7600 3650 0    50   ~ 0
 DEBUG LEDS
+Wire Wire Line
+	5650 1800 6200 1800
+Wire Wire Line
+	5650 1900 6200 1900
+Wire Wire Line
+	5650 2000 6200 2000
+Wire Wire Line
+	5650 2100 6200 2100
+Wire Wire Line
+	5650 2200 6200 2200
+Wire Wire Line
+	5650 2300 6200 2300
+Wire Wire Line
+	5650 2400 6200 2400
+Wire Wire Line
+	5650 2500 6200 2500
+Wire Wire Line
+	5650 2600 6200 2600
+Wire Wire Line
+	5650 2700 6200 2700
+Wire Wire Line
+	5650 2800 6200 2800
+Wire Wire Line
+	5650 2900 6200 2900
+Wire Wire Line
+	5650 3000 6200 3000
+Wire Wire Line
+	5650 3100 6200 3100
+Wire Wire Line
+	5650 3200 6200 3200
+Wire Wire Line
+	5650 3300 6200 3300
+Wire Wire Line
+	5650 3400 6200 3400
+Wire Wire Line
+	5650 3500 6200 3500
+Wire Wire Line
+	5650 3600 6200 3600
+Wire Wire Line
+	5650 3700 6200 3700
+Wire Wire Line
+	5650 3800 6200 3800
+Wire Wire Line
+	5650 3900 6200 3900
+Wire Wire Line
+	5650 4000 6200 4000
+Wire Wire Line
+	5650 4100 6200 4100
+Wire Wire Line
+	5650 4200 6200 4200
+Wire Wire Line
+	5650 4300 6200 4300
+Wire Wire Line
+	5650 4400 6200 4400
+Wire Wire Line
+	5650 4500 6200 4500
+Wire Wire Line
+	5650 4600 6200 4600
+Wire Wire Line
+	5650 4700 6200 4700
+Wire Wire Line
+	5650 4800 6200 4800
+Wire Wire Line
+	5650 4900 6200 4900
+Wire Wire Line
+	5650 5000 6200 5000
+Wire Wire Line
+	5650 5100 6200 5100
+Wire Wire Line
+	5650 5200 6200 5200
+Wire Wire Line
+	5650 5300 6200 5300
+Wire Wire Line
+	5650 5400 6200 5400
+Wire Wire Line
+	5650 5500 6200 5500
+Wire Wire Line
+	5650 5600 6200 5600
+Wire Wire Line
+	5650 5700 6200 5700
+Wire Wire Line
+	5650 5800 6200 5800
+Wire Wire Line
+	5650 5900 6200 5900
+Wire Wire Line
+	5650 6000 6200 6000
+Wire Wire Line
+	5650 6100 6200 6100
+Wire Wire Line
+	5650 6200 6200 6200
+Wire Wire Line
+	5650 6300 6200 6300
+Wire Wire Line
+	5650 6400 6200 6400
+Wire Wire Line
+	5650 6500 6200 6500
+Wire Wire Line
+	5650 6600 6200 6600
+Wire Wire Line
+	5650 6700 6200 6700
+Wire Wire Line
+	1100 1800 1650 1800
+Wire Wire Line
+	1100 1900 1650 1900
+Wire Wire Line
+	1100 2000 1650 2000
+Wire Wire Line
+	1100 2100 1650 2100
+Wire Wire Line
+	1100 2200 1650 2200
+Wire Wire Line
+	1100 2300 1650 2300
+Wire Wire Line
+	1100 2400 1650 2400
+Wire Wire Line
+	1100 2500 1650 2500
+Wire Wire Line
+	1100 2600 1650 2600
+Wire Wire Line
+	1100 2700 1650 2700
+Wire Wire Line
+	1100 2800 1650 2800
+Wire Wire Line
+	1100 2900 1650 2900
+Wire Wire Line
+	1100 3000 1650 3000
+Wire Wire Line
+	1100 3100 1650 3100
+Wire Wire Line
+	1100 3200 1650 3200
+Wire Wire Line
+	1100 3300 1650 3300
+Wire Wire Line
+	1100 3400 1650 3400
+Wire Wire Line
+	1100 3500 1650 3500
+Wire Wire Line
+	1100 3600 1650 3600
+Wire Wire Line
+	1100 3700 1650 3700
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 10
+Sheet 6 11
 Title ""
 Date ""
 Rev ""
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L RAM:AS6C6416-55TIN U?
+L main_schematic-rescue:AS6C6416-55TIN-RAM U?
 U 1 1 5FBFC153
 P 2800 3450
 F 0 "U?" H 2450 4800 50  0000 C CNN

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 10
+Sheet 3 11
 Title ""
 Date ""
 Rev ""
@@ -111,4 +111,192 @@ Text Notes 7600 1150 0    50   ~ 0
 HEADERS
 Text Notes 7600 3650 0    50   ~ 0
 DEBUG LEDS
+Wire Wire Line
+	6050 1650 6600 1650
+Wire Wire Line
+	6050 1750 6600 1750
+Wire Wire Line
+	6050 1850 6600 1850
+Wire Wire Line
+	6050 1950 6600 1950
+Wire Wire Line
+	6050 2050 6600 2050
+Wire Wire Line
+	6050 2150 6600 2150
+Wire Wire Line
+	6050 2250 6600 2250
+Wire Wire Line
+	6050 2350 6600 2350
+Wire Wire Line
+	6050 2450 6600 2450
+Wire Wire Line
+	6050 2550 6600 2550
+Wire Wire Line
+	6050 2650 6600 2650
+Wire Wire Line
+	6050 2750 6600 2750
+Wire Wire Line
+	6050 2850 6600 2850
+Wire Wire Line
+	6050 2950 6600 2950
+Wire Wire Line
+	6050 3050 6600 3050
+Wire Wire Line
+	6050 3150 6600 3150
+Wire Wire Line
+	6050 3250 6600 3250
+Wire Wire Line
+	6050 3350 6600 3350
+Wire Wire Line
+	6050 3450 6600 3450
+Wire Wire Line
+	6050 3550 6600 3550
+Wire Wire Line
+	6050 3650 6600 3650
+Wire Wire Line
+	6050 3750 6600 3750
+Wire Wire Line
+	6050 3850 6600 3850
+Wire Wire Line
+	6050 3950 6600 3950
+Wire Wire Line
+	6050 4050 6600 4050
+Wire Wire Line
+	6050 4150 6600 4150
+Wire Wire Line
+	6050 4250 6600 4250
+Wire Wire Line
+	6050 4350 6600 4350
+Wire Wire Line
+	6050 4450 6600 4450
+Wire Wire Line
+	6050 4550 6600 4550
+Wire Wire Line
+	6050 4650 6600 4650
+Wire Wire Line
+	6050 4750 6600 4750
+Wire Wire Line
+	6050 4850 6600 4850
+Wire Wire Line
+	6050 4950 6600 4950
+Wire Wire Line
+	6050 5050 6600 5050
+Wire Wire Line
+	6050 5150 6600 5150
+Wire Wire Line
+	6050 5250 6600 5250
+Wire Wire Line
+	6050 5350 6600 5350
+Wire Wire Line
+	6050 5450 6600 5450
+Wire Wire Line
+	6050 5550 6600 5550
+Wire Wire Line
+	6050 5650 6600 5650
+Wire Wire Line
+	6050 5750 6600 5750
+Wire Wire Line
+	6050 5850 6600 5850
+Wire Wire Line
+	6050 5950 6600 5950
+Wire Wire Line
+	6050 6050 6600 6050
+Wire Wire Line
+	6050 6150 6600 6150
+Wire Wire Line
+	6050 6250 6600 6250
+Wire Wire Line
+	6050 6350 6600 6350
+Wire Wire Line
+	6050 6450 6600 6450
+Wire Wire Line
+	6050 6550 6600 6550
+Wire Wire Line
+	1500 2850 2050 2850
+Wire Wire Line
+	1500 2950 2050 2950
+Wire Wire Line
+	1500 3050 2050 3050
+Wire Wire Line
+	1500 3150 2050 3150
+Wire Wire Line
+	1500 3250 2050 3250
+Wire Wire Line
+	1500 3350 2050 3350
+Wire Wire Line
+	1500 3450 2050 3450
+Wire Wire Line
+	1500 3550 2050 3550
+Wire Wire Line
+	1500 3650 2050 3650
+Wire Wire Line
+	1500 3750 2050 3750
+Wire Wire Line
+	1500 3850 2050 3850
+Wire Wire Line
+	1500 3950 2050 3950
+Wire Wire Line
+	1500 4050 2050 4050
+Wire Wire Line
+	1500 4150 2050 4150
+Wire Wire Line
+	1500 4250 2050 4250
+Wire Wire Line
+	1500 4350 2050 4350
+Wire Wire Line
+	1500 4450 2050 4450
+Wire Wire Line
+	1500 4550 2050 4550
+Wire Wire Line
+	1500 4650 2050 4650
+Wire Wire Line
+	1500 4750 2050 4750
+Wire Wire Line
+	1500 4850 2050 4850
+Wire Wire Line
+	1500 4950 2050 4950
+Wire Wire Line
+	1500 5050 2050 5050
+Wire Wire Line
+	1500 5150 2050 5150
+Wire Wire Line
+	1500 5250 2050 5250
+Wire Wire Line
+	1500 5350 2050 5350
+Wire Wire Line
+	1500 5450 2050 5450
+Wire Wire Line
+	1500 5550 2050 5550
+Wire Wire Line
+	1500 5650 2050 5650
+Wire Wire Line
+	1500 5750 2050 5750
+Wire Wire Line
+	1500 5850 2050 5850
+Wire Wire Line
+	1500 5950 2050 5950
+Wire Wire Line
+	1500 6050 2050 6050
+Wire Wire Line
+	1500 6150 2050 6150
+Wire Wire Line
+	1500 6250 2050 6250
+Wire Wire Line
+	1500 6350 2050 6350
+Wire Wire Line
+	1500 6450 2050 6450
+Wire Wire Line
+	1500 6550 2050 6550
+Wire Wire Line
+	1500 2250 2050 2250
+Wire Wire Line
+	1500 2350 2050 2350
+Wire Wire Line
+	1500 2450 2050 2450
+Wire Wire Line
+	1500 2550 2050 2550
+Wire Wire Line
+	1500 2650 2050 2650
+Wire Wire Line
+	1500 1650 2050 1650
 $EndSCHEMATC
