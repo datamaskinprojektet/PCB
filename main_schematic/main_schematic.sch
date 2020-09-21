@@ -180,17 +180,6 @@ F 3 "~" H 9450 1850 50  0001 C CNN
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG?
-U 1 1 5F80D93C
-P 9150 750
-F 0 "#FLG?" H 9150 825 50  0001 C CNN
-F 1 "PWR_FLAG" V 9150 877 50  0000 L CNN
-F 2 "" H 9150 750 50  0001 C CNN
-F 3 "~" H 9150 750 50  0001 C CNN
-	1    9150 750 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG?
 U 1 1 5F80DE72
 P 9450 750
 F 0 "#FLG?" H 9450 825 50  0001 C CNN
@@ -201,7 +190,18 @@ F 3 "~" H 9450 750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Connection ~ 9450 750 
-Connection ~ 9150 750 
 Wire Wire Line
 	9150 750  9150 1500
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5F8B572C
+P 9150 750
+F 0 "#FLG?" H 9150 825 50  0001 C CNN
+F 1 "PWR_FLAG" V 9150 878 50  0000 L CNN
+F 2 "" H 9150 750 50  0001 C CNN
+F 3 "~" H 9150 750 50  0001 C CNN
+	1    9150 750 
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9150 750 
 $EndSCHEMATC

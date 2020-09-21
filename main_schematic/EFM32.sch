@@ -754,4 +754,16 @@ Wire Bus Line
 Connection ~ 9450 2550
 Wire Wire Line
 	9450 2550 9750 2550
+$Comp
+L power:GND #PWR?
+U 1 1 5F8B4A5A
+P 6700 3450
+F 0 "#PWR?" H 6700 3200 50  0001 C CNN
+F 1 "GND" H 6705 3277 50  0000 C CNN
+F 2 "" H 6700 3450 50  0001 C CNN
+F 3 "" H 6700 3450 50  0001 C CNN
+	1    6700 3450
+	1    0    0    -1  
+$EndComp
+Connection ~ 6700 3450
 $EndSCHEMATC
