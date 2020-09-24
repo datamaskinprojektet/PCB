@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 12
+Sheet 12 14
 Title ""
 Date ""
 Rev ""
@@ -31,14 +31,9 @@ Wire Wire Line
 Wire Wire Line
 	3350 1100 3500 1100
 Wire Wire Line
-	3500 1600 3350 1600
-Wire Wire Line
-	3350 1600 3350 1700
-Wire Wire Line
 	3350 1700 3500 1700
 Wire Wire Line
 	3350 1700 3350 1750
-Connection ~ 3350 1700
 Wire Wire Line
 	3350 1000 3350 950 
 Connection ~ 3350 1000
@@ -48,11 +43,6 @@ Text Label 3000 1300 0    50   ~ 0
 CTRL_MOSI
 Text Label 3000 1400 0    50   ~ 0
 CTRL_SCK
-Wire Wire Line
-	3500 1500 3350 1500
-Wire Wire Line
-	3350 1500 3350 1600
-Connection ~ 3350 1600
 $Comp
 L power:GND #PWR?
 U 1 1 5F6BE319
@@ -105,14 +95,9 @@ Wire Wire Line
 Wire Wire Line
 	3350 2400 3500 2400
 Wire Wire Line
-	3500 2900 3350 2900
-Wire Wire Line
-	3350 2900 3350 3000
-Wire Wire Line
 	3350 3000 3500 3000
 Wire Wire Line
 	3350 3000 3350 3050
-Connection ~ 3350 3000
 Wire Wire Line
 	3350 2300 3350 2250
 Connection ~ 3350 2300
@@ -122,11 +107,6 @@ Text Label 3000 2600 0    50   ~ 0
 CTRL_MOSI
 Text Label 3000 2700 0    50   ~ 0
 CTRL_SCK
-Wire Wire Line
-	3500 2800 3350 2800
-Wire Wire Line
-	3350 2800 3350 2900
-Connection ~ 3350 2900
 $Comp
 L power:GND #PWR?
 U 1 1 5F6C21DD
@@ -179,14 +159,9 @@ Wire Wire Line
 Wire Wire Line
 	3350 3700 3500 3700
 Wire Wire Line
-	3500 4200 3350 4200
-Wire Wire Line
-	3350 4200 3350 4300
-Wire Wire Line
 	3350 4300 3500 4300
 Wire Wire Line
 	3350 4300 3350 4350
-Connection ~ 3350 4300
 Wire Wire Line
 	3350 3600 3350 3550
 Connection ~ 3350 3600
@@ -196,11 +171,6 @@ Text Label 3000 3900 0    50   ~ 0
 CTRL_MOSI
 Text Label 3000 4000 0    50   ~ 0
 CTRL_SCK
-Wire Wire Line
-	3500 4100 3350 4100
-Wire Wire Line
-	3350 4100 3350 4200
-Connection ~ 3350 4200
 $Comp
 L power:GND #PWR?
 U 1 1 5F6C53B0
@@ -253,14 +223,9 @@ Wire Wire Line
 Wire Wire Line
 	3350 5000 3500 5000
 Wire Wire Line
-	3500 5500 3350 5500
-Wire Wire Line
-	3350 5500 3350 5600
-Wire Wire Line
 	3350 5600 3500 5600
 Wire Wire Line
 	3350 5600 3350 5650
-Connection ~ 3350 5600
 Wire Wire Line
 	3350 4900 3350 4850
 Connection ~ 3350 4900
@@ -270,11 +235,6 @@ Text Label 3000 5200 0    50   ~ 0
 CTRL_MOSI
 Text Label 3000 5300 0    50   ~ 0
 CTRL_SCK
-Wire Wire Line
-	3500 5400 3350 5400
-Wire Wire Line
-	3350 5400 3350 5500
-Connection ~ 3350 5500
 $Comp
 L power:GND #PWR?
 U 1 1 5F6C53D8
@@ -301,8 +261,6 @@ Entry Wire Line
 	2500 5200 2600 5100
 Entry Wire Line
 	2500 5300 2600 5200
-Entry Wire Line
-	2500 5400 2600 5300
 Wire Wire Line
 	2600 5100 3500 5100
 Wire Wire Line
@@ -327,14 +285,9 @@ Wire Wire Line
 Wire Wire Line
 	1650 1100 1500 1100
 Wire Wire Line
-	1500 1600 1650 1600
-Wire Wire Line
-	1650 1600 1650 1700
-Wire Wire Line
 	1650 1700 1500 1700
 Wire Wire Line
 	1650 1700 1650 1750
-Connection ~ 1650 1700
 Wire Wire Line
 	1650 1000 1650 950 
 Connection ~ 1650 1000
@@ -344,11 +297,6 @@ Text Label 2000 1300 2    50   ~ 0
 CTRL_MOSI
 Text Label 2000 1400 2    50   ~ 0
 CTRL_SCK
-Wire Wire Line
-	1500 1500 1650 1500
-Wire Wire Line
-	1650 1500 1650 1600
-Connection ~ 1650 1600
 $Comp
 L power:GND #PWR?
 U 1 1 5F6D43D7
@@ -401,14 +349,9 @@ Wire Wire Line
 Wire Wire Line
 	1650 2400 1500 2400
 Wire Wire Line
-	1500 2900 1650 2900
-Wire Wire Line
-	1650 2900 1650 3000
-Wire Wire Line
 	1650 3000 1500 3000
 Wire Wire Line
 	1650 3000 1650 3050
-Connection ~ 1650 3000
 Wire Wire Line
 	1650 2300 1650 2250
 Connection ~ 1650 2300
@@ -418,11 +361,6 @@ Text Label 2000 2600 2    50   ~ 0
 CTRL_MOSI
 Text Label 2000 2700 2    50   ~ 0
 CTRL_SCK
-Wire Wire Line
-	1500 2800 1650 2800
-Wire Wire Line
-	1650 2800 1650 2900
-Connection ~ 1650 2900
 $Comp
 L power:GND #PWR?
 U 1 1 5F6D43FF
@@ -475,14 +413,9 @@ Wire Wire Line
 Wire Wire Line
 	1650 3700 1500 3700
 Wire Wire Line
-	1500 4200 1650 4200
-Wire Wire Line
-	1650 4200 1650 4300
-Wire Wire Line
 	1650 4300 1500 4300
 Wire Wire Line
 	1650 4300 1650 4350
-Connection ~ 1650 4300
 Wire Wire Line
 	1650 3600 1650 3550
 Connection ~ 1650 3600
@@ -492,11 +425,6 @@ Text Label 2000 3900 2    50   ~ 0
 CTRL_MOSI
 Text Label 2000 4000 2    50   ~ 0
 CTRL_SCK
-Wire Wire Line
-	1500 4100 1650 4100
-Wire Wire Line
-	1650 4100 1650 4200
-Connection ~ 1650 4200
 $Comp
 L power:GND #PWR?
 U 1 1 5F6D4427
@@ -549,14 +477,9 @@ Wire Wire Line
 Wire Wire Line
 	1650 5000 1500 5000
 Wire Wire Line
-	1500 5500 1650 5500
-Wire Wire Line
-	1650 5500 1650 5600
-Wire Wire Line
 	1650 5600 1500 5600
 Wire Wire Line
 	1650 5600 1650 5650
-Connection ~ 1650 5600
 Wire Wire Line
 	1650 4900 1650 4850
 Connection ~ 1650 4900
@@ -566,11 +489,6 @@ Text Label 2000 5200 2    50   ~ 0
 CTRL_MOSI
 Text Label 2000 5300 2    50   ~ 0
 CTRL_SCK
-Wire Wire Line
-	1500 5400 1650 5400
-Wire Wire Line
-	1650 5400 1650 5500
-Connection ~ 1650 5500
 $Comp
 L power:GND #PWR?
 U 1 1 5F6D444F
@@ -597,16 +515,114 @@ Entry Wire Line
 	2500 5200 2400 5100
 Entry Wire Line
 	2500 5300 2400 5200
-Entry Wire Line
-	2500 5400 2400 5300
 Wire Wire Line
 	2400 5100 1500 5100
 Wire Wire Line
 	2400 5200 1500 5200
 Wire Wire Line
 	2400 5300 1500 5300
-Wire Bus Line
-	2500 1050 2500 5400
 Text HLabel 2500 1050 0    50   Input ~ 0
 CTRL_SPI
+Entry Wire Line
+	2500 5500 2400 5400
+Wire Wire Line
+	1500 5400 2400 5400
+Entry Wire Line
+	2500 5400 2400 5300
+Entry Wire Line
+	2500 5400 2600 5300
+Entry Wire Line
+	2500 4200 2400 4100
+Wire Wire Line
+	1500 4100 2400 4100
+Entry Wire Line
+	2500 2900 2400 2800
+Wire Wire Line
+	1500 2800 2400 2800
+Entry Wire Line
+	2500 1600 2400 1500
+Wire Wire Line
+	1500 1500 2400 1500
+Entry Wire Line
+	2500 1600 2600 1500
+Wire Wire Line
+	2600 1500 3500 1500
+Entry Wire Line
+	2500 2900 2600 2800
+Wire Wire Line
+	2600 2800 3500 2800
+Entry Wire Line
+	2500 4200 2600 4100
+Wire Wire Line
+	2600 4100 3500 4100
+Entry Wire Line
+	2500 5500 2600 5400
+Wire Wire Line
+	2600 5400 3500 5400
+Text Label 2000 1500 2    50   ~ 0
+CS1
+Text Label 2000 2800 2    50   ~ 0
+CS2
+Text Label 2000 4100 2    50   ~ 0
+CS3
+Text Label 2000 5400 2    50   ~ 0
+CS4
+Text Label 3000 1500 0    50   ~ 0
+CS5
+Text Label 3000 2800 0    50   ~ 0
+CS6
+Text Label 3000 4100 0    50   ~ 0
+CS7
+Text Label 3000 5400 0    50   ~ 0
+CS8
+Entry Wire Line
+	2500 3000 2600 2900
+Wire Wire Line
+	2600 1600 3500 1600
+Entry Wire Line
+	2500 1700 2600 1600
+Entry Wire Line
+	2500 4300 2600 4200
+Wire Wire Line
+	2600 4200 3500 4200
+Wire Wire Line
+	2600 2900 3500 2900
+Entry Wire Line
+	2500 5600 2600 5500
+Wire Wire Line
+	2600 5500 3500 5500
+Entry Wire Line
+	2500 5600 2400 5500
+Wire Wire Line
+	1500 5500 2400 5500
+Entry Wire Line
+	2500 4300 2400 4200
+Wire Wire Line
+	1500 4200 2400 4200
+Entry Wire Line
+	2500 3000 2400 2900
+Wire Wire Line
+	1500 2900 2400 2900
+Entry Wire Line
+	2500 1700 2400 1600
+Wire Wire Line
+	1500 1600 2400 1600
+Wire Bus Line
+	2500 1050 2500 5600
+Text Label 3000 1600 0    50   ~ 0
+CA5
+Text Label 3000 2900 0    50   ~ 0
+CA6
+Text Label 3000 4200 0    50   ~ 0
+CA7
+Text Label 3000 5500 0    50   ~ 0
+CA8
+Text Label 2000 5500 2    50   ~ 0
+CA4
+Text Label 2000 4200 2    50   ~ 0
+CA3
+Text Label 2000 2900 2    50   ~ 0
+CA2
+Text Label 2000 1600 2    50   ~ 0
+CA1
 $EndSCHEMATC

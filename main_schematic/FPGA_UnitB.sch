@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 12
+Sheet 4 14
 Title ""
 Date ""
 Rev ""
@@ -279,9 +279,9 @@ Wire Wire Line
 	5250 3600 6750 3600
 Wire Wire Line
 	5250 3100 6750 3100
-Text Label 5800 4100 2    50   ~ 0
+Text Label 5800 3900 2    50   ~ 0
 VGA_VS
-Text Label 5800 4200 2    50   ~ 0
+Text Label 5800 4000 2    50   ~ 0
 VGA_HS
 Wire Wire Line
 	5250 4400 6500 4400
@@ -317,9 +317,9 @@ Text HLabel 5800 5000 2    50   BiDi ~ 0
 HDMI_SDA
 Text HLabel 5800 4900 2    50   BiDi ~ 0
 HDMI_SCL
-Text HLabel 5800 4200 2    50   BiDi ~ 0
+Text HLabel 5800 4000 2    50   BiDi ~ 0
 VGA_HS
-Text HLabel 5800 4100 2    50   BiDi ~ 0
+Text HLabel 5800 3900 2    50   BiDi ~ 0
 VGA_VS
 Text HLabel 5800 2700 2    50   BiDi ~ 0
 HDMI_HPD
@@ -343,4 +343,6 @@ Wire Bus Line
 	7050 1500 7050 5550
 Wire Bus Line
 	6600 1500 6600 5550
+Text HLabel 5800 4100 2    50   BiDi ~ 0
+CLK_100MHZ
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 12
+Sheet 7 14
 Title ""
 Date ""
 Rev ""
@@ -751,6 +751,20 @@ Text HLabel 8000 2200 1    50   Input ~ 0
 1.0V
 Text HLabel 1950 4000 1    50   Input ~ 0
 1.8V
-Text HLabel 2500 2200 0    50   Input ~ 0
-VCC
+$Comp
+L power:VDD #PWR?
+U 1 1 5F7CD38E
+P 2000 2000
+F 0 "#PWR?" H 2000 1850 50  0001 C CNN
+F 1 "VDD" H 2015 2173 50  0000 C CNN
+F 2 "" H 2000 2000 50  0001 C CNN
+F 3 "" H 2000 2000 50  0001 C CNN
+	1    2000 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 2000 2000 2200
+Wire Wire Line
+	2000 2200 2500 2200
+Connection ~ 2500 2200
 $EndSCHEMATC
