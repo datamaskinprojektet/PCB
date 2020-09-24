@@ -80,13 +80,13 @@ F 3 "" H 1800 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Entry Wire Line
-	4500 2500 4600 2400
+	7500 4250 7600 4350
 Entry Wire Line
-	4500 2600 4600 2500
+	7500 4150 7600 4250
 Entry Wire Line
-	4500 2800 4600 2700
+	7500 4050 7600 4150
 Entry Wire Line
-	4500 3000 4600 2900
+	7500 3950 7600 4050
 Wire Wire Line
 	3500 2500 4500 2500
 Wire Wire Line
@@ -95,16 +95,200 @@ Wire Wire Line
 	3500 2800 4500 2800
 Wire Wire Line
 	3500 3000 4500 3000
-Wire Bus Line
-	4600 2200 4600 2900
-Text Label 4250 2800 2    50   ~ 0
+Text Label 4500 2800 2    50   ~ 0
 SD_SPI_CLK
-Text Label 4250 3000 2    50   ~ 0
+Text Label 4500 3000 2    50   ~ 0
 SD_SPI_MISO
-Text Label 4250 2600 2    50   ~ 0
+Text Label 4500 2600 2    50   ~ 0
 SD_SPI_MOSI
-Text Label 4250 2500 2    50   ~ 0
+Text Label 4500 2500 2    50   ~ 0
 SD_SPI_CS
-Text HLabel 4600 2200 2    50   Input ~ 0
-SD_SPI_BUS
+Text HLabel 7600 4950 2    50   Input ~ 0
+SD_SPI_BUS_EFM
+$Comp
+L SPI~multiplexer:ADG794 U?
+U 1 1 5F704867
+P 6350 3850
+F 0 "U?" H 6600 4400 50  0000 C CNN
+F 1 "ADG794" H 6150 4400 50  0000 C CNN
+F 2 "" H 6400 4050 50  0001 C CNN
+F 3 "" H 6400 4050 50  0001 C CNN
+	1    6350 3850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 3450 5200 3450
+Wire Wire Line
+	5950 3550 5200 3550
+Wire Wire Line
+	5950 3650 5200 3650
+Wire Wire Line
+	5950 3750 5200 3750
+Text Label 5200 3450 0    50   ~ 0
+SD_SPI_MISO
+Text Label 5200 3550 0    50   ~ 0
+SD_SPI_MOSI
+Text Label 5200 3650 0    50   ~ 0
+SD_SPI_CLK
+Text Label 5200 3750 0    50   ~ 0
+SD_SPI_CS
+Wire Wire Line
+	6750 3750 7500 3750
+Wire Wire Line
+	6750 3650 7500 3650
+Wire Wire Line
+	6750 3550 7500 3550
+Wire Wire Line
+	6750 3450 7500 3450
+Text Label 7500 3750 2    50   ~ 0
+SD_SPI_MISO_AVR
+Text Label 7500 3650 2    50   ~ 0
+SD_SPI_MOSI_AVR
+Text Label 7500 3550 2    50   ~ 0
+SD_SPI_CLK_AVR
+Text Label 7500 3450 2    50   ~ 0
+SD_SPI_CS_AVR
+Wire Wire Line
+	6750 4250 7500 4250
+Wire Wire Line
+	6750 4150 7500 4150
+Wire Wire Line
+	6750 4050 7500 4050
+Wire Wire Line
+	6750 3950 7500 3950
+Text Label 7500 4250 2    50   ~ 0
+SD_SPI_MISO_EFM
+Text Label 7500 4150 2    50   ~ 0
+SD_SPI_MOSI_EMF
+Text Label 7500 4050 2    50   ~ 0
+SD_SPI_CLK_EFM
+Text Label 7500 3950 2    50   ~ 0
+SD_SPI_CS_EFM
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F70AB68
+P 6350 3250
+F 0 "#PWR?" H 6350 3100 50  0001 C CNN
+F 1 "+3.3V" H 6365 3423 50  0000 C CNN
+F 2 "" H 6350 3250 50  0001 C CNN
+F 3 "" H 6350 3250 50  0001 C CNN
+	1    6350 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F70B44D
+P 6350 4450
+F 0 "#PWR?" H 6350 4200 50  0001 C CNN
+F 1 "GND" H 6355 4277 50  0000 C CNN
+F 2 "" H 6350 4450 50  0001 C CNN
+F 3 "" H 6350 4450 50  0001 C CNN
+	1    6350 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 4200 5950 4450
+Wire Wire Line
+	5950 4450 6350 4450
+Connection ~ 6350 4450
+Wire Wire Line
+	5950 4000 5200 4000
+Text Label 5200 4000 0    50   ~ 0
+SD_SPI_CTRL_EFM
+Text Label 7150 1150 2    50   ~ 0
+SD_SPI_MISO_EFM
+Text Label 7150 1250 2    50   ~ 0
+SD_SPI_MOSI_EMF
+Text Label 7150 1350 2    50   ~ 0
+SD_SPI_CLK_EFM
+Text Label 7150 1450 2    50   ~ 0
+SD_SPI_CS_EFM
+Text Label 5350 1150 0    50   ~ 0
+SD_SPI_MISO
+Text Label 5350 1250 0    50   ~ 0
+SD_SPI_MOSI
+Text Label 5350 1350 0    50   ~ 0
+SD_SPI_CLK
+Text Label 5350 1450 0    50   ~ 0
+SD_SPI_CS
+$Comp
+L Device:R_Small R?
+U 1 1 5F70DA49
+P 6250 1150
+F 0 "R?" V 6200 1300 50  0000 C CNN
+F 1 "0R" V 6200 1000 50  0000 C CNN
+F 2 "" H 6250 1150 50  0001 C CNN
+F 3 "~" H 6250 1150 50  0001 C CNN
+	1    6250 1150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6350 1150 7150 1150
+Wire Wire Line
+	5350 1150 6150 1150
+$Comp
+L Device:R_Small R?
+U 1 1 5F70F584
+P 6250 1250
+F 0 "R?" V 6200 1400 50  0000 C CNN
+F 1 "0R" V 6200 1100 50  0000 C CNN
+F 2 "" H 6250 1250 50  0001 C CNN
+F 3 "~" H 6250 1250 50  0001 C CNN
+	1    6250 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5F70F911
+P 6250 1350
+F 0 "R?" V 6200 1500 50  0000 C CNN
+F 1 "0R" V 6200 1200 50  0000 C CNN
+F 2 "" H 6250 1350 50  0001 C CNN
+F 3 "~" H 6250 1350 50  0001 C CNN
+	1    6250 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5F70FB39
+P 6250 1450
+F 0 "R?" V 6200 1600 50  0000 C CNN
+F 1 "0R" V 6200 1300 50  0000 C CNN
+F 2 "" H 6250 1450 50  0001 C CNN
+F 3 "~" H 6250 1450 50  0001 C CNN
+	1    6250 1450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6350 1250 7150 1250
+Wire Wire Line
+	5350 1250 6150 1250
+Wire Wire Line
+	5350 1350 6150 1350
+Wire Wire Line
+	6350 1350 7150 1350
+Wire Wire Line
+	6350 1450 7150 1450
+Wire Wire Line
+	5350 1450 6150 1450
+Entry Wire Line
+	7500 3450 7600 3350
+Entry Wire Line
+	7500 3550 7600 3450
+Entry Wire Line
+	7500 3650 7600 3550
+Entry Wire Line
+	7500 3750 7600 3650
+Text HLabel 7600 2950 2    50   Input ~ 0
+SD_SPI_BUS_AVR
+Wire Wire Line
+	5200 4000 5200 4700
+Wire Wire Line
+	5200 4700 7500 4700
+Entry Wire Line
+	7500 4700 7600 4800
+Wire Bus Line
+	7600 2950 7600 3650
+Wire Bus Line
+	7600 4050 7600 4950
 $EndSCHEMATC

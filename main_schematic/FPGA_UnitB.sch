@@ -325,6 +325,8 @@ Text HLabel 5800 2700 2    50   BiDi ~ 0
 HDMI_HPD
 Text HLabel 5800 2800 2    50   BiDi ~ 0
 HDMI_CEC
+Text HLabel 5800 4100 2    50   BiDi ~ 0
+CLK_100MHZ
 Wire Wire Line
 	5250 3300 7150 3300
 Wire Wire Line
@@ -343,6 +345,4 @@ Wire Bus Line
 	7050 1500 7050 5550
 Wire Bus Line
 	6600 1500 6600 5550
-Text HLabel 5800 4100 2    50   BiDi ~ 0
-CLK_100MHZ
 $EndSCHEMATC
