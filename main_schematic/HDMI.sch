@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 14
+Sheet 9 15
 Title ""
 Date ""
 Rev ""
@@ -19,7 +19,7 @@ U 1 1 5F70E5A3
 P 5650 3250
 F 0 "J5" H 6080 3296 50  0000 L CNN
 F 1 "HDMI_A" H 6080 3205 50  0000 L CNN
-F 2 "Connector_HDMI:HDMI_A_Contact_Technology_HDMI-19APL2_Horizontal" H 5675 3250 50  0001 C CNN
+F 2 "Connector_HDMI:HDMI-10029449-111RLF" H 5675 3250 50  0001 C CNN
 F 3 "https://en.wikipedia.org/wiki/HDMI" H 5675 3250 50  0001 C CNN
 	1    5650 3250
 	1    0    0    -1  
@@ -519,7 +519,7 @@ F 3 "~" H 4000 4500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:Q_NMOS_DGS Q1
+L Transistor_FET:2N7002 Q1
 U 1 1 5F78859C
 P 3100 4250
 F 0 "Q1" H 3305 4296 50  0000 L CNN

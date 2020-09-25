@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 14
+Sheet 7 15
 Title ""
 Date ""
 Rev ""
@@ -596,16 +596,9 @@ Wire Wire Line
 Connection ~ 5800 4550
 Wire Wire Line
 	5800 4550 5550 4550
-Wire Wire Line
-	5800 4750 5800 4850
-Wire Wire Line
-	5800 4850 5650 4850
 Connection ~ 5650 4850
 Wire Wire Line
 	6100 4750 6100 4850
-Wire Wire Line
-	6100 4850 5800 4850
-Connection ~ 5800 4850
 $Comp
 L Device:L_Small L2
 U 1 1 5F67B3AD
@@ -713,7 +706,7 @@ Wire Wire Line
 	5600 4150 5600 5000
 Connection ~ 5600 5000
 Wire Wire Line
-	5600 5000 6200 5000
+	5600 5000 5800 5000
 Wire Wire Line
 	2500 2200 2500 3600
 Wire Wire Line
@@ -767,4 +760,11 @@ Wire Wire Line
 Wire Wire Line
 	2000 2200 2500 2200
 Connection ~ 2500 2200
+Wire Wire Line
+	5650 4850 6100 4850
+Wire Wire Line
+	5800 4750 5800 5000
+Connection ~ 5800 5000
+Wire Wire Line
+	5800 5000 6200 5000
 $EndSCHEMATC

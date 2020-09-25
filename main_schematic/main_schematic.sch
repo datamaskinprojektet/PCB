@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 14
+Sheet 1 15
 Title ""
 Date ""
 Rev ""
@@ -383,10 +383,10 @@ F3 "EFM_USB_DN" I R 1300 1150 50
 F4 "EFM_USB_ID" I R 1300 1250 50 
 $EndSheet
 $Comp
-L Connector:Conn_01x03_Male J?
+L Connector:Conn_01x03_Male J15
 U 1 1 5F7A6672
 P 9450 2900
-F 0 "J?" V 9550 2750 50  0000 R CNN
+F 0 "J15" V 9550 2750 50  0000 R CNN
 F 1 "1.0V_SW" V 9450 2750 28  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9450 2900 50  0001 C CNN
 F 3 "~" H 9450 2900 50  0001 C CNN
@@ -485,4 +485,10 @@ Wire Bus Line
 	1650 2950 1650 2550
 Wire Bus Line
 	1650 2550 2350 2550
+$Sheet
+S 700  3500 750  550 
+U 5F7AF3E4
+F0 "AudioControl" 50
+F1 "AudioControl.sch" 50
+$EndSheet
 $EndSCHEMATC
