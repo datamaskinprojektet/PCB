@@ -431,7 +431,7 @@ F 3 "" H 7350 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L energymicro-efm32:EFM32GG980F1024 U6
+L main_schematic-rescue:EFM32GG980F1024-energymicro-efm32 U6
 U 1 1 5FDB438F
 P 13500 950
 F 0 "U6" H 18268 -547 60  0000 L CNN
@@ -442,7 +442,7 @@ F 3 "http://www.energymicro.com/downloads/datasheets" H 13500 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L energymicro-efm32:EFM32GG980F1024 U6
+L main_schematic-rescue:EFM32GG980F1024-energymicro-efm32 U6
 U 2 1 5FDB68B0
 P 13500 7550
 F 0 "U6" H 20768 6353 60  0000 L CNN
@@ -453,7 +453,7 @@ F 3 "http://www.energymicro.com/downloads/datasheets" H 13500 7550 50  0001 C CN
 	1    0    0    -1  
 $EndComp
 $Comp
-L energymicro-efm32:EFM32GG980F1024 U6
+L main_schematic-rescue:EFM32GG980F1024-energymicro-efm32 U6
 U 3 1 5FDBC66B
 P 13500 4450
 F 0 "U6" H 18718 3153 60  0000 L CNN
@@ -464,7 +464,7 @@ F 3 "http://www.energymicro.com/downloads/datasheets" H 13500 4450 50  0001 C CN
 	1    0    0    -1  
 $EndComp
 $Comp
-L energymicro-efm32:EFM32GG980F1024 U6
+L main_schematic-rescue:EFM32GG980F1024-energymicro-efm32 U6
 U 4 1 5FDC209C
 P 7350 1450
 F 0 "U6" H 8150 1787 60  0000 C CNN

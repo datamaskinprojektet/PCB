@@ -268,7 +268,7 @@ Wire Wire Line
 Entry Wire Line
 	7500 4700 7600 4800
 $Comp
-L SPI_multiplexer:ADG794 U9
+L main_schematic-rescue:ADG794-SPI_multiplexer U9
 U 1 1 5FFA7D9E
 P 6350 3850
 F 0 "U9" H 6350 4631 50  0000 C CNN
