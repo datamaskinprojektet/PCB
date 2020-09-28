@@ -992,6 +992,12 @@ Wire Wire Line
 	6500 950  5600 950 
 Wire Wire Line
 	6500 1050 5600 1050
+Text Label 5600 850  0    50   ~ 0
+CTRL_SPI0
+Text Label 5600 950  0    50   ~ 0
+CTRL_SPI1
+Text Label 5600 1050 0    50   ~ 0
+CTRL_SPI2
 Wire Bus Line
 	2200 1700 2200 6000
 Wire Bus Line
@@ -1002,10 +1008,4 @@ Wire Bus Line
 	2650 1600 2650 6200
 Wire Bus Line
 	2500 1050 2500 5600
-Text Label 5600 850  0    50   ~ 0
-CTRL_SPI0
-Text Label 5600 950  0    50   ~ 0
-CTRL_SPI1
-Text Label 5600 1050 0    50   ~ 0
-CTRL_SPI2
 $EndSCHEMATC

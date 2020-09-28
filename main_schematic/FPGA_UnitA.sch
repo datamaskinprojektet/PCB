@@ -112,8 +112,6 @@ DEBUG LEDS
 Wire Wire Line
 	6050 1650 6600 1650
 Wire Wire Line
-	6050 4050 6600 4050
-Wire Wire Line
 	6050 4150 6600 4150
 Wire Wire Line
 	6050 4250 6600 4250
@@ -124,23 +122,9 @@ Wire Wire Line
 Wire Wire Line
 	1500 3850 2050 3850
 Wire Wire Line
-	1500 4150 2050 4150
-Wire Wire Line
 	1500 4250 2050 4250
 Wire Wire Line
-	8500 3950 7950 3950
-Wire Wire Line
-	8500 4050 7950 4050
-Wire Wire Line
-	8500 4150 7950 4150
-Wire Wire Line
-	8500 4250 7950 4250
-Wire Wire Line
-	8500 4350 7950 4350
-Wire Wire Line
-	8500 4450 7950 4450
-Wire Wire Line
-	8500 4550 7950 4550
+	1500 4150 2050 4150
 Wire Wire Line
 	1500 2350 2050 2350
 Wire Wire Line
@@ -151,7 +135,7 @@ Wire Wire Line
 	1500 2650 2050 2650
 Wire Wire Line
 	1500 1650 2050 1650
-Text HLabel 6900 750  0    50   Input ~ 0
+Text HLabel 7200 3500 1    50   Input ~ 0
 FPGA_SPI[0..3]
 Entry Wire Line
 	6900 1650 6800 1750
@@ -161,22 +145,6 @@ Entry Wire Line
 	6900 1750 6800 1850
 Entry Wire Line
 	6900 1950 6800 2050
-Wire Wire Line
-	6050 1750 6800 1750
-Wire Wire Line
-	6050 1850 6800 1850
-Wire Wire Line
-	6050 1950 6800 1950
-Wire Wire Line
-	6050 2050 6800 2050
-Text Label 6600 1750 2    50   ~ 0
-FPGA_MOSI
-Text Label 6600 1850 2    50   ~ 0
-FPGA_MISO
-Text Label 6600 1950 2    50   ~ 0
-FPGA_CS
-Text Label 6600 2050 2    50   ~ 0
-FPGA_SCK
 Entry Wire Line
 	7050 2050 6950 2150
 Entry Wire Line
@@ -249,14 +217,8 @@ Entry Wire Line
 	7200 3650 7100 3750
 Entry Wire Line
 	7200 3850 7100 3950
-Wire Wire Line
-	6050 3750 7100 3750
-Wire Wire Line
-	6050 3850 7100 3850
-Wire Wire Line
-	6050 3950 7100 3950
-Text HLabel 7200 3500 1    50   Input ~ 0
-EBI_CS[0..2]
+Text HLabel 6900 750  0    50   Input ~ 0
+EBI_CS[0..3]
 Entry Wire Line
 	850  4850 950  4750
 Entry Wire Line
@@ -291,104 +253,6 @@ Entry Wire Line
 	850  3350 950  3250
 Entry Wire Line
 	850  3450 950  3350
-Entry Wire Line
-	9550 1100 9650 1200
-Entry Wire Line
-	9550 1300 9650 1400
-Entry Wire Line
-	9550 1200 9650 1300
-Entry Wire Line
-	9550 1400 9650 1500
-Entry Wire Line
-	9550 1500 9650 1600
-Entry Wire Line
-	9550 1700 9650 1800
-Entry Wire Line
-	9550 1600 9650 1700
-Entry Wire Line
-	9550 1800 9650 1900
-Entry Wire Line
-	9550 1900 9650 2000
-Entry Wire Line
-	9550 2100 9650 2200
-Entry Wire Line
-	9550 2000 9650 2100
-Entry Wire Line
-	9550 2200 9650 2300
-Entry Wire Line
-	9550 2300 9650 2400
-Entry Wire Line
-	9550 2500 9650 2600
-Entry Wire Line
-	9550 2400 9650 2500
-Entry Wire Line
-	9550 2600 9650 2700
-Text HLabel 9650 3050 3    50   Input ~ 0
-DQ[0..15]
-Text Label 9250 1100 0    50   ~ 0
-DQ0
-Text Label 9250 1200 0    50   ~ 0
-DQ1
-Text Label 9250 1300 0    50   ~ 0
-DQ2
-Text Label 9250 1400 0    50   ~ 0
-DQ3
-Text Label 9250 1500 0    50   ~ 0
-DQ4
-Text Label 9250 1600 0    50   ~ 0
-DQ5
-Text Label 9250 1700 0    50   ~ 0
-DQ6
-Text Label 9250 1800 0    50   ~ 0
-DQ7
-Text Label 9250 1900 0    50   ~ 0
-DQ8
-Text Label 9250 2000 0    50   ~ 0
-DQ9
-Text Label 9250 2100 0    50   ~ 0
-DQ10
-Text Label 9250 2200 0    50   ~ 0
-DQ11
-Text Label 9250 2300 0    50   ~ 0
-DQ12
-Text Label 9250 2400 0    50   ~ 0
-DQ13
-Text Label 9250 2500 0    50   ~ 0
-DQ14
-Text Label 9250 2600 0    50   ~ 0
-DQ15
-Wire Wire Line
-	9550 1100 9000 1100
-Wire Wire Line
-	9550 1200 9000 1200
-Wire Wire Line
-	9550 1300 9000 1300
-Wire Wire Line
-	9550 1400 9000 1400
-Wire Wire Line
-	9550 1500 9000 1500
-Wire Wire Line
-	9550 1600 9000 1600
-Wire Wire Line
-	9550 1700 9000 1700
-Wire Wire Line
-	9550 1800 9000 1800
-Wire Wire Line
-	9550 1900 9000 1900
-Wire Wire Line
-	9550 2000 9000 2000
-Wire Wire Line
-	9550 2100 9000 2100
-Wire Wire Line
-	9550 2200 9000 2200
-Wire Wire Line
-	9550 2300 9000 2300
-Wire Wire Line
-	9550 2400 9000 2400
-Wire Wire Line
-	9550 2500 9000 2500
-Wire Wire Line
-	9550 2600 9000 2600
 Text Label 1250 3450 2    50   ~ 0
 A1
 Text Label 1250 3350 2    50   ~ 0
@@ -431,19 +295,19 @@ Text Label 1250 3550 2    50   ~ 0
 A20
 Wire Wire Line
 	6050 4350 6600 4350
-Text HLabel 8500 4550 2    50   Input ~ 0
+Text HLabel 1950 5550 0    50   Input ~ 0
 BYTE#
-Text HLabel 8500 4450 2    50   Input ~ 0
+Text HLabel 1500 3750 0    50   Input ~ 0
 CE#
-Text HLabel 8500 4350 2    50   Input ~ 0
+Text HLabel 1500 3850 0    50   Input ~ 0
 CE2
-Text HLabel 8500 4250 2    50   Input ~ 0
+Text HLabel 1500 4150 0    50   Input ~ 0
 LB#
-Text HLabel 8500 4150 2    50   Input ~ 0
+Text HLabel 1500 4250 0    50   Input ~ 0
 UB#
-Text HLabel 8500 3950 2    50   Input ~ 0
+Text HLabel 1950 5450 0    50   Input ~ 0
 OE#
-Text HLabel 8500 4050 2    50   Input ~ 0
+Text HLabel 1950 5350 0    50   Input ~ 0
 WE#
 Wire Wire Line
 	950  3450 2050 3450
@@ -495,8 +359,6 @@ Wire Wire Line
 	950  6050 2050 6050
 Wire Wire Line
 	950  4950 2050 4950
-Wire Wire Line
-	950  5950 2050 5950
 Entry Wire Line
 	850  5350 950  5250
 Wire Wire Line
@@ -507,14 +369,156 @@ Entry Wire Line
 	850  4450 950  4350
 Wire Wire Line
 	950  4350 2050 4350
+Entry Wire Line
+	1500 5850 1400 5750
+Entry Wire Line
+	1500 5750 1400 5650
+Entry Wire Line
+	1500 6450 1400 6550
+Text Label 1850 5650 2    50   ~ 0
+DQ7
+Text Label 1800 5750 2    50   ~ 0
+DQ14
+Text Label 1800 5850 2    50   ~ 0
+DQ15
+Wire Wire Line
+	1500 5650 2050 5650
+Wire Wire Line
+	1500 5750 2050 5750
+Wire Wire Line
+	1500 5850 2050 5850
+Entry Wire Line
+	1500 5650 1400 5550
+Text HLabel 1400 6850 3    50   Input ~ 0
+DQ[0..21]
+Wire Wire Line
+	1500 6450 2050 6450
+Text Label 1800 6450 2    50   ~ 0
+DQ6
+Wire Wire Line
+	950  5950 2050 5950
+Text Label 1800 6250 2    50   ~ 0
+DQ5
+Text Label 1800 6350 2    50   ~ 0
+DQ13
+Wire Wire Line
+	1500 6250 2050 6250
+Wire Wire Line
+	1500 6350 2050 6350
+Text Label 1800 6150 2    50   ~ 0
+DQ12
+Wire Wire Line
+	1500 6150 2050 6150
+Entry Wire Line
+	1500 6350 1400 6450
+Entry Wire Line
+	1500 6250 1400 6350
+Entry Wire Line
+	1500 6150 1400 6250
+Wire Wire Line
+	2050 5350 1950 5350
+Wire Wire Line
+	2050 5450 1950 5450
+Wire Wire Line
+	1950 5550 2050 5550
+Text Label 6950 2150 2    50   ~ 0
+EBI_AD0
+Text Label 6950 2250 2    50   ~ 0
+EBI_AD1
+Text Label 6950 2350 2    50   ~ 0
+EBI_AD2
+Text Label 6950 2450 2    50   ~ 0
+EBI_AD3
+Text Label 6950 2550 2    50   ~ 0
+EBI_AD4
+Text Label 6950 2650 2    50   ~ 0
+EBI_AD5
+Text Label 6950 2750 2    50   ~ 0
+EBI_AD6
+Text Label 6950 2850 2    50   ~ 0
+EBI_AD7
+Text Label 6950 3350 2    50   ~ 0
+EBI_AD12
+Text Label 6950 3450 2    50   ~ 0
+EBI_AD13
+Text Label 6950 3550 2    50   ~ 0
+EBI_AD14
+Text Label 6950 3250 2    50   ~ 0
+EBI_AD11
+Text Label 6950 3150 2    50   ~ 0
+EBI_AD10
+Text Label 6950 3050 2    50   ~ 0
+EBI_AD9
+Text Label 6950 3650 2    50   ~ 0
+EBI_AD15
+Text Label 6950 2950 2    50   ~ 0
+EBI_AD8
+Text Label 6800 1750 2    50   ~ 0
+EBI_CS0
+Text Label 6800 1850 2    50   ~ 0
+EBI_CS1
+Text Label 6800 1950 2    50   ~ 0
+EBI_CS2
+Entry Wire Line
+	7200 3950 7100 4050
+Text Label 6800 2050 2    50   ~ 0
+EBI_CS3
+Wire Wire Line
+	6050 3750 7100 3750
+Wire Wire Line
+	6050 3850 7100 3850
+Wire Wire Line
+	6050 3950 7100 3950
+Wire Wire Line
+	6050 4050 7100 4050
+Wire Wire Line
+	6800 1750 6050 1750
+Wire Wire Line
+	6050 1850 6800 1850
+Wire Wire Line
+	6800 1950 6050 1950
+Wire Wire Line
+	6050 2050 6800 2050
+Wire Wire Line
+	5050 7300 3900 7300
+Text Label 3900 7300 0    50   ~ 0
+FPGA_SPI_MOSI
+Wire Wire Line
+	5050 7400 3900 7400
+Text Label 3900 7400 0    50   ~ 0
+FPGA_SPI_MISO
+Wire Wire Line
+	5050 7600 3900 7600
+Text Label 3900 7600 0    50   ~ 0
+FPGA_SPI_CS
+Wire Wire Line
+	5050 7500 3900 7500
+Text Label 3900 7500 0    50   ~ 0
+FPGA_SPI_CLK
+Text Label 5050 7400 2    50   ~ 0
+FPGA_SPI1
+Text Label 5050 7500 2    50   ~ 0
+FPGA_SPI2
+Text Label 5050 7600 2    50   ~ 0
+FPGA_SPI3
+Text Label 5050 7300 2    50   ~ 0
+FPGA_SPI0
 Wire Bus Line
-	7200 3500 7200 3850
+	7200 3500 7200 3950
 Wire Bus Line
 	6900 750  6900 1950
 Wire Bus Line
-	9650 1200 9650 3050
+	1400 5550 1400 6850
 Wire Bus Line
 	850  2350 850  6900
 Wire Bus Line
 	7050 1900 7050 3550
+Text Label 7100 4050 2    50   ~ 0
+FPGA_SPI_CLK
+Text Label 7100 3750 2    50   ~ 0
+FPGA_SPI_MOSI
+Text Label 7100 3850 2    50   ~ 0
+FPGA_SPI_MISO
+Text Label 7100 3950 2    50   ~ 0
+FPGA_SPI_CS
 $EndSCHEMATC

@@ -119,44 +119,6 @@ Wire Wire Line
 	5250 6600 5800 6600
 Wire Wire Line
 	5250 6700 5800 6700
-Wire Wire Line
-	700  1800 1250 1800
-Wire Wire Line
-	700  1900 1250 1900
-Wire Wire Line
-	700  2000 1250 2000
-Wire Wire Line
-	700  2100 1250 2100
-Wire Wire Line
-	700  2200 1250 2200
-Wire Wire Line
-	700  2300 1250 2300
-Wire Wire Line
-	700  2400 1250 2400
-Wire Wire Line
-	700  2500 1250 2500
-Wire Wire Line
-	700  2600 1250 2600
-Wire Wire Line
-	700  2700 1250 2700
-Wire Wire Line
-	700  2800 1250 2800
-Wire Wire Line
-	700  2900 1250 2900
-Wire Wire Line
-	700  3000 1250 3000
-Wire Wire Line
-	700  3100 1250 3100
-Wire Wire Line
-	700  3200 1250 3200
-Wire Wire Line
-	700  3300 1250 3300
-Wire Wire Line
-	700  3500 1250 3500
-Wire Wire Line
-	700  3600 1250 3600
-Wire Wire Line
-	700  3700 1250 3700
 Text Label 5800 2700 2    50   ~ 0
 HDMI_HPD
 Text Label 5800 2800 2    50   ~ 0
@@ -341,8 +303,62 @@ Text Label 5800 2600 2    50   ~ 0
 HDMI_D0_N
 Text Label 5800 2500 2    50   ~ 0
 HDMI_D0_P
+Entry Wire Line
+	700  2500 600  2600
+Entry Wire Line
+	700  2600 600  2700
+Entry Wire Line
+	700  3200 600  3300
+Entry Wire Line
+	700  2800 600  2900
+Entry Wire Line
+	700  3500 600  3600
+Text HLabel 600  4050 3    50   Input ~ 0
+DQ[0..15]
+Text Label 1000 2600 2    50   ~ 0
+DQ1
+Text Label 1000 2500 2    50   ~ 0
+DQ2
+Text Label 1000 3500 2    50   ~ 0
+DQ4
+Text Label 1000 3100 2    50   ~ 0
+DQ8
+Text Label 1000 2800 2    50   ~ 0
+DQ9
+Wire Wire Line
+	700  2600 1250 2600
+Wire Wire Line
+	700  2500 1250 2500
+Wire Wire Line
+	700  3500 1250 3500
+Wire Wire Line
+	700  3200 1250 3200
+Wire Wire Line
+	700  2800 1250 2800
+Wire Wire Line
+	700  3100 1250 3100
+Text Label 1000 3200 2    50   ~ 0
+DQ0
+Entry Wire Line
+	700  3100 600  3200
+Entry Wire Line
+	700  3300 600  3400
+Entry Wire Line
+	700  3400 600  3500
+Entry Wire Line
+	700  3600 600  3700
+Text Label 1000 3300 2    50   ~ 0
+DQ3
+Text Label 1000 3400 2    50   ~ 0
+DQ10
+Text Label 1000 3600 2    50   ~ 0
+DQ11
+Wire Wire Line
+	700  3300 1250 3300
 Wire Wire Line
 	700  3400 1250 3400
+Wire Wire Line
+	700  3600 1250 3600
 Wire Wire Line
 	5250 5300 6950 5300
 Wire Wire Line
@@ -354,11 +370,13 @@ Wire Wire Line
 Wire Wire Line
 	5250 3300 7150 3300
 Wire Bus Line
+	6850 1500 6850 5550
+Wire Bus Line
 	7250 1500 7250 5550
 Wire Bus Line
 	7050 1500 7050 5550
 Wire Bus Line
-	6850 1500 6850 5550
-Wire Bus Line
 	6600 1500 6600 5550
+Wire Bus Line
+	600  2200 600  4050
 $EndSCHEMATC

@@ -667,37 +667,11 @@ Wire Wire Line
 Text Label 12350 5050 0    50   ~ 0
 CTRL_SPI_MISO
 Wire Wire Line
-	13500 4850 12350 4850
-Text Label 12350 4850 0    50   ~ 0
-CTRL_SPI_CS
-Wire Wire Line
 	13500 4950 12350 4950
 Text Label 12350 4950 0    50   ~ 0
 CTRL_SPI_CLK
-Wire Wire Line
-	1750 7350 600  7350
-Text Label 600  7350 0    50   ~ 0
-FPGA_SPI_MOSI
-Wire Wire Line
-	1750 7450 600  7450
-Text Label 600  7450 0    50   ~ 0
-FPGA_SPI_MISO
-Wire Wire Line
-	1750 7650 600  7650
-Text Label 600  7650 0    50   ~ 0
-FPGA_SPI_CS
-Wire Wire Line
-	1750 7550 600  7550
-Text Label 600  7550 0    50   ~ 0
-FPGA_SPI_CLK
 Text Label 1750 6600 2    50   ~ 0
 SD_SPI_EFM0
-Text Label 1750 7450 2    50   ~ 0
-FPGA_SPI1
-Text Label 1750 7550 2    50   ~ 0
-FGPA_SPI2
-Text Label 1750 7650 2    50   ~ 0
-FGPA_SPI3
 Entry Wire Line
 	1850 7250 1750 7350
 Entry Wire Line
@@ -740,6 +714,50 @@ Text Label 1750 6800 2    50   ~ 0
 SD_SPI_EFM2
 Text Label 1750 6900 2    50   ~ 0
 SD_SPI_EFM3
+Wire Wire Line
+	1750 7350 600  7350
+Text Label 600  7350 0    50   ~ 0
+FPGA_SPI_MOSI
+Wire Wire Line
+	1750 7450 600  7450
+Text Label 600  7450 0    50   ~ 0
+FPGA_SPI_MISO
+Wire Wire Line
+	1750 7650 600  7650
+Text Label 600  7650 0    50   ~ 0
+FPGA_SPI_CS
+Wire Wire Line
+	1750 7550 600  7550
+Text Label 600  7550 0    50   ~ 0
+FPGA_SPI_CLK
+Text Label 1750 7450 2    50   ~ 0
+FPGA_SPI1
+Text Label 1750 7550 2    50   ~ 0
+FPGA_SPI2
+Text Label 1750 7650 2    50   ~ 0
+FPGA_SPI3
+Text Label 1750 7350 2    50   ~ 0
+FPGA_SPI0
+Wire Wire Line
+	1750 6100 600  6100
+Text Label 600  6100 0    50   ~ 0
+CTRL_SPI_MOSI
+Wire Wire Line
+	1750 6000 600  6000
+Text Label 600  6000 0    50   ~ 0
+CTRL_SPI_MISO
+Wire Wire Line
+	1750 5900 600  5900
+Text Label 600  5900 0    50   ~ 0
+CTRL_SPI_CLK
+Entry Wire Line
+	1850 5800 1750 5900
+Entry Wire Line
+	1850 5900 1750 6000
+Entry Wire Line
+	1850 6000 1750 6100
+Text HLabel 1850 5650 2    50   Input ~ 0
+CTRL_SPI[0..2]
 Wire Bus Line
 	13000 9600 13000 10100
 Wire Bus Line
@@ -747,9 +765,15 @@ Wire Bus Line
 Wire Bus Line
 	1850 6450 1850 6950
 Wire Bus Line
+	1850 5650 1850 6150
+Wire Bus Line
 	12400 -350 12400 1450
 Wire Bus Line
 	13100 5250 13100 6100
-Text Label 1750 7350 2    50   ~ 0
-FPGA_SPI0
+Text Label 1750 6100 2    50   ~ 0
+CTRL_SPI0
+Text Label 1750 6000 2    50   ~ 0
+CTRL_SPI1
+Text Label 1750 5900 2    50   ~ 0
+CTRL_SPI2
 $EndSCHEMATC
