@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 15
+Sheet 14 15
 Title ""
 Date ""
 Rev ""
@@ -104,18 +104,7 @@ SD_SPI_MOSI
 Text Label 4500 2500 2    50   ~ 0
 SD_SPI_CS
 Text HLabel 7600 4950 2    50   Input ~ 0
-SD_SPI_BUS_EFM
-$Comp
-L SPI~multiplexer:ADG794 U9
-U 1 1 5F704867
-P 6350 3850
-F 0 "U9" H 6600 4400 50  0000 C CNN
-F 1 "ADG794" H 6150 4400 50  0000 C CNN
-F 2 "Package_SO:QSOP-16_3.9x4.9mm_P0.635mm" H 6400 4050 50  0001 C CNN
-F 3 "" H 6400 4050 50  0001 C CNN
-	1    6350 3850
-	-1   0    0    -1  
-$EndComp
+SD_SPI_EFM[0..3]
 Wire Wire Line
 	5950 3450 5200 3450
 Wire Wire Line
@@ -190,7 +179,6 @@ Wire Wire Line
 	5950 4200 5950 4450
 Wire Wire Line
 	5950 4450 6350 4450
-Connection ~ 6350 4450
 Wire Wire Line
 	5950 4000 5200 4000
 Text Label 5200 4000 0    50   ~ 0
@@ -222,8 +210,6 @@ F 3 "~" H 6250 1150 50  0001 C CNN
 	1    6250 1150
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	6350 1150 7150 1150
 Wire Wire Line
 	5350 1150 6150 1150
 $Comp
@@ -260,15 +246,9 @@ F 3 "~" H 6250 1450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6350 1250 7150 1250
-Wire Wire Line
 	5350 1250 6150 1250
 Wire Wire Line
 	5350 1350 6150 1350
-Wire Wire Line
-	6350 1350 7150 1350
-Wire Wire Line
-	6350 1450 7150 1450
 Wire Wire Line
 	5350 1450 6150 1450
 Entry Wire Line
@@ -287,6 +267,34 @@ Wire Wire Line
 	5200 4700 7500 4700
 Entry Wire Line
 	7500 4700 7600 4800
+$Comp
+L SPI_multiplexer:ADG794 U9
+U 1 1 5FFA7D9E
+P 6350 3850
+F 0 "U9" H 6350 4631 50  0000 C CNN
+F 1 "ADG794" H 6350 4540 50  0000 C CNN
+F 2 "Package_SO:QSOP-16_3.9x4.9mm_P0.635mm" H 6400 4050 50  0001 C CNN
+F 3 "" H 6400 4050 50  0001 C CNN
+	1    6350 3850
+	-1   0    0    -1  
+$EndComp
+Connection ~ 6350 4450
+Wire Wire Line
+	6350 1150 8000 1150
+Wire Wire Line
+	6350 1250 8000 1250
+Wire Wire Line
+	6350 1350 8000 1350
+Wire Wire Line
+	6350 1450 8000 1450
+Text Label 8000 1250 2    50   ~ 0
+SD_SPI_EFM0
+Text Label 8000 1150 2    50   ~ 0
+SD_SPI_EFM1
+Text Label 8000 1350 2    50   ~ 0
+SD_SPI_EFM2
+Text Label 8000 1450 2    50   ~ 0
+SD_SPI_EFM3
 Wire Bus Line
 	7600 2950 7600 3650
 Wire Bus Line

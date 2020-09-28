@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 15
+Sheet 15 15
 Title ""
 Date ""
 Rev ""
@@ -522,107 +522,47 @@ Wire Wire Line
 Wire Wire Line
 	2400 5300 1500 5300
 Text HLabel 2500 1050 0    50   Input ~ 0
-CTRL_SPI
-Entry Wire Line
-	2500 5500 2400 5400
-Wire Wire Line
-	1500 5400 2400 5400
+CTRL_SPI[0..2]
 Entry Wire Line
 	2500 5400 2400 5300
 Entry Wire Line
 	2500 5400 2600 5300
 Entry Wire Line
-	2500 4200 2400 4100
-Wire Wire Line
-	1500 4100 2400 4100
-Entry Wire Line
-	2500 2900 2400 2800
-Wire Wire Line
-	1500 2800 2400 2800
-Entry Wire Line
-	2500 1600 2400 1500
-Wire Wire Line
-	1500 1500 2400 1500
-Entry Wire Line
-	2500 1600 2600 1500
-Wire Wire Line
-	2600 1500 3500 1500
-Entry Wire Line
-	2500 2900 2600 2800
-Wire Wire Line
-	2600 2800 3500 2800
-Entry Wire Line
-	2500 4200 2600 4100
-Wire Wire Line
-	2600 4100 3500 4100
-Entry Wire Line
-	2500 5500 2600 5400
-Wire Wire Line
-	2600 5400 3500 5400
+	2350 1600 2250 1500
 Text Label 2000 1500 2    50   ~ 0
-CS1
+CTRL_CS1
 Text Label 2000 2800 2    50   ~ 0
-CS2
+CTRL_CS2
 Text Label 2000 4100 2    50   ~ 0
-CS3
+CTRL_CS3
 Text Label 2000 5400 2    50   ~ 0
-CS4
+CTRL_CS4
 Text Label 3000 1500 0    50   ~ 0
-CS5
+CTRL_CS5
 Text Label 3000 2800 0    50   ~ 0
-CS6
+CTRL_CS6
 Text Label 3000 4100 0    50   ~ 0
-CS7
+CTRL_CS7
 Text Label 3000 5400 0    50   ~ 0
-CS8
+CTRL_CS8
 Entry Wire Line
-	2500 3000 2600 2900
-Wire Wire Line
-	2600 1600 3500 1600
-Entry Wire Line
-	2500 1700 2600 1600
-Entry Wire Line
-	2500 4300 2600 4200
-Wire Wire Line
-	2600 4200 3500 4200
-Wire Wire Line
-	2600 2900 3500 2900
-Entry Wire Line
-	2500 5600 2600 5500
-Wire Wire Line
-	2600 5500 3500 5500
-Entry Wire Line
-	2500 5600 2400 5500
-Wire Wire Line
-	1500 5500 2400 5500
-Entry Wire Line
-	2500 4300 2400 4200
-Wire Wire Line
-	1500 4200 2400 4200
-Entry Wire Line
-	2500 3000 2400 2900
-Wire Wire Line
-	1500 2900 2400 2900
-Entry Wire Line
-	2500 1700 2400 1600
-Wire Wire Line
-	1500 1600 2400 1600
+	2200 1700 2100 1600
 Text Label 3000 1600 0    50   ~ 0
-CA5
+CTRL_CA5
 Text Label 3000 2900 0    50   ~ 0
-CA6
+CTRL_CA6
 Text Label 3000 4200 0    50   ~ 0
-CA7
+CTRL_CA7
 Text Label 3000 5500 0    50   ~ 0
-CA8
+CTRL_CA8
 Text Label 2000 5500 2    50   ~ 0
-CA4
+CTRL_CA4
 Text Label 2000 4200 2    50   ~ 0
-CA3
+CTRL_CA3
 Text Label 2000 2900 2    50   ~ 0
-CA2
+CTRL_CA2
 Text Label 2000 1600 2    50   ~ 0
-CA1
+CTRL_CA1
 $Comp
 L main_schematic-rescue:JOYSTICKPTH-SparkFun-Electromechanical U11
 U 1 1 5F6CB746
@@ -861,7 +801,7 @@ Wire Wire Line
 Wire Wire Line
 	8800 4950 9350 4950
 Text Label 9350 4950 2    50   ~ 0
-CS9
+CTRL_CS9
 $Comp
 L Switch:SW_Push_DPDT SW2
 U 1 1 5F771EE0
@@ -909,7 +849,7 @@ Wire Wire Line
 Wire Wire Line
 	9250 2250 8650 2250
 Text Label 8650 2250 0    50   ~ 0
-CA9
+CTRL_CA9
 $Comp
 L Device:LED D2
 U 1 1 5F796F7E
@@ -956,6 +896,116 @@ Wire Wire Line
 Wire Wire Line
 	9750 1950 9750 2350
 Connection ~ 9750 2350
+Wire Wire Line
+	1500 1500 2250 1500
+Wire Wire Line
+	1500 1600 2100 1600
+Entry Wire Line
+	2350 2900 2250 2800
+Entry Wire Line
+	2200 3000 2100 2900
+Wire Wire Line
+	1500 2800 2250 2800
+Wire Wire Line
+	1500 2900 2100 2900
+Entry Wire Line
+	2350 4200 2250 4100
+Entry Wire Line
+	2200 4300 2100 4200
+Wire Wire Line
+	1500 4100 2250 4100
+Wire Wire Line
+	1500 4200 2100 4200
+Entry Wire Line
+	2350 5500 2250 5400
+Entry Wire Line
+	2200 5600 2100 5500
+Wire Wire Line
+	1500 5400 2250 5400
+Wire Wire Line
+	1500 5500 2100 5500
+Entry Wire Line
+	2650 5500 2750 5400
+Entry Wire Line
+	2800 5600 2900 5500
+Wire Wire Line
+	3500 5400 2750 5400
+Wire Wire Line
+	3500 5500 2900 5500
+Entry Wire Line
+	2650 4200 2750 4100
+Entry Wire Line
+	2800 4300 2900 4200
+Wire Wire Line
+	3500 4100 2750 4100
+Wire Wire Line
+	3500 4200 2900 4200
+Entry Wire Line
+	2650 2900 2750 2800
+Entry Wire Line
+	2800 3000 2900 2900
+Wire Wire Line
+	3500 2800 2750 2800
+Wire Wire Line
+	3500 2900 2900 2900
+Entry Wire Line
+	2650 1600 2750 1500
+Entry Wire Line
+	2800 1700 2900 1600
+Wire Wire Line
+	3500 1500 2750 1500
+Wire Wire Line
+	3500 1600 2900 1600
+Text HLabel 2200 6000 0    50   Input ~ 0
+CTRL_CA[1..9]
+Text HLabel 2350 6200 0    50   Input ~ 0
+CTRL_CS[1..9]
+Text HLabel 2800 6000 2    50   Input ~ 0
+CTRL_CA[1..9]
+Text HLabel 2650 6200 2    50   Input ~ 0
+CTRL_CS[1..9]
+Entry Wire Line
+	9350 4950 9450 5050
+Entry Wire Line
+	8550 2350 8650 2250
+Wire Bus Line
+	8550 2350 8550 2450
+Wire Bus Line
+	8550 2450 8650 2450
+Wire Bus Line
+	9450 5050 9450 5150
+Wire Bus Line
+	9450 5150 9550 5150
+Text HLabel 8650 2450 2    50   Input ~ 0
+CTRL_CA[1..9]
+Text HLabel 9550 5150 2    50   Input ~ 0
+CTRL_CS[1..9]
+Text Label 6500 850  2    50   ~ 0
+CTRL_MISO
+Text Label 6500 950  2    50   ~ 0
+CTRL_MOSI
+Text Label 6500 1050 2    50   ~ 0
+CTRL_SCK
+Wire Wire Line
+	6500 850  5600 850 
+Wire Wire Line
+	6500 950  5600 950 
+Wire Wire Line
+	6500 1050 5600 1050
+Wire Bus Line
+	2200 1700 2200 6000
+Wire Bus Line
+	2350 1600 2350 6200
+Wire Bus Line
+	2800 1700 2800 6000
+Wire Bus Line
+	2650 1600 2650 6200
 Wire Bus Line
 	2500 1050 2500 5600
+Text Label 5600 850  0    50   ~ 0
+CTRL_SPI0
+Text Label 5600 950  0    50   ~ 0
+CTRL_SPI1
+Text Label 5600 1050 0    50   ~ 0
+CTRL_SPI2
 $EndSCHEMATC

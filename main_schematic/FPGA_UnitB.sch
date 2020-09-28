@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 15
+Sheet 6 15
 Title ""
 Date ""
 Rev ""
@@ -152,25 +152,11 @@ Wire Wire Line
 Wire Wire Line
 	700  3300 1250 3300
 Wire Wire Line
-	700  3400 1250 3400
-Wire Wire Line
 	700  3500 1250 3500
 Wire Wire Line
 	700  3600 1250 3600
 Wire Wire Line
 	700  3700 1250 3700
-Text Label 5800 1900 2    50   ~ 0
-HDMI_D1_P
-Text Label 5800 2000 2    50   ~ 0
-HDMI_D1_N
-Text Label 5800 2100 2    50   ~ 0
-HDMI_D2_P
-Text Label 5800 2200 2    50   ~ 0
-HDMI_D2_N
-Text Label 5800 2500 2    50   ~ 0
-HDMI_D0_P
-Text Label 5800 2600 2    50   ~ 0
-HDMI_D0_N
 Text Label 5800 2700 2    50   ~ 0
 HDMI_HPD
 Text Label 5800 2800 2    50   ~ 0
@@ -187,10 +173,6 @@ Text Label 5800 3700 2    50   ~ 0
 VGA_B3
 Text Label 5800 3800 2    50   ~ 0
 VGA_G3
-Text Label 5800 4300 2    50   ~ 0
-HDMI_CLK_P
-Text Label 5800 4400 2    50   ~ 0
-HDMI_CLK_N
 Text Label 5800 4500 2    50   ~ 0
 VGA_B4
 Text Label 5800 4600 2    50   ~ 0
@@ -306,13 +288,13 @@ Wire Wire Line
 Wire Wire Line
 	5250 4800 7150 4800
 Text HLabel 6600 1500 1    50   BiDi ~ 0
-HDMI_TMDS[0:7]
+HDMI_TMDS[0..7]
 Text HLabel 6850 1500 1    50   BiDi ~ 0
-VGA_R[1:5]
+VGA_R[1..5]
 Text HLabel 7050 1500 1    50   BiDi ~ 0
-VGA_B[1:5]
+VGA_B[1..5]
 Text HLabel 7250 1500 1    50   BiDi ~ 0
-VGA_G[0:5]
+VGA_G[0..5]
 Text HLabel 5800 5000 2    50   BiDi ~ 0
 HDMI_SDA
 Text HLabel 5800 4900 2    50   BiDi ~ 0
@@ -327,22 +309,56 @@ Text HLabel 5800 2800 2    50   BiDi ~ 0
 HDMI_CEC
 Text HLabel 5800 4100 2    50   BiDi ~ 0
 CLK_100MHZ
+Text Label 5850 2100 0    50   ~ 0
+HDMI_TMDS0
+Text Label 5850 2200 0    50   ~ 0
+HDMI_TMDS1
+Text Label 5850 1900 0    50   ~ 0
+HDMI_TMDS2
+Text Label 5850 2000 0    50   ~ 0
+HDMI_TMDS3
+Text Label 5850 2500 0    50   ~ 0
+HDMI_TMDS4
+Text Label 5850 2600 0    50   ~ 0
+HDMI_TMDS5
+Text Label 5850 4300 0    50   ~ 0
+HDMI_TMDS6
+Text Label 5850 4400 0    50   ~ 0
+HDMI_TMDS7
+Text Label 5800 4400 2    50   ~ 0
+HDMI_CLK_N
+Text Label 5800 4300 2    50   ~ 0
+HDMI_CLK_P
+Text Label 5800 1900 2    50   ~ 0
+HDMI_D1_P
+Text Label 5800 2000 2    50   ~ 0
+HDMI_D1_N
+Text Label 5800 2100 2    50   ~ 0
+HDMI_D2_P
+Text Label 5800 2200 2    50   ~ 0
+HDMI_D2_N
+Text Label 5800 2600 2    50   ~ 0
+HDMI_D0_N
+Text Label 5800 2500 2    50   ~ 0
+HDMI_D0_P
 Wire Wire Line
-	5250 3300 7150 3300
+	700  3400 1250 3400
 Wire Wire Line
-	5250 3500 7150 3500
-Wire Wire Line
-	5250 4600 7150 4600
+	5250 5300 6950 5300
 Wire Wire Line
 	5250 5200 7150 5200
 Wire Wire Line
-	5250 5300 6950 5300
-Wire Bus Line
-	6850 1500 6850 5550
+	5250 4600 7150 4600
+Wire Wire Line
+	5250 3500 7150 3500
+Wire Wire Line
+	5250 3300 7150 3300
 Wire Bus Line
 	7250 1500 7250 5550
 Wire Bus Line
 	7050 1500 7050 5550
+Wire Bus Line
+	6850 1500 6850 5550
 Wire Bus Line
 	6600 1500 6600 5550
 $EndSCHEMATC

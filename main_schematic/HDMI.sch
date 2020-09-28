@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 15
+Sheet 8 15
 Title ""
 Date ""
 Rev ""
@@ -611,22 +611,6 @@ Wire Wire Line
 	1500 3050 2750 3050
 Wire Wire Line
 	1500 3150 2450 3150
-Text Label 1500 2450 0    50   ~ 0
-HDMI_D2_P
-Text Label 1500 2550 0    50   ~ 0
-HDMI_D2_N
-Text Label 1500 2650 0    50   ~ 0
-HDMI_D1_P
-Text Label 1500 2750 0    50   ~ 0
-HDMI_D1_N
-Text Label 1500 2850 0    50   ~ 0
-HDMI_D0_P
-Text Label 1500 2950 0    50   ~ 0
-HDMI_D0_N
-Text Label 1500 3050 0    50   ~ 0
-HDMI_CK_P
-Text Label 1500 3150 0    50   ~ 0
-HDMI_CK_N
 Entry Wire Line
 	1500 3150 1400 3050
 Entry Wire Line
@@ -644,7 +628,7 @@ Entry Wire Line
 Entry Wire Line
 	1500 2450 1400 2350
 Text HLabel 1400 2200 0    50   Input ~ 0
-HDMI_TMDS[0:7]
+HDMI_TMDS[0..7]
 Text HLabel 6550 4350 2    50   UnSpc ~ 0
 VIDEO_SHIELD
 Text HLabel 2200 4000 0    50   BiDi ~ 0
@@ -670,6 +654,38 @@ Text HLabel 4200 3350 0    50   BiDi ~ 0
 HDMI_CEC
 Text Label 4200 3350 0    50   ~ 0
 HDMI_CEC
+Text Label 2000 2650 0    50   ~ 0
+HDMI_D1_P
+Text Label 2000 2750 0    50   ~ 0
+HDMI_D1_N
+Text Label 2000 2850 0    50   ~ 0
+HDMI_D0_P
+Text Label 2000 2950 0    50   ~ 0
+HDMI_D0_N
+Text Label 2000 3050 0    50   ~ 0
+HDMI_CK_P
+Text Label 2000 3150 0    50   ~ 0
+HDMI_CK_N
+Text Label 1500 2450 0    50   ~ 0
+HDMI_TMDS0
+Text Label 1500 2550 0    50   ~ 0
+HDMI_TMDS1
+Text Label 1500 2650 0    50   ~ 0
+HDMI_TMDS2
+Text Label 1500 2750 0    50   ~ 0
+HDMI_TMDS3
+Text Label 1500 2850 0    50   ~ 0
+HDMI_TMDS4
+Text Label 1500 2950 0    50   ~ 0
+HDMI_TMDS5
+Text Label 1500 3050 0    50   ~ 0
+HDMI_TMDS6
+Text Label 1500 3150 0    50   ~ 0
+HDMI_TMDS7
+Text Label 2000 2550 0    50   ~ 0
+HDMI_D2_N
+Text Label 2000 2450 0    50   ~ 0
+HDMI_D2_P
 Wire Bus Line
 	1400 2200 1400 3050
 $EndSCHEMATC
