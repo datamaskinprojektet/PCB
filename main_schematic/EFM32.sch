@@ -758,6 +758,12 @@ Entry Wire Line
 	1850 6000 1750 6100
 Text HLabel 1850 5650 2    50   Input ~ 0
 CTRL_SPI[0..2]
+Text Label 1750 6100 2    50   ~ 0
+CTRL_SPI0
+Text Label 1750 6000 2    50   ~ 0
+CTRL_SPI1
+Text Label 1750 5900 2    50   ~ 0
+CTRL_SPI2
 Wire Bus Line
 	13000 9600 13000 10100
 Wire Bus Line
@@ -770,10 +776,4 @@ Wire Bus Line
 	12400 -350 12400 1450
 Wire Bus Line
 	13100 5250 13100 6100
-Text Label 1750 6100 2    50   ~ 0
-CTRL_SPI0
-Text Label 1750 6000 2    50   ~ 0
-CTRL_SPI1
-Text Label 1750 5900 2    50   ~ 0
-CTRL_SPI2
 $EndSCHEMATC
