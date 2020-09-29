@@ -998,6 +998,25 @@ Text Label 5600 950  0    50   ~ 0
 CTRL_SPI1
 Text Label 5600 1050 0    50   ~ 0
 CTRL_SPI2
+Wire Wire Line
+	8800 5350 9550 5350
+$Comp
+L Device:Buzzer BZ?
+U 1 1 5FBB50A2
+P 9650 5450
+AR Path="/5F7AF3E4/5FBB50A2" Ref="BZ?"  Part="1" 
+AR Path="/5F6A6156/5FBB50A2" Ref="BZ2"  Part="1" 
+F 0 "BZ2" H 9802 5479 50  0000 L CNN
+F 1 "Buzzer" H 9802 5388 50  0000 L CNN
+F 2 "Buzzer_Beeper:Buzzer_12x9.5RM7.6" V 9625 5550 50  0001 C CNN
+F 3 "~" V 9625 5550 50  0001 C CNN
+	1    9650 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 5750 8200 5750
+Wire Wire Line
+	9550 5550 9550 5750
 Wire Bus Line
 	2200 1700 2200 6000
 Wire Bus Line

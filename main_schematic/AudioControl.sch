@@ -14,14 +14,178 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_Microchip_ATmega:ATmega4809-A U12
-U 1 1 5FA2546F
-P 8850 3050
-F 0 "U12" H 8850 1561 50  0000 C CNN
-F 1 "ATmega4809-A" H 8850 1470 50  0000 C CNN
-F 2 "Package_QFP:TQFP-48_7x7mm_P0.5mm" H 8850 3050 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/40002016A.pdf" H 8850 3050 50  0001 C CNN
-	1    8850 3050
+L power:+3.3V #PWR?
+U 1 1 5FB2A9D8
+P 8900 1550
+F 0 "#PWR?" H 8900 1400 50  0001 C CNN
+F 1 "+3.3V" H 8915 1723 50  0000 C CNN
+F 2 "" H 8900 1550 50  0001 C CNN
+F 3 "" H 8900 1550 50  0001 C CNN
+	1    8900 1550
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8900 1550 8900 1600
+Wire Wire Line
+	8900 1650 8850 1650
+Wire Wire Line
+	8950 1650 8900 1650
+Connection ~ 8900 1650
+Wire Wire Line
+	8900 1600 7650 1600
+Wire Wire Line
+	7650 1600 7650 1800
+Connection ~ 8900 1600
+Wire Wire Line
+	8900 1600 8900 1650
+$Comp
+L Device:C_Small C61
+U 1 1 5FB2D9C3
+P 7650 1900
+F 0 "C61" H 7700 2000 50  0000 L CNN
+F 1 "100n" H 7400 2000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7650 1900 50  0001 C CNN
+F 3 "~" H 7650 1900 50  0001 C CNN
+	1    7650 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 2000 7650 2350
+Wire Wire Line
+	7650 2350 7750 2350
+$Comp
+L power:GND #PWR?
+U 1 1 5FB2ED73
+P 7750 2550
+F 0 "#PWR?" H 7750 2300 50  0001 C CNN
+F 1 "GND" H 7755 2377 50  0000 C CNN
+F 2 "" H 7750 2550 50  0001 C CNN
+F 3 "" H 7750 2550 50  0001 C CNN
+	1    7750 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 2350 7750 2550
+Connection ~ 7750 2350
+Wire Wire Line
+	7750 2350 7900 2350
+$Comp
+L Device:C_Small C62
+U 1 1 5FB2DEE9
+P 7900 2250
+F 0 "C62" H 7950 2350 50  0000 L CNN
+F 1 "100n" H 7650 2350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7900 2250 50  0001 C CNN
+F 3 "~" H 7900 2250 50  0001 C CNN
+	1    7900 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 1950 7900 1950
+Wire Wire Line
+	7900 1950 7900 2150
+$Comp
+L power:GND #PWR?
+U 1 1 5FB2EBBB
+P 8850 4650
+F 0 "#PWR?" H 8850 4400 50  0001 C CNN
+F 1 "GND" H 8855 4477 50  0000 C CNN
+F 2 "" H 8850 4650 50  0001 C CNN
+F 3 "" H 8850 4650 50  0001 C CNN
+	1    8850 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCU_Microchip_ATmega:ATmega168-20AU U12
+U 1 1 5FB2B38A
+P 8850 3150
+F 0 "U12" H 8550 1700 50  0000 C CNN
+F 1 "ATmega168-20AU" H 9250 1700 50  0000 C CNN
+F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 8850 3150 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2545-8-bit-AVR-Microcontroller-ATmega48-88-168_Datasheet.pdf" H 8850 3150 50  0001 C CNN
+	1    8850 3150
+	1    0    0    -1  
+$EndComp
+Text Label 10750 2350 2    50   ~ 0
+SD_SPI_AUDIO_MISO
+Text Label 10750 2250 2    50   ~ 0
+SD_SPI_AUDIO_MOSI
+Text Label 10750 2450 2    50   ~ 0
+SD_SPI_AUDIO_CLK
+Text Label 10750 2150 2    50   ~ 0
+SD_SPI_AUDIO_CS
+Text Label 9800 650  0    50   ~ 0
+SD_SPI_AUDIO3
+Text Label 9800 750  0    50   ~ 0
+SD_SPI_AUDIO2
+Text Label 9800 850  0    50   ~ 0
+SD_SPI_AUDIO1
+Text Label 9800 950  0    50   ~ 0
+SD_SPI_AUDIO0
+Wire Wire Line
+	9800 650  11150 650 
+Wire Wire Line
+	9800 750  11150 750 
+Wire Wire Line
+	9800 850  11150 850 
+Wire Wire Line
+	9800 950  11150 950 
+Wire Wire Line
+	9450 2150 10750 2150
+Wire Wire Line
+	9450 2450 10750 2450
+Wire Wire Line
+	9450 2250 10750 2250
+Wire Wire Line
+	9450 2350 10750 2350
+Entry Wire Line
+	10750 2450 10850 2550
+Entry Wire Line
+	10750 2350 10850 2450
+Entry Wire Line
+	10750 2250 10850 2350
+Entry Wire Line
+	10750 2150 10850 2250
+Text HLabel 10850 2700 2    50   Input ~ 0
+SD_SPI_AUDIO[0..4]
+Wire Wire Line
+	9450 2050 10750 2050
+Entry Wire Line
+	10750 2050 10850 2150
+Text Label 10750 2050 2    50   ~ 0
+SD_SPI_AUDIO_CA
+Text Label 11150 550  2    50   ~ 0
+SD_SPI_AUDIO_CA
+Text Label 11150 650  2    50   ~ 0
+SD_SPI_AUDIO_CS
+Text Label 11150 750  2    50   ~ 0
+SD_SPI_AUDIO_MOSI
+Text Label 11150 850  2    50   ~ 0
+SD_SPI_AUDIO_MISO
+Text Label 11150 950  2    50   ~ 0
+SD_SPI_AUDIO_CLK
+Wire Wire Line
+	11150 550  9800 550 
+Text Label 9800 550  0    50   ~ 0
+SD_SPI_AUDIO4
+Wire Wire Line
+	9450 4250 10200 4250
+$Comp
+L Device:Buzzer BZ1
+U 1 1 5FBB283C
+P 10300 4350
+F 0 "BZ1" H 10452 4379 50  0000 L CNN
+F 1 "Buzzer" H 10452 4288 50  0000 L CNN
+F 2 "Buzzer_Beeper:Buzzer_12x9.5RM7.6" V 10275 4450 50  0001 C CNN
+F 3 "~" V 10275 4450 50  0001 C CNN
+	1    10300 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 4650 8850 4650
+Wire Wire Line
+	10200 4450 10200 4650
+Wire Bus Line
+	10850 2150 10850 2700
+Connection ~ 8850 4650
 $EndSCHEMATC

@@ -110,11 +110,11 @@ HEADERS
 Text Notes 7600 3650 0    50   ~ 0
 DEBUG LEDS
 Wire Wire Line
-	6050 1650 6600 1650
+	6050 1650 6200 1650
 Wire Wire Line
 	6050 4150 6600 4150
 Wire Wire Line
-	6050 4250 6600 4250
+	6050 3750 6600 3750
 Wire Wire Line
 	1500 2850 2050 2850
 Wire Wire Line
@@ -124,17 +124,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 4250 2050 4250
 Wire Wire Line
-	1500 4150 2050 4150
-Wire Wire Line
-	1500 2350 2050 2350
-Wire Wire Line
-	1500 2450 2050 2450
-Wire Wire Line
-	1500 2550 2050 2550
-Wire Wire Line
 	1500 2650 2050 2650
-Wire Wire Line
-	1500 1650 2050 1650
 Text HLabel 7200 3500 1    50   Input ~ 0
 FPGA_SPI[0..3]
 Entry Wire Line
@@ -214,7 +204,7 @@ EBI_AD[0..15]
 Entry Wire Line
 	7200 3750 7100 3850
 Entry Wire Line
-	7200 3650 7100 3750
+	7200 4150 7100 4250
 Entry Wire Line
 	7200 3850 7100 3950
 Text HLabel 6900 750  0    50   Input ~ 0
@@ -301,7 +291,7 @@ Text HLabel 1500 3750 0    50   Input ~ 0
 CE#
 Text HLabel 1500 3850 0    50   Input ~ 0
 CE2
-Text HLabel 1500 4150 0    50   Input ~ 0
+Text HLabel 1500 2650 0    50   Input ~ 0
 LB#
 Text HLabel 1500 4250 0    50   Input ~ 0
 UB#
@@ -390,7 +380,7 @@ Wire Wire Line
 Entry Wire Line
 	1500 5650 1400 5550
 Text HLabel 1400 6850 3    50   Input ~ 0
-DQ[0..21]
+DQ[0..15]
 Wire Wire Line
 	1500 6450 2050 6450
 Text Label 1800 6450 2    50   ~ 0
@@ -428,7 +418,7 @@ EBI_CS2
 Entry Wire Line
 	7200 3950 7100 4050
 Wire Wire Line
-	6050 3750 7100 3750
+	6050 4250 7100 4250
 Wire Wire Line
 	6050 3850 7100 3850
 Wire Wire Line
@@ -467,24 +457,14 @@ Text Label 5050 7600 2    50   ~ 0
 FPGA_SPI3
 Text Label 5050 7300 2    50   ~ 0
 FPGA_SPI0
-Text Label 7100 4050 2    50   ~ 0
+Text Label 7100 3950 2    50   ~ 0
 FPGA_SPI_CLK
-Text Label 7100 3750 2    50   ~ 0
+Text Label 7100 4250 2    50   ~ 0
 FPGA_SPI_MOSI
 Text Label 7100 3850 2    50   ~ 0
 FPGA_SPI_MISO
-Text Label 7100 3950 2    50   ~ 0
+Text Label 7100 4050 2    50   ~ 0
 FPGA_SPI_CS
-Wire Bus Line
-	7200 3500 7200 3950
-Wire Bus Line
-	6900 750  6900 1950
-Wire Bus Line
-	1400 5550 1400 6850
-Wire Bus Line
-	850  2350 850  6900
-Wire Bus Line
-	7050 1900 7050 3550
 Text Label 6400 2750 2    50   ~ 0
 EBI_AD15
 Text Label 6400 2850 2    50   ~ 0
@@ -503,7 +483,7 @@ Text Label 6400 3650 2    50   ~ 0
 EBI_AD8
 Text Label 6400 2450 2    50   ~ 0
 EBI_CS1
-Text Label 6400 3250 2    50   ~ 0
+Text Label 6400 3050 2    50   ~ 0
 EBI_CS3
 Text Label 6400 2950 2    50   ~ 0
 EBI_AD0
@@ -515,10 +495,82 @@ Text Label 6400 2550 2    50   ~ 0
 EBI_AD1
 Text Label 6400 2650 2    50   ~ 0
 EBI_AD2
-Text Label 6400 3450 2    50   ~ 0
-EBI_AD3
 Text Label 6400 3350 2    50   ~ 0
+EBI_AD3
+Text Label 6400 3450 2    50   ~ 0
 EBI_AD4
-Text Label 6400 3050 2    50   ~ 0
+Text Label 6400 3250 2    50   ~ 0
 EBI_AD5
+Text HLabel 6600 4150 2    50   Input ~ 0
+EBI_WE
+Text HLabel 6600 3750 2    50   Input ~ 0
+EBI_RE
+Text HLabel 6600 4350 2    50   Input ~ 0
+EBI_ALE
+Text HLabel 6600 1650 1    50   Input ~ 0
+FPGA_RESET
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 5F87BC82
+P 6200 1150
+AR Path="/5F6A6156/5F87BC82" Ref="SW?"  Part="1" 
+AR Path="/5F611A0B/5FA57B7F/5F87BC82" Ref="SW5"  Part="1" 
+F 0 "SW5" H 6200 1385 50  0000 C CNN
+F 1 "RESET_SW_FPGA" H 6200 1294 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_B3S-1000" H 6200 1150 50  0001 C CNN
+F 3 "~" H 6200 1150 50  0001 C CNN
+	1    6200 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5650 850  6200 850 
+Wire Wire Line
+	6200 850  6200 950 
+Wire Wire Line
+	6200 1350 6200 1650
+Connection ~ 6200 1650
+Wire Wire Line
+	6200 1650 6600 1650
+Wire Wire Line
+	250  2550 2050 2550
+Wire Wire Line
+	250  2450 2050 2450
+Entry Wire Line
+	150  2450 250  2350
+Entry Wire Line
+	150  2550 250  2450
+Entry Wire Line
+	150  2650 250  2550
+Entry Wire Line
+	150  4250 250  4150
+Text HLabel 150  4500 0    50   Input ~ 0
+SD_SPI_AUDIO[0..4]
+Wire Wire Line
+	250  1650 2050 1650
+Entry Wire Line
+	150  1750 250  1650
+Wire Wire Line
+	250  4150 2050 4150
+Wire Wire Line
+	250  2350 2050 2350
+Wire Bus Line
+	150  1750 150  4500
+Wire Bus Line
+	7200 3500 7200 4150
+Wire Bus Line
+	6900 750  6900 1950
+Wire Bus Line
+	1400 5550 1400 6850
+Wire Bus Line
+	850  2350 850  6900
+Wire Bus Line
+	7050 1900 7050 3550
+Text Label 1150 1650 0    50   ~ 0
+SDI_SPI_AUDIO_CA
+Text Label 1150 2550 0    50   ~ 0
+SDI_SPI_AUDIO_CS
+Text Label 1150 2450 0    50   ~ 0
+SD_SPI_AUDIO_MOSI
+Text Label 1150 2350 0    50   ~ 0
+SD_SPI_AUDIO_MISO
 $EndSCHEMATC

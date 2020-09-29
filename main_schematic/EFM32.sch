@@ -117,18 +117,6 @@ Text HLabel 13200 6450 0    50   Input ~ 0
 EBI_RE
 Text HLabel 13200 6750 0    50   Input ~ 0
 EBI_WE
-Text HLabel 13200 6350 0    50   Input ~ 0
-EBI_ARDY
-Wire Wire Line
-	13200 6350 13500 6350
-Wire Wire Line
-	13500 6550 13200 6550
-Wire Wire Line
-	13500 6650 13200 6650
-Text HLabel 13200 6550 0    50   Input ~ 0
-EBI_BL1
-Text HLabel 13200 6650 0    50   Input ~ 0
-EBI_BL0
 $Comp
 L Device:C C55
 U 1 1 5F6A0E34
@@ -443,28 +431,6 @@ F 3 "http://www.energymicro.com/downloads/datasheets" H 13500 950 50  0001 C CNN
 $EndComp
 $Comp
 L main_schematic-rescue:EFM32GG980F1024-energymicro-efm32 U6
-U 2 1 5FDB68B0
-P 13500 7550
-F 0 "U6" H 20768 6353 60  0000 L CNN
-F 1 "EFM32GG980F1024" H 20768 6247 60  0000 L CNN
-F 2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" H 13500 7550 50  0001 C CNN
-F 3 "http://www.energymicro.com/downloads/datasheets" H 13500 7550 50  0001 C CNN
-	2    13500 7550
-	1    0    0    -1  
-$EndComp
-$Comp
-L main_schematic-rescue:EFM32GG980F1024-energymicro-efm32 U6
-U 3 1 5FDBC66B
-P 13500 4450
-F 0 "U6" H 18718 3153 60  0000 L CNN
-F 1 "EFM32GG980F1024" H 18718 3047 60  0000 L CNN
-F 2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" H 13500 4450 50  0001 C CNN
-F 3 "http://www.energymicro.com/downloads/datasheets" H 13500 4450 50  0001 C CNN
-	3    13500 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L main_schematic-rescue:EFM32GG980F1024-energymicro-efm32 U6
 U 4 1 5FDC209C
 P 7350 1450
 F 0 "U6" H 8150 1787 60  0000 C CNN
@@ -598,26 +564,20 @@ Text Label 12500 1050 0    50   ~ 0
 EBI_AD10
 Text Label 12500 950  0    50   ~ 0
 EBI_AD9
-Wire Bus Line
-	12400 2350 12400 2250
-Text Label 11900 2250 0    50   ~ 0
+Text Label 11900 2350 0    50   ~ 0
 EBI_AD[0..15]
 Wire Bus Line
-	11900 2250 12400 2250
+	11900 2350 12400 2350
 Text Label 12500 1550 0    50   ~ 0
 EBI_AD15
 Entry Wire Line
 	12400 1450 12500 1550
 Wire Wire Line
 	12500 1550 13500 1550
-Text HLabel 13250 1750 0    50   Input ~ 0
-EBI_CLK
-Wire Wire Line
-	13250 1750 13500 1750
 Wire Wire Line
 	13500 7150 13200 7150
 Text HLabel 13200 7150 0    50   Input ~ 0
-EBI_USB_ID
+EFM_USB_ID
 Wire Wire Line
 	13500 6950 13200 6950
 Wire Wire Line
@@ -627,23 +587,21 @@ EFM_USB_DN
 Text HLabel 13200 7050 0    50   Input ~ 0
 EFM_USB_DP
 Wire Wire Line
-	13500 8850 12350 8850
-Text Label 12350 8850 0    50   ~ 0
+	13500 7550 12350 7550
+Text Label 12350 7550 0    50   ~ 0
 SD_SPI_MOSI
 Wire Wire Line
-	13500 8950 12350 8950
-Text Label 12350 8950 0    50   ~ 0
+	13500 7650 12350 7650
+Text Label 12350 7650 0    50   ~ 0
 SD_SPI_MISO
 Wire Wire Line
-	13500 9150 12350 9150
-Text Label 12350 9150 0    50   ~ 0
+	13500 3450 12350 3450
+Text Label 12350 3450 0    50   ~ 0
 SD_SPI_CS
 Wire Wire Line
-	13500 9050 12350 9050
-Text Label 12350 9050 0    50   ~ 0
+	13500 3350 12350 3350
+Text Label 12350 3350 0    50   ~ 0
 SD_SPI_CLK
-Wire Wire Line
-	13500 2950 12350 2950
 Text Label 12350 2950 0    50   ~ 0
 FPGA_SPI_MOSI
 Wire Wire Line
@@ -764,16 +722,322 @@ Text Label 1750 6000 2    50   ~ 0
 CTRL_SPI1
 Text Label 1750 5900 2    50   ~ 0
 CTRL_SPI2
+$Comp
+L main_schematic-rescue:EFM32GG980F1024-energymicro-efm32 U6
+U 3 1 5FDBC66B
+P 13500 4450
+F 0 "U6" H 18718 3153 60  0000 L CNN
+F 1 "EFM32GG980F1024" H 18718 3047 60  0000 L CNN
+F 2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" H 13500 4450 50  0001 C CNN
+F 3 "http://www.energymicro.com/downloads/datasheets" H 13500 4450 50  0001 C CNN
+	3    13500 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13500 1650 12900 1650
+Text HLabel 12900 1650 0    50   Input ~ 0
+FPGA_RESET
+Wire Wire Line
+	13500 8850 13000 8850
+Wire Wire Line
+	13500 8950 13000 8950
+Text HLabel 13000 8850 0    50   Input ~ 0
+program_b
+Text HLabel 13000 8950 0    50   Input ~ 0
+done
+$Comp
+L Connector_Generic:Conn_02x10_Odd_Even J18
+U 1 1 5F88E65C
+P 10300 5800
+F 0 "J18" H 10350 6417 50  0000 C CNN
+F 1 "Conn_02x10_Odd_Even" H 10350 6326 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 10300 5800 50  0001 C CNN
+F 3 "~" H 10300 5800 50  0001 C CNN
+	1    10300 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 5400 9900 5400
+Wire Wire Line
+	9900 5400 9900 5200
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F894EFE
+P 9900 5200
+F 0 "#PWR?" H 9900 5050 50  0001 C CNN
+F 1 "+3V3" H 9915 5373 50  0000 C CNN
+F 2 "" H 9900 5200 50  0001 C CNN
+F 3 "" H 9900 5200 50  0001 C CNN
+	1    9900 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 5500 10100 5600
+Wire Wire Line
+	10100 5600 10000 5600
+Wire Wire Line
+	10000 5600 10000 6100
+Wire Wire Line
+	10000 6100 10100 6100
+Connection ~ 10100 5600
+Wire Wire Line
+	10100 6300 10100 6200
+Connection ~ 10100 6100
+Connection ~ 10100 6200
+Wire Wire Line
+	10100 6200 10100 6100
+NoConn ~ 10100 5700
+NoConn ~ 10100 5900
+NoConn ~ 10100 6000
+Wire Wire Line
+	13500 9450 13100 9450
+Text Label 13100 9450 0    50   ~ 0
+TD0
+Wire Wire Line
+	13500 9550 13100 9550
+Text Label 13100 9550 0    50   ~ 0
+TRACE_CLK
+Wire Wire Line
+	13500 9350 13100 9350
+Wire Wire Line
+	13500 9250 13100 9250
+Text Label 13100 9350 0    50   ~ 0
+TD3
+Text Label 13100 9250 0    50   ~ 0
+TD2
+$Comp
+L main_schematic-rescue:EFM32GG980F1024-energymicro-efm32 U6
+U 2 1 5FDB68B0
+P 13500 7550
+F 0 "U6" H 20768 6353 60  0000 L CNN
+F 1 "EFM32GG980F1024" H 20768 6247 60  0000 L CNN
+F 2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" H 13500 7550 50  0001 C CNN
+F 3 "http://www.energymicro.com/downloads/datasheets" H 13500 7550 50  0001 C CNN
+	2    13500 7550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13500 9150 13100 9150
+Text Label 13100 9150 0    50   ~ 0
+TD1
+Wire Wire Line
+	13500 6150 13200 6150
+Wire Wire Line
+	13500 6250 13200 6250
+Wire Wire Line
+	13500 6350 13200 6350
+Text Label 13200 6150 0    50   ~ 0
+SWCLK
+Text Label 13200 6250 0    50   ~ 0
+SWDIO
+Text Label 13200 6350 0    50   ~ 0
+SWO
+Wire Wire Line
+	10600 5500 10900 5500
+Wire Wire Line
+	10600 5400 10900 5400
+Wire Wire Line
+	10600 5600 10900 5600
+Text Label 10900 5500 2    50   ~ 0
+SWCLK
+Text Label 10900 5400 2    50   ~ 0
+SWDIO
+Text Label 10900 5600 2    50   ~ 0
+SWO
+Wire Wire Line
+	10600 6000 11000 6000
+Text Label 11000 6000 2    50   ~ 0
+TD0
+Wire Wire Line
+	10600 5900 11000 5900
+Text Label 11000 5900 2    50   ~ 0
+TRACE_CLK
+Wire Wire Line
+	10600 6300 11000 6300
+Wire Wire Line
+	10600 6200 11000 6200
+Text Label 11000 6300 2    50   ~ 0
+TD3
+Text Label 11000 6200 2    50   ~ 0
+TD2
+Wire Wire Line
+	10600 6100 11000 6100
+Text Label 11000 6100 2    50   ~ 0
+TD1
+Wire Wire Line
+	10600 5800 11000 5800
+Text Label 11000 5800 2    50   ~ 0
+RESET
+Text Label 7250 1450 2    50   ~ 0
+RESET
+NoConn ~ 10600 5700
+Text Label 9500 5800 0    50   ~ 0
+CableDetect
+Wire Wire Line
+	9500 5800 10100 5800
+Wire Wire Line
+	9500 5800 9500 6100
+Wire Wire Line
+	9500 6100 10000 6100
+Connection ~ 10000 6100
+Wire Wire Line
+	10100 6300 10100 6450
+Connection ~ 10100 6300
+$Comp
+L power:GND #PWR?
+U 1 1 5FB28B6B
+P 10100 6450
+F 0 "#PWR?" H 10100 6200 50  0001 C CNN
+F 1 "GND" H 10105 6277 50  0000 C CNN
+F 2 "" H 10100 6450 50  0001 C CNN
+F 3 "" H 10100 6450 50  0001 C CNN
+	1    10100 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13500 7750 12350 7750
+Text Label 12350 7750 0    50   ~ 0
+SD_SPI_CA
+Text HLabel 12350 7750 0    50   Input ~ 0
+SD_SPI_CA
+Wire Wire Line
+	13500 4850 12200 4850
+Wire Wire Line
+	13500 4750 12200 4750
+Wire Wire Line
+	13500 4650 12200 4650
+Wire Wire Line
+	13500 4550 12200 4550
+Wire Wire Line
+	13500 4450 12200 4450
+Wire Wire Line
+	13500 4050 12200 4050
+Wire Wire Line
+	13500 3950 12200 3950
+Wire Wire Line
+	13500 3850 12200 3850
+Wire Wire Line
+	13500 3750 12200 3750
+Text Label 12200 4850 0    50   ~ 0
+CTRL_CA1
+Text Label 12200 4750 0    50   ~ 0
+CTRL_CA2
+Text Label 12200 4650 0    50   ~ 0
+CTRL_CA3
+Text Label 12200 4550 0    50   ~ 0
+CTRL_CA4
+Text Label 12200 4450 0    50   ~ 0
+CTRL_CA5
+Text Label 12200 4050 0    50   ~ 0
+CTRL_CA6
+Text Label 12200 3950 0    50   ~ 0
+CTRL_CA7
+Text Label 12200 3850 0    50   ~ 0
+CTRL_CA8
+Text Label 12200 3750 0    50   ~ 0
+CTRL_CA9
+Wire Wire Line
+	13500 2950 12350 2950
+Wire Wire Line
+	13500 2850 12200 2850
+Wire Wire Line
+	13500 2750 12200 2750
+Wire Wire Line
+	13500 2650 12200 2650
+Wire Wire Line
+	13500 2250 12200 2250
+Wire Wire Line
+	13500 2150 12200 2150
+Wire Wire Line
+	13500 2050 12200 2050
+Wire Wire Line
+	13500 1950 12200 1950
+Wire Wire Line
+	13500 1850 12200 1850
+Wire Wire Line
+	13500 1750 12200 1750
+Text Label 12200 2850 0    50   ~ 0
+CTRL_CS1
+Text Label 12200 2750 0    50   ~ 0
+CTRL_CS2
+Text Label 12200 2250 0    50   ~ 0
+CTRL_CS4
+Text Label 12200 2150 0    50   ~ 0
+CTRL_CS5
+Text Label 12200 2050 0    50   ~ 0
+CTRL_CS6
+Text Label 12200 1850 0    50   ~ 0
+CTRL_CS8
+Text Label 12200 1750 0    50   ~ 0
+CTRL_CS9
+Text Label 12200 2650 0    50   ~ 0
+CTRL_CS3
+Text Label 12200 1950 0    50   ~ 0
+CTRL_CS7
+Entry Wire Line
+	12100 4750 12200 4650
+Entry Wire Line
+	12100 4950 12200 4850
+Entry Wire Line
+	12100 4850 12200 4750
+Entry Wire Line
+	12100 4550 12200 4450
+Entry Wire Line
+	12100 4750 12200 4650
+Entry Wire Line
+	12100 4650 12200 4550
+Entry Wire Line
+	12100 3950 12200 3850
+Entry Wire Line
+	12100 4150 12200 4050
+Entry Wire Line
+	12100 4050 12200 3950
+Entry Wire Line
+	12100 2750 12200 2650
+Entry Wire Line
+	12100 2950 12200 2850
+Entry Wire Line
+	12100 2850 12200 2750
+Entry Wire Line
+	12200 2050 12100 1950
+Entry Wire Line
+	12200 2250 12100 2150
+Entry Wire Line
+	12200 2150 12100 2050
+Entry Wire Line
+	12200 1750 12100 1650
+Entry Wire Line
+	12200 1950 12100 1850
+Entry Wire Line
+	12200 1850 12100 1750
+Entry Wire Line
+	12100 3850 12200 3750
+Text HLabel 12100 5250 0    50   Input ~ 0
+CTRL_CA[1..9]
 Wire Bus Line
-	13000 9600 13000 10100
+	12100 2650 11750 2650
 Wire Bus Line
-	1850 7200 1850 7700
+	11750 2650 11750 2150
 Wire Bus Line
-	1850 6450 1850 6950
+	11750 2150 12100 2150
+Wire Bus Line
+	12100 2650 12100 3150
 Wire Bus Line
 	1850 5650 1850 6150
 Wire Bus Line
+	1850 6450 1850 6950
+Wire Bus Line
+	1850 7200 1850 7700
+Wire Bus Line
+	13000 9600 13000 10100
+Wire Bus Line
 	12400 -350 12400 1450
 Wire Bus Line
+	12100 1650 12100 2150
+Wire Bus Line
 	13100 5250 13100 6100
+Wire Bus Line
+	12100 3850 12100 5250
+Text HLabel 12100 3150 0    50   Input ~ 0
+CTRL_CS[1..9]
 $EndSCHEMATC

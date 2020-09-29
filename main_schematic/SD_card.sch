@@ -129,14 +129,6 @@ Wire Wire Line
 	6750 3550 7500 3550
 Wire Wire Line
 	6750 3450 7500 3450
-Text Label 7500 3750 2    50   ~ 0
-SD_SPI_MISO_AVR
-Text Label 7500 3650 2    50   ~ 0
-SD_SPI_MOSI_AVR
-Text Label 7500 3550 2    50   ~ 0
-SD_SPI_CLK_AVR
-Text Label 7500 3450 2    50   ~ 0
-SD_SPI_CS_AVR
 Wire Wire Line
 	6750 4250 7500 4250
 Wire Wire Line
@@ -260,7 +252,7 @@ Entry Wire Line
 Entry Wire Line
 	7500 3750 7600 3650
 Text HLabel 7600 2950 2    50   Input ~ 0
-SD_SPI_BUS_AVR
+SD_SPI_AUDIO[0..4]
 Wire Wire Line
 	5200 4000 5200 4700
 Wire Wire Line
@@ -297,8 +289,48 @@ Text Label 8000 1350 2    50   ~ 0
 SD_SPI_EFM2
 Text Label 8000 1450 2    50   ~ 0
 SD_SPI_EFM3
+Text Label 4600 5900 0    50   ~ 0
+SD_SPI_AUDIO3
+Text Label 4600 6000 0    50   ~ 0
+SD_SPI_AUDIO2
+Text Label 4600 6100 0    50   ~ 0
+SD_SPI_AUDIO1
+Text Label 4600 6200 0    50   ~ 0
+SD_SPI_AUDIO0
+Wire Wire Line
+	4600 5900 5950 5900
+Wire Wire Line
+	4600 6000 5950 6000
+Wire Wire Line
+	4600 6100 5950 6100
+Wire Wire Line
+	4600 6200 5950 6200
+Text Label 5950 5800 2    50   ~ 0
+SD_SPI_AUDIO_CA
+Text Label 5950 5900 2    50   ~ 0
+SD_SPI_AUDIO_CS
+Text Label 5950 6000 2    50   ~ 0
+SD_SPI_AUDIO_MOSI
+Text Label 5950 6100 2    50   ~ 0
+SD_SPI_AUDIO_MISO
+Wire Wire Line
+	5950 5800 4600 5800
+Text Label 4600 5800 0    50   ~ 0
+SD_SPI_AUDIO4
 Wire Bus Line
 	7600 2950 7600 3650
 Wire Bus Line
 	7600 4050 7600 4950
+Text Label 5950 6200 2    50   ~ 0
+SD_SPI_AUDIO_CLK
+Text Label 7500 3450 2    50   ~ 0
+SD_SPI_AUDIO_CS
+Text Label 7500 3550 2    50   ~ 0
+SD_SPI_AUDIO_CLK
+Text Label 7500 3750 2    50   ~ 0
+SD_SPI_AUDIO_MISO
+Text Label 7500 3650 2    50   ~ 0
+SD_SPI_AUDIO_MOSI
+Text HLabel 5950 5800 2    50   Input ~ 0
+SD_SPI_CA
 $EndSCHEMATC
