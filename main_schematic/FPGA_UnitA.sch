@@ -421,48 +421,12 @@ Wire Wire Line
 	2050 5450 1950 5450
 Wire Wire Line
 	1950 5550 2050 5550
-Text Label 6950 2150 2    50   ~ 0
-EBI_AD0
-Text Label 6950 2250 2    50   ~ 0
-EBI_AD1
-Text Label 6950 2350 2    50   ~ 0
-EBI_AD2
-Text Label 6950 2450 2    50   ~ 0
-EBI_AD3
-Text Label 6950 2550 2    50   ~ 0
-EBI_AD4
-Text Label 6950 2650 2    50   ~ 0
-EBI_AD5
-Text Label 6950 2750 2    50   ~ 0
-EBI_AD6
-Text Label 6950 2850 2    50   ~ 0
-EBI_AD7
-Text Label 6950 3350 2    50   ~ 0
-EBI_AD12
-Text Label 6950 3450 2    50   ~ 0
-EBI_AD13
-Text Label 6950 3550 2    50   ~ 0
-EBI_AD14
-Text Label 6950 3250 2    50   ~ 0
-EBI_AD11
-Text Label 6950 3150 2    50   ~ 0
-EBI_AD10
-Text Label 6950 3050 2    50   ~ 0
-EBI_AD9
-Text Label 6950 3650 2    50   ~ 0
-EBI_AD15
-Text Label 6950 2950 2    50   ~ 0
-EBI_AD8
-Text Label 6800 1750 2    50   ~ 0
+Text Label 6400 1750 2    50   ~ 0
 EBI_CS0
-Text Label 6800 1850 2    50   ~ 0
-EBI_CS1
-Text Label 6800 1950 2    50   ~ 0
+Text Label 6400 1950 2    50   ~ 0
 EBI_CS2
 Entry Wire Line
 	7200 3950 7100 4050
-Text Label 6800 2050 2    50   ~ 0
-EBI_CS3
 Wire Wire Line
 	6050 3750 7100 3750
 Wire Wire Line
@@ -503,6 +467,14 @@ Text Label 5050 7600 2    50   ~ 0
 FPGA_SPI3
 Text Label 5050 7300 2    50   ~ 0
 FPGA_SPI0
+Text Label 7100 4050 2    50   ~ 0
+FPGA_SPI_CLK
+Text Label 7100 3750 2    50   ~ 0
+FPGA_SPI_MOSI
+Text Label 7100 3850 2    50   ~ 0
+FPGA_SPI_MISO
+Text Label 7100 3950 2    50   ~ 0
+FPGA_SPI_CS
 Wire Bus Line
 	7200 3500 7200 3950
 Wire Bus Line
@@ -513,12 +485,40 @@ Wire Bus Line
 	850  2350 850  6900
 Wire Bus Line
 	7050 1900 7050 3550
-Text Label 7100 4050 2    50   ~ 0
-FPGA_SPI_CLK
-Text Label 7100 3750 2    50   ~ 0
-FPGA_SPI_MOSI
-Text Label 7100 3850 2    50   ~ 0
-FPGA_SPI_MISO
-Text Label 7100 3950 2    50   ~ 0
-FPGA_SPI_CS
+Text Label 6400 2750 2    50   ~ 0
+EBI_AD15
+Text Label 6400 2850 2    50   ~ 0
+EBI_AD14
+Text Label 6400 1850 2    50   ~ 0
+EBI_AD13
+Text Label 6400 2150 2    50   ~ 0
+EBI_AD12
+Text Label 6400 2250 2    50   ~ 0
+EBI_AD11
+Text Label 6400 2050 2    50   ~ 0
+EBI_AD10
+Text Label 6400 2350 2    50   ~ 0
+EBI_AD9
+Text Label 6400 3650 2    50   ~ 0
+EBI_AD8
+Text Label 6400 2450 2    50   ~ 0
+EBI_CS1
+Text Label 6400 3250 2    50   ~ 0
+EBI_CS3
+Text Label 6400 2950 2    50   ~ 0
+EBI_AD0
+Text Label 6400 3550 2    50   ~ 0
+EBI_AD6
+Text Label 6400 3150 2    50   ~ 0
+EBI_AD7
+Text Label 6400 2550 2    50   ~ 0
+EBI_AD1
+Text Label 6400 2650 2    50   ~ 0
+EBI_AD2
+Text Label 6400 3450 2    50   ~ 0
+EBI_AD3
+Text Label 6400 3350 2    50   ~ 0
+EBI_AD4
+Text Label 6400 3050 2    50   ~ 0
+EBI_AD5
 $EndSCHEMATC

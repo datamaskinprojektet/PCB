@@ -21,7 +21,7 @@ AR Path="/5F75745F" Ref="J?"  Part="1"
 AR Path="/5F7565BE/5F75745F" Ref="J16"  Part="1" 
 F 0 "J16" H 2550 3417 50  0000 C CNN
 F 1 "Micro_SD_Card" H 2550 3326 50  0000 C CNN
-F 2 "Connector_Card:microSD_HC_Wuerth_693072010801" H 3750 3000 50  0001 C CNN
+F 2 "SD_kort:mem2051" H 3750 3000 50  0001 C CNN
 F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 2600 2700 50  0001 C CNN
 	1    2600 2700
 	-1   0    0    -1  
@@ -268,9 +268,11 @@ Wire Wire Line
 Entry Wire Line
 	7500 4700 7600 4800
 $Comp
-L SPI_multiplexer:ADG794 U9
+L main_schematic-rescue:ADG794-SPI_multiplexer U9
 U 1 1 5FFA7D9E
 P 6350 3850
+AR Path="/5FFA7D9E" Ref="U9"  Part="1" 
+AR Path="/5F7565BE/5FFA7D9E" Ref="U9"  Part="1" 
 F 0 "U9" H 6350 4631 50  0000 C CNN
 F 1 "ADG794" H 6350 4540 50  0000 C CNN
 F 2 "Package_SO:QSOP-16_3.9x4.9mm_P0.635mm" H 6400 4050 50  0001 C CNN
