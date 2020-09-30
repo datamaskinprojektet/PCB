@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LDO_custom:MAX8869 U15
+L LDO_custom:MAX8869 U14
 U 1 1 5F781BF6
 P 3000 3250
-F 0 "U15" H 3000 3915 50  0000 C CNN
+F 0 "U14" H 3000 3915 50  0000 C CNN
 F 1 "MAX8869" H 3000 3824 50  0000 C CNN
 F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 3000 3900 50  0001 C CNN
 F 3 "" H 3000 3900 50  0001 C CNN
@@ -125,10 +125,10 @@ Connection ~ 3400 3100
 Wire Wire Line
 	3400 3100 3400 3000
 $Comp
-L LDO_custom:MAX8869 U14
+L LDO_custom:MAX8869 U15
 U 1 1 5F7AC555
 P 3000 4700
-F 0 "U14" H 3000 5365 50  0000 C CNN
+F 0 "U15" H 3000 5365 50  0000 C CNN
 F 1 "MAX8869" H 3000 5274 50  0000 C CNN
 F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 3000 5350 50  0001 C CNN
 F 3 "" H 3000 5350 50  0001 C CNN
@@ -170,8 +170,6 @@ Wire Wire Line
 	3000 6750 3400 6750
 Wire Wire Line
 	3400 6750 3400 6450
-Wire Wire Line
-	2600 5800 2600 5900
 Connection ~ 2600 5900
 Wire Wire Line
 	2600 5900 2600 6000
@@ -186,4 +184,111 @@ Wire Wire Line
 Connection ~ 3400 6000
 Wire Wire Line
 	3400 6000 3400 5900
+Wire Wire Line
+	3550 5400 2500 5400
+Wire Wire Line
+	2500 5400 2500 4900
+Wire Wire Line
+	2500 4900 2600 4900
+Wire Wire Line
+	3400 4900 3550 4900
+Wire Wire Line
+	3550 4900 3550 3950
+Wire Wire Line
+	3550 3950 2500 3950
+Wire Wire Line
+	2500 3950 2500 3450
+Wire Wire Line
+	2500 3450 2600 3450
+Wire Wire Line
+	2600 5800 2600 5900
+Wire Wire Line
+	2400 5800 2400 4350
+Wire Wire Line
+	2400 2900 2600 2900
+Connection ~ 2600 2900
+Wire Wire Line
+	2600 5800 2400 5800
+Connection ~ 2600 5800
+Wire Wire Line
+	2600 4350 2400 4350
+Connection ~ 2600 4350
+Connection ~ 2400 4350
+Wire Wire Line
+	2400 4350 2400 2900
+Wire Wire Line
+	2400 2900 2150 2900
+Connection ~ 2400 2900
+Text Label 2150 2900 0    50   ~ 0
+5V_LDO
+Text Label 3500 1750 0    50   ~ 0
+5V_LDO
+Wire Wire Line
+	3400 5800 3750 5800
+Connection ~ 3400 5800
+Wire Wire Line
+	3400 4350 3750 4350
+Connection ~ 3400 4350
+Wire Wire Line
+	3400 2900 4000 2900
+Connection ~ 3400 2900
+NoConn ~ 2600 3550
+NoConn ~ 2600 5000
+NoConn ~ 2600 6450
+Wire Wire Line
+	2600 6350 2600 6100
+Connection ~ 2600 6100
+Text HLabel 4000 5800 2    50   Input ~ 0
+1.0V
+Text HLabel 4000 4350 2    50   Input ~ 0
+1.8V
+Text HLabel 4000 2900 2    50   Input ~ 0
+3.3V
+$Comp
+L Device:R R79
+U 1 1 5F7C09EF
+P 3750 4650
+F 0 "R79" H 3820 4696 50  0000 L CNN
+F 1 "100k" H 3820 4605 50  0000 L CNN
+F 2 "" V 3680 4650 50  0001 C CNN
+F 3 "~" H 3750 4650 50  0001 C CNN
+	1    3750 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 4500 3750 4350
+Connection ~ 3750 4350
+Wire Wire Line
+	3750 4350 4000 4350
+Wire Wire Line
+	3750 4800 3750 4900
+Wire Wire Line
+	3750 4900 3550 4900
+Connection ~ 3550 4900
+$Comp
+L Device:R R80
+U 1 1 5F7CBAB9
+P 3750 6100
+F 0 "R80" H 3820 6146 50  0000 L CNN
+F 1 "100k" H 3820 6055 50  0000 L CNN
+F 2 "" V 3680 6100 50  0001 C CNN
+F 3 "~" H 3750 6100 50  0001 C CNN
+	1    3750 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 6250 3750 6350
+Connection ~ 3750 5800
+Wire Wire Line
+	3750 5800 4000 5800
+Wire Wire Line
+	3750 5800 3750 5950
+NoConn ~ 3400 3450
+Wire Wire Line
+	3400 6350 3550 6350
+Wire Wire Line
+	3550 6350 3550 5400
+Connection ~ 3550 6350
+Wire Wire Line
+	3550 6350 3750 6350
 $EndSCHEMATC
