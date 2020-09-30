@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 15
+Sheet 11 15
 Title ""
 Date ""
 Rev ""
@@ -13,4 +13,65 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L Regulator_Linear:TPS70251_HTSSOP20 U?
+U 1 1 5F779BE5
+P 4600 3450
+F 0 "U?" H 4600 4092 50  0000 C CNN
+F 1 "TPS70251_HTSSOP20" H 4600 4001 50  0000 C CNN
+F 2 "Package_SO:HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_ThermalVias" H 4575 4075 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/tps702.pdf" H 4600 3150 50  0001 C CNN
+	1    4600 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LDO_custom:MAX8869 U?
+U 1 1 5F781BF6
+P 4600 5250
+F 0 "U?" H 4600 5915 50  0000 C CNN
+F 1 "MAX8869" H 4600 5824 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 4600 5900 50  0001 C CNN
+F 3 "" H 4600 5900 50  0001 C CNN
+	1    4600 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LDO_custom:MIC29150-5.0WT U?
+U 1 1 5F78217B
+P 3000 1850
+F 0 "U?" H 3000 2215 50  0000 C CNN
+F 1 "MIC29150-5.0WT" H 3000 2124 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp" H 3000 1850 50  0001 C CNN
+F 3 "" H 3000 1850 50  0001 C CNN
+	1    3000 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 5F78C0A6
+P 2450 1750
+F 0 "#PWR?" H 2450 1600 50  0001 C CNN
+F 1 "VDD" H 2465 1923 50  0000 C CNN
+F 2 "" H 2450 1750 50  0001 C CNN
+F 3 "" H 2450 1750 50  0001 C CNN
+	1    2450 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 1750 2650 1750
+$Comp
+L power:GND #PWR?
+U 1 1 5F78C7E3
+P 3000 2100
+F 0 "#PWR?" H 3000 1850 50  0001 C CNN
+F 1 "GND" H 3005 1927 50  0000 C CNN
+F 2 "" H 3000 2100 50  0001 C CNN
+F 3 "" H 3000 2100 50  0001 C CNN
+	1    3000 2100
+	1    0    0    -1  
+$EndComp
+Text HLabel 3700 1750 2    50   Input ~ 0
+5V
+Wire Wire Line
+	3700 1750 3350 1750
 $EndSCHEMATC

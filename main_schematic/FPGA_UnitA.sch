@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 15
+Sheet 6 15
 Title ""
 Date ""
 Rev ""
@@ -549,6 +549,14 @@ Wire Wire Line
 	250  1650 2050 1650
 Entry Wire Line
 	150  1750 250  1650
+Text Label 1150 1650 0    50   ~ 0
+SDI_SPI_AUDIO_CA
+Text Label 1150 2550 0    50   ~ 0
+SDI_SPI_AUDIO_CS
+Text Label 1150 2450 0    50   ~ 0
+SD_SPI_AUDIO_MOSI
+Text Label 1150 2350 0    50   ~ 0
+SD_SPI_AUDIO_MISO
 Wire Wire Line
 	250  4150 2050 4150
 Wire Wire Line
@@ -565,12 +573,4 @@ Wire Bus Line
 	850  2350 850  6900
 Wire Bus Line
 	7050 1900 7050 3550
-Text Label 1150 1650 0    50   ~ 0
-SDI_SPI_AUDIO_CA
-Text Label 1150 2550 0    50   ~ 0
-SDI_SPI_AUDIO_CS
-Text Label 1150 2450 0    50   ~ 0
-SD_SPI_AUDIO_MOSI
-Text Label 1150 2350 0    50   ~ 0
-SD_SPI_AUDIO_MISO
 $EndSCHEMATC
