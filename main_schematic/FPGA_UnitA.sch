@@ -130,17 +130,11 @@ Entry Wire Line
 Entry Wire Line
 	6900 1850 6800 1950
 Entry Wire Line
-	6900 1750 6800 1850
-Entry Wire Line
-	6900 1950 6800 2050
-Entry Wire Line
 	7050 2050 6950 2150
 Entry Wire Line
 	7050 2250 6950 2350
 Entry Wire Line
 	7050 2150 6950 2250
-Entry Wire Line
-	7050 2350 6950 2450
 Entry Wire Line
 	7050 2450 6950 2550
 Entry Wire Line
@@ -153,8 +147,6 @@ Entry Wire Line
 	7050 2850 6950 2950
 Entry Wire Line
 	7050 3050 6950 3150
-Entry Wire Line
-	7050 2950 6950 3050
 Entry Wire Line
 	7050 3150 6950 3250
 Entry Wire Line
@@ -170,10 +162,6 @@ Wire Wire Line
 Wire Wire Line
 	6050 2250 6950 2250
 Wire Wire Line
-	6050 2350 6950 2350
-Wire Wire Line
-	6050 2450 6950 2450
-Wire Wire Line
 	6050 2550 6950 2550
 Wire Wire Line
 	6050 2650 6950 2650
@@ -181,10 +169,6 @@ Wire Wire Line
 	6050 2750 6950 2750
 Wire Wire Line
 	6050 2850 6950 2850
-Wire Wire Line
-	6050 2950 6950 2950
-Wire Wire Line
-	6050 3050 6950 3050
 Wire Wire Line
 	6050 3150 6950 3150
 Wire Wire Line
@@ -197,7 +181,7 @@ Wire Wire Line
 	6050 3550 6950 3550
 Wire Wire Line
 	6050 3650 6950 3650
-Text HLabel 7050 1900 1    50   Input ~ 0
+Text HLabel 7050 1250 1    50   Input ~ 0
 EBI_AD[0..15]
 Entry Wire Line
 	7200 3750 7100 3850
@@ -426,11 +410,7 @@ Wire Wire Line
 Wire Wire Line
 	6800 1750 6050 1750
 Wire Wire Line
-	6050 1850 6800 1850
-Wire Wire Line
 	6800 1950 6050 1950
-Wire Wire Line
-	6050 2050 6800 2050
 Wire Wire Line
 	5050 7300 3900 7300
 Text Label 3900 7300 0    50   ~ 0
@@ -1020,20 +1000,40 @@ NoConn ~ 9300 3050
 NoConn ~ 9300 3150
 NoConn ~ 9300 3250
 NoConn ~ 9300 3350
+Entry Wire Line
+	7050 1750 6950 1850
+Entry Wire Line
+	7050 1950 6950 2050
+Wire Wire Line
+	6050 2050 6950 2050
+Entry Wire Line
+	6900 2950 6800 3050
+Wire Wire Line
+	6800 3050 6050 3050
+Entry Wire Line
+	6900 2350 6800 2450
+Wire Wire Line
+	6800 2450 6050 2450
+Wire Wire Line
+	6050 2350 6950 2350
+Wire Wire Line
+	6050 2950 6950 2950
 Wire Wire Line
 	250  4150 2050 4150
 Wire Wire Line
 	250  2350 2050 2350
+Wire Wire Line
+	6050 1850 6950 1850
+Wire Bus Line
+	6900 750  6900 3050
 Wire Bus Line
 	150  1750 150  4500
 Wire Bus Line
 	7200 3500 7200 4150
 Wire Bus Line
-	6900 750  6900 1950
-Wire Bus Line
 	1400 5550 1400 6850
 Wire Bus Line
-	850  2350 850  6900
+	7050 1250 7050 3550
 Wire Bus Line
-	7050 1900 7050 3550
+	850  2350 850  6900
 $EndSCHEMATC
