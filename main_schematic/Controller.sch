@@ -998,8 +998,6 @@ Text Label 5600 950  0    50   ~ 0
 CTRL_SPI1
 Text Label 5600 1050 0    50   ~ 0
 CTRL_SPI2
-Wire Wire Line
-	8800 5350 9550 5350
 $Comp
 L Device:Buzzer BZ?
 U 1 1 5FBB50A2
@@ -1070,6 +1068,113 @@ Wire Wire Line
 	8800 4550 9400 4550
 Text Label 9400 4550 2    50   ~ 0
 ~RESET~
+NoConn ~ 7600 3250
+NoConn ~ 7600 3350
+Wire Wire Line
+	9350 3050 8800 3050
+Wire Wire Line
+	9350 3150 8800 3150
+Wire Wire Line
+	9350 3250 8800 3250
+Wire Wire Line
+	9350 3650 8800 3650
+Wire Wire Line
+	9350 3750 8800 3750
+Wire Wire Line
+	9400 4450 8800 4450
+Wire Wire Line
+	9400 4750 8800 4750
+Wire Wire Line
+	9400 4850 8800 4850
+Wire Wire Line
+	9400 5050 8800 5050
+Wire Wire Line
+	9400 5150 8800 5150
+Wire Wire Line
+	9400 5250 8800 5250
+Wire Wire Line
+	8800 5350 9550 5350
+Wire Wire Line
+	9400 5450 8800 5450
+Text Label 9350 3050 2    50   ~ 0
+PB0
+Text Label 9350 3150 2    50   ~ 0
+PB1
+Text Label 9350 3250 2    50   ~ 0
+PB2
+Text Label 9350 3650 2    50   ~ 0
+PB6
+Text Label 9350 3750 2    50   ~ 0
+PB7
+Text Label 9400 4450 2    50   ~ 0
+PC5
+Text Label 9400 4750 2    50   ~ 0
+PD0
+Text Label 9400 4850 2    50   ~ 0
+PD1
+Text Label 9400 5050 2    50   ~ 0
+PD3
+Text Label 9400 5150 2    50   ~ 0
+PD4
+Text Label 9400 5250 2    50   ~ 0
+PD5
+Text Label 9400 5450 2    50   ~ 0
+PD7
+$Comp
+L Connector_Generic:Conn_02x06_Odd_Even J28
+U 1 1 60424A54
+P 6050 7050
+F 0 "J28" H 6100 7467 50  0000 C CNN
+F 1 "Conn_02x06_Odd_Even" H 6100 7376 50  0000 C CNN
+F 2 "" H 6050 7050 50  0001 C CNN
+F 3 "~" H 6050 7050 50  0001 C CNN
+	1    6050 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 6850 6350 6850
+Wire Wire Line
+	6700 6950 6350 6950
+Wire Wire Line
+	6700 7050 6350 7050
+Wire Wire Line
+	6700 7150 6350 7150
+Wire Wire Line
+	6700 7250 6350 7250
+Wire Wire Line
+	6700 7350 6350 7350
+Wire Wire Line
+	5450 6850 5850 6850
+Wire Wire Line
+	5450 6950 5850 6950
+Wire Wire Line
+	5450 7050 5850 7050
+Wire Wire Line
+	5450 7150 5850 7150
+Wire Wire Line
+	5450 7250 5850 7250
+Wire Wire Line
+	5450 7350 5850 7350
+Text Label 5450 6850 0    50   ~ 0
+PB0
+Text Label 5450 6950 0    50   ~ 0
+PB1
+Text Label 5450 7050 0    50   ~ 0
+PB2
+Text Label 5450 7150 0    50   ~ 0
+PB6
+Text Label 5450 7250 0    50   ~ 0
+PB7
+Text Label 6700 6850 2    50   ~ 0
+PD0
+Text Label 6700 6950 2    50   ~ 0
+PD1
+Text Label 6700 7050 2    50   ~ 0
+PD3
+Text Label 6700 7150 2    50   ~ 0
+PD4
+Text Label 6700 7250 2    50   ~ 0
+PD5
 Wire Bus Line
 	2200 1700 2200 6000
 Wire Bus Line
@@ -1080,4 +1185,8 @@ Wire Bus Line
 	2650 1600 2650 6200
 Wire Bus Line
 	2500 1050 2500 5600
+Text Label 6700 7350 2    50   ~ 0
+PD7
+Text Label 5450 7350 0    50   ~ 0
+PC5
 $EndSCHEMATC

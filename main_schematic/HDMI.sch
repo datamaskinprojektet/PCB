@@ -686,6 +686,7 @@ Text Label 2000 2550 0    50   ~ 0
 HDMI_D2_N
 Text Label 2000 2450 0    50   ~ 0
 HDMI_D2_P
+NoConn ~ 5250 3850
 Wire Bus Line
 	1400 2200 1400 3050
 $EndSCHEMATC

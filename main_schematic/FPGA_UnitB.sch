@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 15
+Sheet 5 15
 Title ""
 Date ""
 Rev ""
@@ -359,6 +359,112 @@ Wire Wire Line
 	700  3400 1250 3400
 Wire Wire Line
 	700  3600 1250 3600
+Text Label 750  1800 0    50   ~ 0
+FPGA_GPIO_B9
+Text Label 750  1900 0    50   ~ 0
+FPGA_GPIO_B10
+Text Label 750  2000 0    50   ~ 0
+FPGA_GPIO_B11
+Text Label 750  2100 0    50   ~ 0
+FPGA_GPIO_B12
+Text Label 750  2200 0    50   ~ 0
+FPGA_GPIO_B13
+Text Label 750  2300 0    50   ~ 0
+FPGA_GPIO_B14
+Text Label 750  2400 0    50   ~ 0
+FPGA_GPIO_B15
+Wire Wire Line
+	750  1800 1250 1800
+Wire Wire Line
+	750  1900 1250 1900
+Wire Wire Line
+	750  2000 1250 2000
+Wire Wire Line
+	750  2100 1250 2100
+Wire Wire Line
+	750  2200 1250 2200
+Wire Wire Line
+	750  2300 1250 2300
+Wire Wire Line
+	750  2400 1250 2400
+Wire Wire Line
+	750  2700 1250 2700
+Wire Wire Line
+	750  2900 1250 2900
+Wire Wire Line
+	750  3000 1250 3000
+Wire Wire Line
+	750  3700 1250 3700
+Text Label 750  2700 0    50   ~ 0
+FPGA_GPIO_C0
+Text Label 750  2900 0    50   ~ 0
+FPGA_GPIO_C1
+Text Label 750  3000 0    50   ~ 0
+FPGA_GPIO_C2
+Text Label 750  3700 0    50   ~ 0
+FPGA_GPIO_C3
+Text Label 5800 1800 2    50   ~ 0
+FPGA_GPIO_C4
+Text Label 5800 2300 2    50   ~ 0
+FPGA_GPIO_C5
+Text Label 5800 2400 2    50   ~ 0
+FPGA_GPIO_C6
+Text Label 5800 2900 2    50   ~ 0
+FPGA_GPIO_C7
+Text Label 5800 3000 2    50   ~ 0
+FPGA_GPIO_C8
+Text Label 5800 4200 2    50   ~ 0
+FPGA_GPIO_C9
+Text Label 5800 5500 2    50   ~ 0
+FPGA_GPIO_C10
+Text Label 5800 5600 2    50   ~ 0
+FPGA_GPIO_C11
+Text Label 5800 5700 2    50   ~ 0
+FPGA_GPIO_C12
+Text Label 5800 5800 2    50   ~ 0
+FPGA_GPIO_C13
+Text Label 5800 5900 2    50   ~ 0
+FPGA_GPIO_C14
+Text Label 5800 6000 2    50   ~ 0
+FPGA_GPIO_C15
+Text Label 5800 6100 2    50   ~ 0
+FPGA_GPIO_D0
+Text Label 5800 6200 2    50   ~ 0
+FPGA_GPIO_D1
+Text Label 5800 6300 2    50   ~ 0
+FPGA_GPIO_D2
+Text Label 5800 6400 2    50   ~ 0
+FPGA_GPIO_D3
+Text Label 5800 6500 2    50   ~ 0
+FPGA_GPIO_D4
+Text Label 5800 6600 2    50   ~ 0
+FPGA_GPIO_D5
+Text Label 5800 6700 2    50   ~ 0
+FPGA_GPIO_D6
+Wire Bus Line
+	8000 1300 9000 1300
+Wire Bus Line
+	8000 1400 9000 1400
+Text GLabel 9000 1300 2    50   Input ~ 0
+FPGA_GPIO_B[0..15]
+Text Label 8000 1300 0    50   ~ 0
+FPGA_GPIO_B[0..15]
+Text Label 8000 1400 0    50   ~ 0
+FPGA_GPIO_C[0..15]
+Text GLabel 9000 1400 2    50   Input ~ 0
+FPGA_GPIO_C[0..15]
+Wire Bus Line
+	8000 1200 9000 1200
+Text GLabel 9000 1200 2    50   Input ~ 0
+FPGA_GPIO_A[0..15]
+Text Label 8000 1200 0    50   ~ 0
+FPGA_GPIO_A[0..15]
+Wire Bus Line
+	8000 1500 9000 1500
+Text Label 8000 1500 0    50   ~ 0
+FPGA_GPIO_D[0..6]
+Text GLabel 9000 1500 2    50   Input ~ 0
+FPGA_GPIO_D[0..6]
 Wire Wire Line
 	5250 5300 6950 5300
 Wire Wire Line

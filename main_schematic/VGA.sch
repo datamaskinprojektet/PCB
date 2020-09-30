@@ -708,6 +708,11 @@ Text HLabel 9000 3050 2    50   Input ~ 0
 VGA_VS
 Text HLabel 9000 2850 2    50   Input ~ 0
 VGA_HS
+NoConn ~ 7750 2450
+NoConn ~ 7750 2650
+NoConn ~ 7750 3250
+NoConn ~ 7150 3050
+NoConn ~ 7150 2950
 Wire Bus Line
 	1150 2550 1150 4750
 Wire Bus Line
