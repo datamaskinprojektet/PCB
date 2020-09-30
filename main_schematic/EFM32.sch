@@ -1022,6 +1022,147 @@ Wire Bus Line
 	11750 2150 12100 2150
 Text HLabel 12100 3150 0    50   Input ~ 0
 CTRL_CS[1..9]
+Wire Wire Line
+	13150 9650 13500 9650
+Wire Wire Line
+	13150 9050 13500 9050
+Wire Wire Line
+	13150 8550 13500 8550
+Wire Wire Line
+	13150 7850 13500 7850
+Wire Wire Line
+	13150 7950 13500 7950
+Wire Wire Line
+	13150 8050 13500 8050
+Wire Wire Line
+	13150 8150 13500 8150
+Wire Wire Line
+	13150 8250 13500 8250
+Wire Wire Line
+	13150 8350 13500 8350
+Wire Wire Line
+	13150 8450 13500 8450
+Wire Wire Line
+	13150 6850 13500 6850
+Wire Wire Line
+	13150 6550 13500 6550
+Wire Wire Line
+	13150 6650 13500 6650
+Wire Wire Line
+	13150 3550 13500 3550
+Wire Wire Line
+	13150 3650 13500 3650
+Wire Wire Line
+	13150 2350 13500 2350
+Text Notes 550  650  0    99   ~ 0
+Headers
+$Comp
+L Connector_Generic:Conn_02x08_Top_Bottom J27
+U 1 1 60150999
+P 1250 1400
+F 0 "J27" H 1300 1917 50  0000 C CNN
+F 1 "Conn_02x08_Top_Bottom" H 1300 1826 50  0000 C CNN
+F 2 "" H 1250 1400 50  0001 C CNN
+F 3 "~" H 1250 1400 50  0001 C CNN
+	1    1250 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 1100 600  1100
+Wire Wire Line
+	1050 1200 600  1200
+Wire Wire Line
+	1050 1300 600  1300
+Wire Wire Line
+	1050 1400 600  1400
+Wire Wire Line
+	1050 1500 600  1500
+Wire Wire Line
+	1050 1600 600  1600
+Wire Wire Line
+	1050 1700 600  1700
+Wire Wire Line
+	1050 1800 600  1800
+Wire Wire Line
+	1550 1100 2050 1100
+Wire Wire Line
+	1550 1200 2050 1200
+Wire Wire Line
+	1550 1300 2050 1300
+Wire Wire Line
+	1550 1400 2050 1400
+Wire Wire Line
+	1550 1500 2050 1500
+Wire Wire Line
+	1550 1600 2050 1600
+Wire Wire Line
+	1550 1700 2050 1700
+Wire Wire Line
+	1550 1800 2050 1800
+Text Label 13150 2350 0    50   ~ 0
+PA14
+Text Label 13150 3550 0    50   ~ 0
+PB9
+Text Label 13150 3650 0    50   ~ 0
+PB10
+Text Label 13150 6550 0    50   ~ 0
+PF6
+Text Label 13150 6650 0    50   ~ 0
+PF7
+Text Label 13150 6850 0    50   ~ 0
+PF9
+Text Label 13150 7850 0    50   ~ 0
+PC3
+Text Label 13150 7950 0    50   ~ 0
+PC4
+Text Label 13150 8050 0    50   ~ 0
+PC5
+Text Label 13150 8150 0    50   ~ 0
+PC6
+Text Label 13150 8250 0    50   ~ 0
+PC7
+Text Label 13150 8350 0    50   ~ 0
+PC8
+Text Label 13150 8450 0    50   ~ 0
+PC9
+Text Label 13150 8550 0    50   ~ 0
+PC10
+Text Label 13150 9050 0    50   ~ 0
+PD2
+Text Label 13150 9650 0    50   ~ 0
+PD8
+Text Label 600  1100 0    50   ~ 0
+PA14
+Text Label 600  1200 0    50   ~ 0
+PB9
+Text Label 600  1300 0    50   ~ 0
+PB10
+Text Label 600  1400 0    50   ~ 0
+PF6
+Text Label 600  1500 0    50   ~ 0
+PF7
+Text Label 600  1600 0    50   ~ 0
+PF9
+Text Label 2050 1100 2    50   ~ 0
+PC3
+Text Label 2050 1200 2    50   ~ 0
+PC4
+Text Label 2050 1300 2    50   ~ 0
+PC5
+Text Label 2050 1400 2    50   ~ 0
+PC6
+Text Label 2050 1500 2    50   ~ 0
+PC7
+Text Label 2050 1600 2    50   ~ 0
+PC8
+Text Label 2050 1700 2    50   ~ 0
+PC9
+Text Label 2050 1800 2    50   ~ 0
+PC10
+Text Label 600  1700 0    50   ~ 0
+PD2
+Text Label 600  1800 0    50   ~ 0
+PD8
 Wire Bus Line
 	12100 2650 12100 3150
 Wire Bus Line
