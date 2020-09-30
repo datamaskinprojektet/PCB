@@ -1020,6 +1020,8 @@ Wire Bus Line
 	11750 2650 11750 2150
 Wire Bus Line
 	11750 2150 12100 2150
+Text HLabel 12100 3150 0    50   Input ~ 0
+CTRL_CS[1..9]
 Wire Bus Line
 	12100 2650 12100 3150
 Wire Bus Line
@@ -1038,6 +1040,4 @@ Wire Bus Line
 	13100 5250 13100 6100
 Wire Bus Line
 	12100 3850 12100 5250
-Text HLabel 12100 3150 0    50   Input ~ 0
-CTRL_CS[1..9]
 $EndSCHEMATC

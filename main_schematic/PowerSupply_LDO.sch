@@ -213,8 +213,6 @@ Wire Wire Line
 Wire Wire Line
 	2400 2900 2100 2900
 Connection ~ 2400 2900
-Text Label 2100 2900 0    50   ~ 0
-5V_LDO
 Text Label 3550 1750 0    50   ~ 0
 5V_LDO
 Wire Wire Line
@@ -388,4 +386,15 @@ Wire Wire Line
 Connection ~ 4000 2900
 Wire Wire Line
 	3500 1750 3850 1750
+$Comp
+L power:+5V #PWR?
+U 1 1 5F785648
+P 2100 2900
+F 0 "#PWR?" H 2100 2750 50  0001 C CNN
+F 1 "+5V" H 2115 3073 50  0000 C CNN
+F 2 "" H 2100 2900 50  0001 C CNN
+F 3 "" H 2100 2900 50  0001 C CNN
+	1    2100 2900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
