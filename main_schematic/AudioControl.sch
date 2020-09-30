@@ -245,12 +245,12 @@ Wire Wire Line
 	9450 3450 10050 3450
 Text Label 10050 3450 2    50   ~ 0
 ~RESET~
-Wire Bus Line
-	10850 2150 10850 2700
 Text Label 9900 2350 2    50   ~ 0
 MISO
 Text Label 9900 2250 2    50   ~ 0
 MOSI
 Text Label 9900 2450 2    50   ~ 0
 SCK
+Wire Bus Line
+	10850 2150 10850 2700
 $EndSCHEMATC
