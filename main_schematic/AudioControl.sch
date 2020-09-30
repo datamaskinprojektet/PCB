@@ -251,6 +251,147 @@ Text Label 9900 2250 2    50   ~ 0
 MOSI
 Text Label 9900 2450 2    50   ~ 0
 SCK
+Wire Wire Line
+	9450 2850 9850 2850
+Wire Wire Line
+	9450 2950 9850 2950
+Wire Wire Line
+	9450 3050 9850 3050
+Wire Wire Line
+	9450 3150 9850 3150
+Wire Wire Line
+	9450 3250 9850 3250
+Wire Wire Line
+	9450 3350 9850 3350
+Text Label 9850 2850 2    50   ~ 0
+PC0
+Text Label 9850 2950 2    50   ~ 0
+PC1
+Text Label 9850 3050 2    50   ~ 0
+PC2
+Text Label 9850 3150 2    50   ~ 0
+PC3
+Text Label 9850 3250 2    50   ~ 0
+PC4
+Text Label 9850 3350 2    50   ~ 0
+PC5
+Wire Wire Line
+	9450 3650 9850 3650
+Wire Wire Line
+	9450 3750 9850 3750
+Wire Wire Line
+	9450 3850 9850 3850
+Wire Wire Line
+	9450 3950 9850 3950
+Wire Wire Line
+	9450 4050 9850 4050
+Wire Wire Line
+	9450 4150 9850 4150
+Wire Wire Line
+	9850 4350 9450 4350
+Text Label 9850 3650 2    50   ~ 0
+PD0
+Text Label 9850 3750 2    50   ~ 0
+PD1
+Text Label 9850 3850 2    50   ~ 0
+PD2
+Text Label 9850 3950 2    50   ~ 0
+PD3
+Text Label 9850 4050 2    50   ~ 0
+PD4
+Text Label 9850 4150 2    50   ~ 0
+PD5
+Text Label 9850 4350 2    50   ~ 0
+PD7
+NoConn ~ 8250 2150
+NoConn ~ 8250 2250
+Wire Wire Line
+	5250 1950 5450 1950
+Text Label 5450 1950 2    50   ~ 0
+PD0
+Wire Wire Line
+	5450 2050 5250 2050
+Wire Wire Line
+	5450 2150 5250 2150
+Wire Wire Line
+	5450 2250 5250 2250
+Wire Wire Line
+	5450 2350 5250 2350
+Wire Wire Line
+	5450 2450 5250 2450
+Wire Wire Line
+	5450 2550 5250 2550
+Text Label 5450 2050 2    50   ~ 0
+PD1
+Text Label 5450 2150 2    50   ~ 0
+PD2
+Text Label 5450 2250 2    50   ~ 0
+PD3
+Text Label 5450 2350 2    50   ~ 0
+PD4
+Text Label 5450 2450 2    50   ~ 0
+PD5
+Text Label 5450 2550 2    50   ~ 0
+PD7
+Wire Wire Line
+	4550 1950 4750 1950
+Wire Wire Line
+	4550 2050 4750 2050
+Wire Wire Line
+	4550 2150 4750 2150
+Wire Wire Line
+	4550 2250 4750 2250
+Wire Wire Line
+	4550 2350 4750 2350
+Wire Wire Line
+	4550 2450 4750 2450
+Wire Wire Line
+	4550 2550 4750 2550
+Text Label 4550 1950 0    50   ~ 0
+PC0
+Text Label 4550 2050 0    50   ~ 0
+PC1
+Text Label 4550 2150 0    50   ~ 0
+PC2
+Text Label 4550 2250 0    50   ~ 0
+PC3
+Text Label 4550 2350 0    50   ~ 0
+PC4
+Text Label 4550 2450 0    50   ~ 0
+PC5
+Wire Wire Line
+	4750 2650 4550 2650
+Wire Wire Line
+	5250 2650 5450 2650
+$Comp
+L Connector_Generic:Conn_02x08_Counter_Clockwise J26
+U 1 1 60078A4C
+P 4950 2250
+F 0 "J26" H 5000 2767 50  0000 C CNN
+F 1 "Conn_02x08_Counter_Clockwise" H 5000 2676 50  0000 C CNN
+F 2 "" H 4950 2250 50  0001 C CNN
+F 3 "~" H 4950 2250 50  0001 C CNN
+	1    4950 2250
+	1    0    0    -1  
+$EndComp
+Text Label 5450 2650 2    50   ~ 0
+PB0
+Text Label 4550 2550 0    50   ~ 0
+PB6
+Text Label 4550 2650 0    50   ~ 0
+PB7
+Wire Wire Line
+	9850 1950 9450 1950
+Wire Wire Line
+	9850 2550 9450 2550
+Wire Wire Line
+	9850 2650 9450 2650
+Text Label 9850 1950 2    50   ~ 0
+PB0
+Text Label 9850 2550 2    50   ~ 0
+PB6
+Text Label 9850 2650 2    50   ~ 0
+PB7
 Wire Bus Line
 	10850 2150 10850 2700
 $EndSCHEMATC
