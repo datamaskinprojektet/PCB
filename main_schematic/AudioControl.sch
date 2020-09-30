@@ -185,7 +185,72 @@ Wire Wire Line
 	10200 4650 8850 4650
 Wire Wire Line
 	10200 4450 10200 4650
+Connection ~ 8850 4650
+$Comp
+L Connector:AVR-ISP-6 J?
+U 1 1 5F7D03DE
+P 9150 5800
+AR Path="/5F6A6156/5F7D03DE" Ref="J?"  Part="1" 
+AR Path="/5F7AF3E4/5F7D03DE" Ref="J19"  Part="1" 
+F 0 "J19" H 8821 5896 50  0000 R CNN
+F 1 "AVR-ISP-6" H 8821 5805 50  0000 R CNN
+F 2 "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical" V 8900 5850 50  0001 C CNN
+F 3 " ~" H 7875 5250 50  0001 C CNN
+	1    9150 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F7D03E4
+P 9050 6200
+AR Path="/5F6A6156/5F7D03E4" Ref="#PWR?"  Part="1" 
+AR Path="/5F7AF3E4/5F7D03E4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9050 5950 50  0001 C CNN
+F 1 "GND" H 9055 6027 50  0000 C CNN
+F 2 "" H 9050 6200 50  0001 C CNN
+F 3 "" H 9050 6200 50  0001 C CNN
+	1    9050 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F7D03EA
+P 9050 5300
+AR Path="/5F6A6156/5F7D03EA" Ref="#PWR?"  Part="1" 
+AR Path="/5F7AF3E4/5F7D03EA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9050 5150 50  0001 C CNN
+F 1 "+3.3V" H 9065 5473 50  0000 C CNN
+F 2 "" H 9050 5300 50  0001 C CNN
+F 3 "" H 9050 5300 50  0001 C CNN
+	1    9050 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 5600 10150 5600
+Wire Wire Line
+	9550 5700 10150 5700
+Wire Wire Line
+	9550 5800 10150 5800
+Wire Wire Line
+	9550 5900 10150 5900
+Text Label 10150 5600 2    50   ~ 0
+MISO
+Text Label 10150 5700 2    50   ~ 0
+MOSI
+Text Label 10150 5800 2    50   ~ 0
+SCK
+Text Label 10150 5900 2    50   ~ 0
+~RESET~
+Wire Wire Line
+	9450 3450 10050 3450
+Text Label 10050 3450 2    50   ~ 0
+~RESET~
 Wire Bus Line
 	10850 2150 10850 2700
-Connection ~ 8850 4650
+Text Label 9900 2350 2    50   ~ 0
+MISO
+Text Label 9900 2250 2    50   ~ 0
+MOSI
+Text Label 9900 2450 2    50   ~ 0
+SCK
 $EndSCHEMATC
