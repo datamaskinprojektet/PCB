@@ -14,25 +14,14 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Regulator_Linear:TPS70251_HTSSOP20 U14
-U 1 1 5F779BE5
-P 3000 3350
-F 0 "U14" H 3000 3992 50  0000 C CNN
-F 1 "TPS70251_HTSSOP20" H 3000 3901 50  0000 C CNN
-F 2 "Package_SO:HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_ThermalVias" H 2975 3975 50  0001 C CIN
-F 3 "http://www.ti.com/lit/ds/symlink/tps702.pdf" H 3000 3050 50  0001 C CNN
-	1    3000 3350
-	1    0    0    -1  
-$EndComp
-$Comp
 L LDO_custom:MAX8869 U15
 U 1 1 5F781BF6
-P 3000 4900
-F 0 "U15" H 3000 5565 50  0000 C CNN
-F 1 "MAX8869" H 3000 5474 50  0000 C CNN
-F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 3000 5550 50  0001 C CNN
-F 3 "" H 3000 5550 50  0001 C CNN
-	1    3000 4900
+P 3000 3250
+F 0 "U15" H 3000 3915 50  0000 C CNN
+F 1 "MAX8869" H 3000 3824 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 3000 3900 50  0001 C CNN
+F 3 "" H 3000 3900 50  0001 C CNN
+	1    3000 3250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -115,4 +104,86 @@ F 3 "~" H 2450 1900 50  0001 C CNN
 	1    2450 1900
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3000 3850 3400 3850
+Wire Wire Line
+	3400 3850 3400 3550
+Wire Wire Line
+	2600 2900 2600 3000
+Connection ~ 2600 3000
+Wire Wire Line
+	2600 3000 2600 3100
+Connection ~ 2600 3100
+Wire Wire Line
+	2600 3100 2600 3200
+Wire Wire Line
+	3400 3200 3400 3100
+Connection ~ 3400 3000
+Wire Wire Line
+	3400 3000 3400 2900
+Connection ~ 3400 3100
+Wire Wire Line
+	3400 3100 3400 3000
+$Comp
+L LDO_custom:MAX8869 U14
+U 1 1 5F7AC555
+P 3000 4700
+F 0 "U14" H 3000 5365 50  0000 C CNN
+F 1 "MAX8869" H 3000 5274 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 3000 5350 50  0001 C CNN
+F 3 "" H 3000 5350 50  0001 C CNN
+	1    3000 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 5300 3400 5300
+Wire Wire Line
+	3400 5300 3400 5000
+Wire Wire Line
+	2600 4350 2600 4450
+Connection ~ 2600 4450
+Wire Wire Line
+	2600 4450 2600 4550
+Connection ~ 2600 4550
+Wire Wire Line
+	2600 4550 2600 4650
+Wire Wire Line
+	3400 4650 3400 4550
+Connection ~ 3400 4450
+Wire Wire Line
+	3400 4450 3400 4350
+Connection ~ 3400 4550
+Wire Wire Line
+	3400 4550 3400 4450
+$Comp
+L LDO_custom:MAX8869 U16
+U 1 1 5F7AD11E
+P 3000 6150
+F 0 "U16" H 3000 6815 50  0000 C CNN
+F 1 "MAX8869" H 3000 6724 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 3000 6800 50  0001 C CNN
+F 3 "" H 3000 6800 50  0001 C CNN
+	1    3000 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 6750 3400 6750
+Wire Wire Line
+	3400 6750 3400 6450
+Wire Wire Line
+	2600 5800 2600 5900
+Connection ~ 2600 5900
+Wire Wire Line
+	2600 5900 2600 6000
+Connection ~ 2600 6000
+Wire Wire Line
+	2600 6000 2600 6100
+Wire Wire Line
+	3400 6100 3400 6000
+Connection ~ 3400 5900
+Wire Wire Line
+	3400 5900 3400 5800
+Connection ~ 3400 6000
+Wire Wire Line
+	3400 6000 3400 5900
 $EndSCHEMATC
