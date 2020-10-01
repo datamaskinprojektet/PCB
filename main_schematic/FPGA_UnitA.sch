@@ -671,36 +671,32 @@ U 1 1 5F9B5D78
 P 8300 1850
 F 0 "J21" H 8350 2367 50  0000 C CNN
 F 1 "Conn_02x08_Odd_Even" H 8350 2276 50  0000 C CNN
-F 2 "" H 8300 1850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 8300 1850 50  0001 C CNN
 F 3 "~" H 8300 1850 50  0001 C CNN
 	1    8300 1850
 	1    0    0    -1  
 $EndComp
-Text Label 7550 1550 0    50   ~ 0
-FPGA_GPIO_A0
-Text Label 7550 1650 0    50   ~ 0
-FPGA_GPIO_A2
-Text Label 9150 1650 2    50   ~ 0
-FPGA_GPIO_A3
 Text Label 9150 1750 2    50   ~ 0
-FPGA_GPIO_A5
-Text Label 7550 1850 0    50   ~ 0
-FPGA_GPIO_A6
-Text Label 9150 1850 2    50   ~ 0
-FPGA_GPIO_A7
-Text Label 7550 1950 0    50   ~ 0
-FPGA_GPIO_A8
-Text Label 9150 1950 2    50   ~ 0
-FPGA_GPIO_A9
-Text Label 7550 2050 0    50   ~ 0
-FPGA_GPIO_A10
+FPGA_GPIO_A0
 Text Label 9150 2050 2    50   ~ 0
-FPGA_GPIO_A11
+FPGA_GPIO_A2
+Text Label 7550 1850 0    50   ~ 0
+FPGA_GPIO_A3
 Text Label 7550 2150 0    50   ~ 0
-FPGA_GPIO_A12
+FPGA_GPIO_A5
+Text Label 7550 2050 0    50   ~ 0
+FPGA_GPIO_A6
+Text Label 9150 2250 2    50   ~ 0
+FPGA_GPIO_A7
 Text Label 9150 2150 2    50   ~ 0
-FPGA_GPIO_A13
+FPGA_GPIO_A8
+Text Label 9150 1850 2    50   ~ 0
+FPGA_GPIO_A10
+Text Label 9150 3150 2    50   ~ 0
+FPGA_GPIO_A11
 Text Label 7550 2250 0    50   ~ 0
+FPGA_GPIO_A13
+Text Label 9150 1950 2    50   ~ 0
 FPGA_GPIO_A14
 Wire Wire Line
 	8600 1550 9150 1550
@@ -734,126 +730,45 @@ Wire Wire Line
 	7550 2150 8100 2150
 Wire Wire Line
 	7550 2250 8100 2250
-Text Label 7550 1750 0    50   ~ 0
+Text Label 7550 1950 0    50   ~ 0
 FPGA_GPIO_A4
 Wire Notes Line
 	7500 750  7500 6000
-Text Label 9150 1550 2    50   ~ 0
+Text Label 9150 2950 2    50   ~ 0
 FPGA_GPIO_A1
-Text Label 9150 2250 2    50   ~ 0
-FPGA_GPIO_A15
 $Comp
 L Connector_Generic:Conn_02x08_Odd_Even J22
 U 1 1 5FC34174
 P 8300 2950
 F 0 "J22" H 8350 3467 50  0000 C CNN
 F 1 "Conn_02x08_Odd_Even" H 8350 3376 50  0000 C CNN
-F 2 "" H 8300 2950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 8300 2950 50  0001 C CNN
 F 3 "~" H 8300 2950 50  0001 C CNN
 	1    8300 2950
 	1    0    0    -1  
 $EndComp
-Text Label 7550 2650 0    50   ~ 0
-FPGA_GPIO_B0
 Text Label 7550 2750 0    50   ~ 0
-FPGA_GPIO_B2
-Text Label 9150 2750 2    50   ~ 0
-FPGA_GPIO_B3
-Text Label 9150 2850 2    50   ~ 0
-FPGA_GPIO_B5
+FPGA_GPIO_B0
 Text Label 7550 2950 0    50   ~ 0
-FPGA_GPIO_B6
-Text Label 9150 2950 2    50   ~ 0
-FPGA_GPIO_B7
-Text Label 7550 3050 0    50   ~ 0
-FPGA_GPIO_B8
-Text Label 9150 3050 2    50   ~ 0
-FPGA_GPIO_B9
-Text Label 7550 3150 0    50   ~ 0
-FPGA_GPIO_B10
-Text Label 9150 3150 2    50   ~ 0
-FPGA_GPIO_B11
+FPGA_GPIO_B2
+Text Label 7550 2650 0    50   ~ 0
+FPGA_GPIO_B3
 Text Label 7550 3250 0    50   ~ 0
-FPGA_GPIO_B12
-Text Label 9150 3250 2    50   ~ 0
-FPGA_GPIO_B13
-Text Label 7550 3350 0    50   ~ 0
-FPGA_GPIO_B14
-Wire Wire Line
-	8600 2650 9150 2650
-Wire Wire Line
-	8600 2750 9150 2750
-Wire Wire Line
-	8600 2850 9150 2850
-Wire Wire Line
-	8600 2950 9150 2950
-Wire Wire Line
-	8600 3050 9150 3050
-Wire Wire Line
-	8600 3250 9150 3250
-Wire Wire Line
-	8600 3150 9150 3150
-Wire Wire Line
-	8600 3350 9150 3350
-Wire Wire Line
-	7550 2650 8100 2650
-Wire Wire Line
-	7550 2750 8100 2750
-Wire Wire Line
-	7550 2850 8100 2850
-Wire Wire Line
-	7550 2950 8100 2950
-Wire Wire Line
-	7550 3050 8100 3050
-Wire Wire Line
-	7550 3150 8100 3150
-Wire Wire Line
-	7550 3250 8100 3250
-Wire Wire Line
-	7550 3350 8100 3350
-Text Label 7550 2850 0    50   ~ 0
-FPGA_GPIO_B4
-Text Label 9150 2650 2    50   ~ 0
-FPGA_GPIO_B1
-Text Label 9150 3350 2    50   ~ 0
-FPGA_GPIO_B15
-$Comp
-L Connector_Generic:Conn_02x08_Odd_Even J23
-U 1 1 5FD7A586
-P 10050 1850
-F 0 "J23" H 10100 2367 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 10100 2276 50  0000 C CNN
-F 2 "" H 10050 1850 50  0001 C CNN
-F 3 "~" H 10050 1850 50  0001 C CNN
-	1    10050 1850
-	1    0    0    -1  
-$EndComp
-Text Label 9300 1550 0    50   ~ 0
-FPGA_GPIO_C0
+FPGA_GPIO_B5
+Text Label 9150 3050 2    50   ~ 0
+FPGA_GPIO_B6
+Text Label 7550 3150 0    50   ~ 0
+FPGA_GPIO_B7
 Text Label 9300 1650 0    50   ~ 0
-FPGA_GPIO_C2
-Text Label 10900 1650 2    50   ~ 0
-FPGA_GPIO_C3
-Text Label 10900 1750 2    50   ~ 0
-FPGA_GPIO_C5
-Text Label 9300 1850 0    50   ~ 0
-FPGA_GPIO_C6
-Text Label 10900 1850 2    50   ~ 0
-FPGA_GPIO_C7
-Text Label 9300 1950 0    50   ~ 0
-FPGA_GPIO_C8
+FPGA_GPIO_B8
 Text Label 10900 1950 2    50   ~ 0
-FPGA_GPIO_C9
-Text Label 9300 2050 0    50   ~ 0
-FPGA_GPIO_C10
-Text Label 10900 2050 2    50   ~ 0
-FPGA_GPIO_C11
-Text Label 9300 2150 0    50   ~ 0
-FPGA_GPIO_C12
-Text Label 10900 2150 2    50   ~ 0
-FPGA_GPIO_C13
-Text Label 9300 2250 0    50   ~ 0
-FPGA_GPIO_C14
+FPGA_GPIO_B9
+Text Label 9300 1950 0    50   ~ 0
+FPGA_GPIO_B12
+Text Label 9300 1550 0    50   ~ 0
+FPGA_GPIO_B13
+Text Label 10900 1850 2    50   ~ 0
+FPGA_GPIO_B14
 Wire Wire Line
 	10350 1550 10900 1550
 Wire Wire Line
@@ -886,33 +801,90 @@ Wire Wire Line
 	9300 2150 9850 2150
 Wire Wire Line
 	9300 2250 9850 2250
-Text Label 9300 1750 0    50   ~ 0
+Text Label 9150 2750 2    50   ~ 0
+FPGA_GPIO_B4
+Text Label 9150 2850 2    50   ~ 0
+FPGA_GPIO_B1
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J23
+U 1 1 5FD7A586
+P 10050 1850
+F 0 "J23" H 10100 2367 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 10100 2276 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 10050 1850 50  0001 C CNN
+F 3 "~" H 10050 1850 50  0001 C CNN
+	1    10050 1850
+	1    0    0    -1  
+$EndComp
+Text Label 9300 1850 0    50   ~ 0
+FPGA_GPIO_C0
+Text Label 10900 1750 2    50   ~ 0
+FPGA_GPIO_C2
+Text Label 9150 1550 2    50   ~ 0
+FPGA_GPIO_C5
+Text Label 7550 1650 0    50   ~ 0
+FPGA_GPIO_C6
+Text Label 7550 1750 0    50   ~ 0
+FPGA_GPIO_C7
+Text Label 7550 1550 0    50   ~ 0
+FPGA_GPIO_C8
+Text Label 9150 1650 2    50   ~ 0
+FPGA_GPIO_C9
+Text Label 10900 2750 2    50   ~ 0
+FPGA_GPIO_C10
+Text Label 9300 2650 0    50   ~ 0
+FPGA_GPIO_C11
+Text Label 9300 2850 0    50   ~ 0
+FPGA_GPIO_C13
+Wire Wire Line
+	8600 2650 9150 2650
+Wire Wire Line
+	8600 2750 9150 2750
+Wire Wire Line
+	8600 2850 9150 2850
+Wire Wire Line
+	8600 2950 9150 2950
+Wire Wire Line
+	8600 3050 9150 3050
+Wire Wire Line
+	8600 3250 9150 3250
+Wire Wire Line
+	8600 3150 9150 3150
+Wire Wire Line
+	8600 3350 9150 3350
+Wire Wire Line
+	7550 2650 8100 2650
+Wire Wire Line
+	7550 2750 8100 2750
+Wire Wire Line
+	7550 2850 8100 2850
+Wire Wire Line
+	7550 2950 8100 2950
+Wire Wire Line
+	7550 3050 8100 3050
+Wire Wire Line
+	7550 3150 8100 3150
+Wire Wire Line
+	7550 3250 8100 3250
+Wire Wire Line
+	7550 3350 8100 3350
+Text Label 9150 3250 2    50   ~ 0
 FPGA_GPIO_C4
-Text Label 10900 1550 2    50   ~ 0
-FPGA_GPIO_C1
-Text Label 10900 2250 2    50   ~ 0
-FPGA_GPIO_C15
 $Comp
 L Connector_Generic:Conn_02x08_Odd_Even J24
 U 1 1 5FD89E92
 P 10050 2950
 F 0 "J24" H 10100 3467 50  0000 C CNN
 F 1 "Conn_02x08_Odd_Even" H 10100 3376 50  0000 C CNN
-F 2 "" H 10050 2950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 10050 2950 50  0001 C CNN
 F 3 "~" H 10050 2950 50  0001 C CNN
 	1    10050 2950
 	1    0    0    -1  
 $EndComp
-Text Label 9300 2650 0    50   ~ 0
+Text Label 9300 2950 0    50   ~ 0
 FPGA_GPIO_D0
-Text Label 9300 2750 0    50   ~ 0
-FPGA_GPIO_D2
-Text Label 10900 2750 2    50   ~ 0
-FPGA_GPIO_D3
 Text Label 10900 2850 2    50   ~ 0
 FPGA_GPIO_D5
-Text Label 9300 2950 0    50   ~ 0
-FPGA_GPIO_D6
 Text Label 10900 2950 2    50   ~ 0
 FPGA_GPIO_D7
 Text Label 9300 3050 0    50   ~ 0
@@ -961,9 +933,7 @@ Wire Wire Line
 	9300 3250 9850 3250
 Wire Wire Line
 	9300 3350 9850 3350
-Text Label 9300 2850 0    50   ~ 0
-FPGA_GPIO_D4
-Text Label 10900 2650 2    50   ~ 0
+Text Label 9300 2750 0    50   ~ 0
 FPGA_GPIO_D1
 Text Label 10900 3350 2    50   ~ 0
 FPGA_GPIO_D15
@@ -1020,6 +990,12 @@ NoConn ~ 9300 3050
 NoConn ~ 9300 3150
 NoConn ~ 9300 3250
 NoConn ~ 9300 3350
+Text Label 9300 1750 0    50   ~ 0
+FPGA_GPIO_C3
+Text Label 9150 2650 2    50   ~ 0
+FPGA_GPIO_A12
+Text Label 10900 1650 2    50   ~ 0
+FPGA_GPIO_C1
 Wire Wire Line
 	250  4150 2050 4150
 Wire Wire Line
@@ -1036,4 +1012,28 @@ Wire Bus Line
 	850  2350 850  6900
 Wire Bus Line
 	7050 1900 7050 3550
+Text Label 7550 3050 0    50   ~ 0
+FPGA_GPIO_A9
+Text Label 7550 2850 0    50   ~ 0
+FPGA_GPIO_A15
+Text Label 9300 2050 0    50   ~ 0
+FPGA_GPIO_B10
+Text Label 10900 2050 2    50   ~ 0
+FPGA_GPIO_D2
+Text Label 7550 3350 0    50   ~ 0
+FPGA_GPIO_C12
+Text Label 9300 2150 0    50   ~ 0
+FPGA_GPIO_D3
+Text Label 9300 2250 0    50   ~ 0
+FPGA_GPIO_D4
+Text Label 10900 2150 2    50   ~ 0
+FPGA_GPIO_C14
+Text Label 10900 2250 2    50   ~ 0
+FPGA_GPIO_B11
+Text Label 10900 1550 2    50   ~ 0
+FPGA_GPIO_B15
+Text Label 9150 3350 2    50   ~ 0
+FPGA_GPIO_C15
+Text Label 10900 2650 2    50   ~ 0
+FPGA_GPIO_D6
 $EndSCHEMATC

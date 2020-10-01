@@ -369,7 +369,7 @@ U 1 1 60078A4C
 P 4950 2250
 F 0 "J26" H 5000 2767 50  0000 C CNN
 F 1 "Conn_02x08_Counter_Clockwise" H 5000 2676 50  0000 C CNN
-F 2 "" H 4950 2250 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 4950 2250 50  0001 C CNN
 F 3 "~" H 4950 2250 50  0001 C CNN
 	1    4950 2250
 	1    0    0    -1  

@@ -1126,7 +1126,7 @@ U 1 1 60424A54
 P 6050 7050
 F 0 "J28" H 6100 7467 50  0000 C CNN
 F 1 "Conn_02x06_Odd_Even" H 6100 7376 50  0000 C CNN
-F 2 "" H 6050 7050 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 6050 7050 50  0001 C CNN
 F 3 "~" H 6050 7050 50  0001 C CNN
 	1    6050 7050
 	1    0    0    -1  
@@ -1175,6 +1175,10 @@ Text Label 6700 7150 2    50   ~ 0
 PD4
 Text Label 6700 7250 2    50   ~ 0
 PD5
+Text Label 6700 7350 2    50   ~ 0
+PD7
+Text Label 5450 7350 0    50   ~ 0
+PC5
 Wire Bus Line
 	2200 1700 2200 6000
 Wire Bus Line
@@ -1185,8 +1189,4 @@ Wire Bus Line
 	2650 1600 2650 6200
 Wire Bus Line
 	2500 1050 2500 5600
-Text Label 6700 7350 2    50   ~ 0
-PD7
-Text Label 5450 7350 0    50   ~ 0
-PC5
 $EndSCHEMATC
