@@ -112,8 +112,8 @@ EBI_CS[0..3]
 Wire Wire Line
 	13500 6750 13200 6750
 Wire Wire Line
-	13200 6450 13500 6450
-Text HLabel 13200 6450 0    50   Input ~ 0
+	13200 6850 13500 6850
+Text HLabel 13200 6850 0    50   Input ~ 0
 EBI_RE
 Text HLabel 13200 6750 0    50   Input ~ 0
 EBI_WE
@@ -1043,7 +1043,7 @@ Wire Wire Line
 Wire Wire Line
 	13150 8450 13500 8450
 Wire Wire Line
-	13150 6850 13500 6850
+	13150 6450 13500 6450
 Wire Wire Line
 	13150 6550 13500 6550
 Wire Wire Line
@@ -1109,7 +1109,7 @@ Text Label 13150 6550 0    50   ~ 0
 PF6
 Text Label 13150 6650 0    50   ~ 0
 PF7
-Text Label 13150 6850 0    50   ~ 0
+Text Label 13150 6450 0    50   ~ 0
 PF9
 Text Label 13150 7850 0    50   ~ 0
 PC3

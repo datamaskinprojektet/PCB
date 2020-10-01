@@ -996,22 +996,6 @@ Text Label 9150 2650 2    50   ~ 0
 FPGA_GPIO_A12
 Text Label 10900 1650 2    50   ~ 0
 FPGA_GPIO_C1
-Wire Wire Line
-	250  4150 2050 4150
-Wire Wire Line
-	250  2350 2050 2350
-Wire Bus Line
-	150  1750 150  4500
-Wire Bus Line
-	7200 3500 7200 4150
-Wire Bus Line
-	6900 750  6900 1950
-Wire Bus Line
-	1400 5550 1400 6850
-Wire Bus Line
-	850  2350 850  6900
-Wire Bus Line
-	7050 1900 7050 3550
 Text Label 7550 3050 0    50   ~ 0
 FPGA_GPIO_A9
 Text Label 7550 2850 0    50   ~ 0
@@ -1036,4 +1020,20 @@ Text Label 9150 3350 2    50   ~ 0
 FPGA_GPIO_C15
 Text Label 10900 2650 2    50   ~ 0
 FPGA_GPIO_D6
+Wire Wire Line
+	250  4150 2050 4150
+Wire Wire Line
+	250  2350 2050 2350
+Wire Bus Line
+	150  1750 150  4500
+Wire Bus Line
+	7200 3500 7200 4150
+Wire Bus Line
+	6900 750  6900 1950
+Wire Bus Line
+	1400 5550 1400 6850
+Wire Bus Line
+	850  2350 850  6900
+Wire Bus Line
+	7050 1900 7050 3550
 $EndSCHEMATC

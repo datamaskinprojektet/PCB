@@ -764,4 +764,97 @@ F 3 "~" H 6150 1910 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Connection ~ 5800 1850
+$Comp
+L Connector_Generic:Conn_02x10_Counter_Clockwise J29
+U 1 1 5F794BC4
+P 1200 6550
+F 0 "J29" H 1250 7167 50  0000 C CNN
+F 1 "Conn_02x10_Counter_Clockwise" H 1250 7076 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 1200 6550 50  0001 C CNN
+F 3 "~" H 1200 6550 50  0001 C CNN
+	1    1200 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 7050 1000 6950
+Connection ~ 1000 6150
+Wire Wire Line
+	1000 6150 1000 5700
+Connection ~ 1000 6250
+Wire Wire Line
+	1000 6250 1000 6150
+Connection ~ 1000 6350
+Wire Wire Line
+	1000 6350 1000 6250
+Connection ~ 1000 6450
+Wire Wire Line
+	1000 6450 1000 6350
+Connection ~ 1000 6550
+Wire Wire Line
+	1000 6550 1000 6450
+Connection ~ 1000 6650
+Wire Wire Line
+	1000 6650 1000 6550
+Connection ~ 1000 6750
+Wire Wire Line
+	1000 6750 1000 6650
+Connection ~ 1000 6850
+Wire Wire Line
+	1000 6850 1000 6750
+Connection ~ 1000 6950
+Wire Wire Line
+	1000 6950 1000 6850
+Wire Wire Line
+	1500 6150 1500 6250
+Connection ~ 1500 6250
+Wire Wire Line
+	1500 6250 1500 6350
+Connection ~ 1500 6350
+Wire Wire Line
+	1500 6350 1500 6450
+Connection ~ 1500 6450
+Wire Wire Line
+	1500 6450 1500 6550
+Connection ~ 1500 6550
+Wire Wire Line
+	1500 6550 1500 6650
+Connection ~ 1500 6650
+Wire Wire Line
+	1500 6650 1500 6750
+Connection ~ 1500 6750
+Wire Wire Line
+	1500 6750 1500 6850
+Connection ~ 1500 6850
+Wire Wire Line
+	1500 6850 1500 6950
+Connection ~ 1500 6950
+Wire Wire Line
+	1500 6950 1500 7050
+Connection ~ 1500 7050
+Wire Wire Line
+	1500 7050 1500 7300
+$Comp
+L power:GND #PWR?
+U 1 1 5F79A8CC
+P 1500 7300
+AR Path="/5F70E372/5F79A8CC" Ref="#PWR?"  Part="1" 
+AR Path="/5F79A8CC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1500 7050 50  0001 C CNN
+F 1 "GND" H 1505 7127 50  0000 C CNN
+F 2 "" H 1500 7300 50  0001 C CNN
+F 3 "" H 1500 7300 50  0001 C CNN
+	1    1500 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F79AC32
+P 1000 5700
+F 0 "#PWR?" H 1000 5550 50  0001 C CNN
+F 1 "+3.3V" H 1000 5850 50  0000 C CNN
+F 2 "" H 1000 5700 50  0001 C CNN
+F 3 "" H 1000 5700 50  0001 C CNN
+	1    1000 5700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
