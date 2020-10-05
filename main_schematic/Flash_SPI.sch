@@ -21,8 +21,6 @@ Connection ~ 6350 3950
 Wire Wire Line
 	6350 3950 6350 4600
 Wire Wire Line
-	4500 4800 5050 4800
-Wire Wire Line
 	6350 4800 6900 4800
 Wire Wire Line
 	6350 4900 6900 4900
@@ -44,17 +42,11 @@ Wire Wire Line
 	4350 3950 4350 4250
 Wire Wire Line
 	4350 3950 4150 3950
-Wire Wire Line
-	4150 3950 4150 4150
 Connection ~ 4350 3950
-Wire Wire Line
-	4150 4350 4150 4700
-Wire Wire Line
-	4150 4700 5050 4700
 Connection ~ 5700 3950
 Wire Wire Line
 	5700 3950 6350 3950
-Text HLabel 4500 4800 0    50   Input ~ 0
+Text HLabel 4150 4800 0    50   Input ~ 0
 Flash_WP
 Wire Wire Line
 	5050 4600 5050 4500
@@ -124,15 +116,15 @@ $EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 5FB31CED
-P 4150 4250
+P 4350 4350
 AR Path="/5F5F6048/5FB31CED" Ref="R?"  Part="1" 
 AR Path="/5F611A0B/5FB31CED" Ref="R?"  Part="1" 
 AR Path="/5F611A0B/5FB3012C/5FB31CED" Ref="R17"  Part="1" 
-F 0 "R17" H 4200 4100 50  0000 L CNN
-F 1 "2.4k" V 4150 4200 24  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 4150 4250 50  0001 C CNN
-F 3 "~" H 4150 4250 50  0001 C CNN
-	1    4150 4250
+F 0 "R17" H 4400 4200 50  0000 L CNN
+F 1 "2.4k" V 4350 4300 24  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4350 4350 50  0001 C CNN
+F 3 "~" H 4350 4350 50  0001 C CNN
+	1    4350 4350
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -154,21 +146,29 @@ Text HLabel 6900 4900 2    50   Input ~ 0
 Flash_MOSI
 Text HLabel 4850 4500 0    50   Input ~ 0
 Flash_CS
-Text HLabel 4150 4700 0    50   Input ~ 0
+Text HLabel 4900 4700 0    50   Input ~ 0
 Flash_MISO
 $Comp
 L Device:R_Small R?
 U 1 1 5FB31CF3
-P 4350 4350
+P 4150 4200
 AR Path="/5F5F6048/5FB31CF3" Ref="R?"  Part="1" 
 AR Path="/5F611A0B/5FB31CF3" Ref="R?"  Part="1" 
 AR Path="/5F611A0B/5FB3012C/5FB31CF3" Ref="R19"  Part="1" 
 AR Path="/5FBD61B3/5FB31CF3" Ref="R?"  Part="1" 
-F 0 "R19" H 4400 4200 50  0000 L CNN
-F 1 "4.7k" V 4350 4300 24  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 4350 4350 50  0001 C CNN
-F 3 "~" H 4350 4350 50  0001 C CNN
-	1    4350 4350
+F 0 "R19" H 4200 4050 50  0000 L CNN
+F 1 "4.7k" V 4150 4150 24  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4150 4200 50  0001 C CNN
+F 3 "~" H 4150 4200 50  0001 C CNN
+	1    4150 4200
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	4900 4700 5050 4700
+Wire Wire Line
+	4150 3950 4150 4100
+Wire Wire Line
+	4150 4300 4150 4800
+Wire Wire Line
+	4150 4800 5050 4800
 $EndSCHEMATC
