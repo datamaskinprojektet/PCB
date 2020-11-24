@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 15
+Sheet 6 13
 Title ""
 Date ""
 Rev ""
@@ -77,10 +77,10 @@ Wire Wire Line
 Text HLabel 1300 2750 0    50   Input ~ 0
 Flash_CS
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0150
 U 1 1 5FA76C6A
 P 600 2250
-F 0 "#PWR?" H 600 2000 50  0001 C CNN
+F 0 "#PWR0150" H 600 2000 50  0001 C CNN
 F 1 "GND" H 605 2077 50  0000 C CNN
 F 2 "" H 600 2250 50  0001 C CNN
 F 3 "" H 600 2250 50  0001 C CNN
