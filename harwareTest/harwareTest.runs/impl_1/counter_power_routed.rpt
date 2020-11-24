@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
-| Date             : Thu Nov  5 16:02:18 2020
+| Date             : Sat Nov  7 12:21:32 2020
 | Host             : DESKTOP-4Q16636 running 64-bit major release  (build 9200)
 | Command          : report_power -file counter_power_routed.rpt -pb counter_power_summary_routed.pb -rpx counter_power_routed.rpx
 | Design           : counter
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 0.074        |
+| Total On-Chip Power (W)  | 0.073        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 0.002        |
+| Dynamic (W)              | 0.001        |
 | Device Static (W)        | 0.072        |
 | Effective TJA (C/W)      | 4.9          |
 | Max Ambient (C)          | 99.6         |
@@ -53,14 +53,15 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |    <0.001 |        3 |       --- |             --- |
-| Slice Logic    |    <0.001 |        9 |       --- |             --- |
-|   LUT as Logic |    <0.001 |        2 |     20800 |           <0.01 |
-|   Register     |    <0.001 |        4 |     41600 |           <0.01 |
+| Slice Logic    |    <0.001 |       21 |       --- |             --- |
+|   CARRY4       |    <0.001 |        4 |      8150 |            0.05 |
+|   Register     |    <0.001 |       14 |     41600 |            0.03 |
+|   LUT as Logic |    <0.001 |        1 |     20800 |           <0.01 |
 |   Others       |     0.000 |        2 |       --- |             --- |
-| Signals        |    <0.001 |        4 |       --- |             --- |
-| I/O            |     0.002 |        2 |       170 |            1.18 |
+| Signals        |    <0.001 |       17 |       --- |             --- |
+| I/O            |    <0.001 |        2 |       170 |            1.18 |
 | Static Power   |     0.072 |          |           |                 |
-| Total          |     0.074 |          |           |                 |
+| Total          |     0.073 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -123,11 +124,11 @@ Table of Contents
 2.2 Clock Constraints
 ---------------------
 
-+-------------+--------+-----------------+
-| Clock       | Domain | Constraint (ns) |
-+-------------+--------+-----------------+
-| sys_clk_pin | clk    |            10.0 |
-+-------------+--------+-----------------+
++----------+--------+-----------------+
+| Clock    | Domain | Constraint (ns) |
++----------+--------+-----------------+
+| clk_100m | clk    |            10.0 |
++----------+--------+-----------------+
 
 
 3. Detailed Reports
@@ -139,7 +140,7 @@ Table of Contents
 +---------+-----------+
 | Name    | Power (W) |
 +---------+-----------+
-| counter |     0.002 |
+| counter |     0.001 |
 +---------+-----------+
 
 

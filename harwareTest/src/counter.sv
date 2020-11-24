@@ -6,7 +6,7 @@ module counter(
     );
 
     
-    reg [2:0] Q = 0;
+    reg [12:0] Q = 0;
 
     initial div_clk = 1'b0;
 
@@ -14,7 +14,7 @@ module counter(
     begin
         // How Output reacts when Rising Edge of Clock Arrives?
         Q <= Q + 1'b1;
-        div_clk <= Q[2];
+        div_clk <= Q[12];
     end
 
  
