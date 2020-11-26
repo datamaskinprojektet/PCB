@@ -70,9 +70,9 @@ DEBUG LEDS
 Wire Wire Line
 	5250 1800 5800 1800
 Wire Wire Line
-	5250 2300 5800 2300
+	7600 2250 8150 2250
 Wire Wire Line
-	5250 2400 5800 2400
+	7600 2350 8150 2350
 Wire Wire Line
 	5250 2700 5800 2700
 Wire Wire Line
@@ -127,9 +127,9 @@ Text Label 5800 3100 2    50   ~ 0
 VGA_R1
 Text Label 5800 3200 2    50   ~ 0
 VGA_B2
-Text Label 5800 3500 2    50   ~ 0
+Text Label 5800 4300 2    50   ~ 0
 VGA_G2
-Text Label 5800 3600 2    50   ~ 0
+Text Label 5800 4400 2    50   ~ 0
 VGA_R2
 Text Label 5800 3700 2    50   ~ 0
 VGA_B3
@@ -155,46 +155,46 @@ Text Label 5800 5300 2    50   ~ 0
 VGA_B5
 Text Label 5800 5400 2    50   ~ 0
 VGA_R4
-Text Label 5800 3300 2    50   ~ 0
+Text Label 5850 2500 2    50   ~ 0
 VGA_G1
-Text Label 5800 3400 2    50   ~ 0
+Text Label 5850 2600 2    50   ~ 0
 VGA_B1
 Entry Wire Line
-	6600 1800 6500 1900
+	6600 2200 6500 2300
 Entry Wire Line
-	6500 2000 6600 1900
+	6500 2400 6600 2300
 Entry Wire Line
 	6500 2100 6600 2000
 Entry Wire Line
 	6500 2200 6600 2100
 Entry Wire Line
-	6500 2500 6600 2400
+	6500 3300 6600 3200
 Entry Wire Line
-	6500 2600 6600 2500
+	6500 3400 6600 3300
 Wire Wire Line
-	5250 1900 6500 1900
+	5250 2300 6500 2300
 Wire Wire Line
-	5250 2000 6500 2000
+	5250 2400 6500 2400
 Wire Wire Line
 	5250 2100 6500 2100
 Wire Wire Line
 	5250 2200 6500 2200
 Wire Wire Line
-	5250 2600 6500 2600
+	5250 3400 6500 3400
 Wire Wire Line
-	6500 2500 5250 2500
+	6500 3300 5250 3300
 Entry Wire Line
 	6750 3100 6850 3000
 Entry Wire Line
 	6950 3200 7050 3100
 Entry Wire Line
-	7150 3300 7250 3200
+	7150 2500 7250 2400
 Entry Wire Line
-	6950 3400 7050 3300
+	6950 2600 7050 2500
 Entry Wire Line
-	7150 3500 7250 3400
+	7150 4300 7250 4200
 Entry Wire Line
-	6750 3600 6850 3500
+	6750 4400 6850 4300
 Entry Wire Line
 	6950 3700 7050 3600
 Entry Wire Line
@@ -220,7 +220,7 @@ Wire Wire Line
 Wire Wire Line
 	5250 4700 6750 4700
 Wire Wire Line
-	5250 3600 6750 3600
+	5250 4400 6750 4400
 Wire Wire Line
 	5250 3100 6750 3100
 Text Label 5800 3900 2    50   ~ 0
@@ -228,19 +228,17 @@ VGA_VS
 Text Label 5800 4000 2    50   ~ 0
 VGA_HS
 Wire Wire Line
-	5250 4400 6500 4400
+	5250 3600 6500 3600
 Wire Wire Line
-	5250 4300 6500 4300
+	5250 3500 6500 3500
 Entry Wire Line
 	6950 4500 7050 4400
 Entry Wire Line
-	6500 4400 6600 4300
+	6500 3600 6600 3500
 Entry Wire Line
-	6500 4300 6600 4200
+	6500 3500 6600 3400
 Wire Wire Line
-	5250 3200 6950 3200
-Wire Wire Line
-	5250 3400 6950 3400
+	5250 2600 6950 2600
 Wire Wire Line
 	5250 3700 6950 3700
 Wire Wire Line
@@ -275,33 +273,29 @@ Text Label 5850 2100 0    50   ~ 0
 HDMI_TMDS0
 Text Label 5850 2200 0    50   ~ 0
 HDMI_TMDS1
-Text Label 5850 1900 0    50   ~ 0
+Text Label 5850 2300 0    50   ~ 0
 HDMI_TMDS2
-Text Label 5850 2000 0    50   ~ 0
+Text Label 5850 2400 0    50   ~ 0
 HDMI_TMDS3
-Text Label 5850 2500 0    50   ~ 0
+Text Label 5850 3500 0    50   ~ 0
 HDMI_TMDS4
-Text Label 5850 2600 0    50   ~ 0
+Text Label 5850 3600 0    50   ~ 0
 HDMI_TMDS5
-Text Label 5850 4300 0    50   ~ 0
+Text Label 5850 3300 0    50   ~ 0
 HDMI_TMDS6
-Text Label 5850 4400 0    50   ~ 0
+Text Label 5850 3400 0    50   ~ 0
 HDMI_TMDS7
-Text Label 5800 4400 2    50   ~ 0
+Text Label 5800 3400 2    50   ~ 0
 HDMI_CLK_N
-Text Label 5800 4300 2    50   ~ 0
+Text Label 5800 3300 2    50   ~ 0
 HDMI_CLK_P
-Text Label 5800 1900 2    50   ~ 0
-HDMI_D1_P
-Text Label 5800 2000 2    50   ~ 0
-HDMI_D1_N
 Text Label 5800 2100 2    50   ~ 0
 HDMI_D2_P
 Text Label 5800 2200 2    50   ~ 0
 HDMI_D2_N
-Text Label 5800 2600 2    50   ~ 0
+Text Label 5800 3600 2    50   ~ 0
 HDMI_D0_N
-Text Label 5800 2500 2    50   ~ 0
+Text Label 5800 3500 2    50   ~ 0
 HDMI_D0_P
 Entry Wire Line
 	700  2500 600  2600
@@ -405,9 +399,9 @@ Text Label 750  3700 0    50   ~ 0
 FPGA_GPIO_C3
 Text Label 5800 1800 2    50   ~ 0
 FPGA_GPIO_C4
-Text Label 5800 2300 2    50   ~ 0
+Text Label 8150 2250 2    50   ~ 0
 FPGA_GPIO_C5
-Text Label 5800 2400 2    50   ~ 0
+Text Label 8150 2350 2    50   ~ 0
 FPGA_GPIO_C6
 Text Label 5800 2900 2    50   ~ 0
 FPGA_GPIO_C7
@@ -465,16 +459,22 @@ Text Label 8000 1500 0    50   ~ 0
 FPGA_GPIO_D[0..6]
 Text GLabel 9000 1500 2    50   Input ~ 0
 FPGA_GPIO_D[0..6]
+Text Label 5800 2400 2    50   ~ 0
+HDMI_D1_N
+Text Label 5800 2300 2    50   ~ 0
+HDMI_D1_P
+Wire Wire Line
+	5250 4300 7150 4300
+Wire Wire Line
+	5250 3200 6950 3200
+Wire Wire Line
+	5250 2500 7150 2500
 Wire Wire Line
 	5250 5300 6950 5300
 Wire Wire Line
 	5250 5200 7150 5200
 Wire Wire Line
 	5250 4600 7150 4600
-Wire Wire Line
-	5250 3500 7150 3500
-Wire Wire Line
-	5250 3300 7150 3300
 Wire Bus Line
 	6850 1500 6850 5550
 Wire Bus Line
@@ -482,7 +482,7 @@ Wire Bus Line
 Wire Bus Line
 	7050 1500 7050 5550
 Wire Bus Line
-	6600 1500 6600 5550
-Wire Bus Line
 	600  2200 600  4050
+Wire Bus Line
+	6600 1500 6600 5550
 $EndSCHEMATC

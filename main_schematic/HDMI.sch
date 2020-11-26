@@ -25,10 +25,10 @@ F 3 "https://en.wikipedia.org/wiki/HDMI" H 5675 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0177
 U 1 1 5F7107FA
 P 2850 7500
-F 0 "#PWR?" H 2850 7250 50  0001 C CNN
+F 0 "#PWR0177" H 2850 7250 50  0001 C CNN
 F 1 "GND" H 2855 7327 50  0000 C CNN
 F 2 "" H 2850 7500 50  0001 C CNN
 F 3 "" H 2850 7500 50  0001 C CNN
@@ -36,10 +36,10 @@ F 3 "" H 2850 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0178
 U 1 1 5F710D97
 P 3150 6050
-F 0 "#PWR?" H 3150 5900 50  0001 C CNN
+F 0 "#PWR0178" H 3150 5900 50  0001 C CNN
 F 1 "+3.3V" H 3165 6223 50  0000 C CNN
 F 2 "" H 3150 6050 50  0001 C CNN
 F 3 "" H 3150 6050 50  0001 C CNN
@@ -47,10 +47,10 @@ F 3 "" H 3150 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0179
 U 1 1 5F711090
 P 5650 5900
-F 0 "#PWR?" H 5650 5750 50  0001 C CNN
+F 0 "#PWR0179" H 5650 5750 50  0001 C CNN
 F 1 "+5V" H 5665 6073 50  0000 C CNN
 F 2 "" H 5650 5900 50  0001 C CNN
 F 3 "" H 5650 5900 50  0001 C CNN
@@ -115,10 +115,10 @@ F 3 "~" H 3150 6150 50  0001 C CNN
 $EndComp
 Connection ~ 3150 6050
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0180
 U 1 1 5F713E6B
 P 3400 6350
-F 0 "#PWR?" H 3400 6100 50  0001 C CNN
+F 0 "#PWR0180" H 3400 6100 50  0001 C CNN
 F 1 "GND" H 3405 6177 50  0000 C CNN
 F 2 "" H 3400 6350 50  0001 C CNN
 F 3 "" H 3400 6350 50  0001 C CNN
@@ -323,10 +323,10 @@ Wire Wire Line
 Wire Wire Line
 	3000 3650 3000 3450
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0181
 U 1 1 5F735E24
 P 4900 1450
-F 0 "#PWR?" H 4900 1300 50  0001 C CNN
+F 0 "#PWR0181" H 4900 1300 50  0001 C CNN
 F 1 "+3.3V" H 4915 1623 50  0000 C CNN
 F 2 "" H 4900 1450 50  0001 C CNN
 F 3 "" H 4900 1450 50  0001 C CNN
@@ -334,10 +334,10 @@ F 3 "" H 4900 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0182
 U 1 1 5F785B6C
 P 3000 3450
-F 0 "#PWR?" H 3000 3300 50  0001 C CNN
+F 0 "#PWR0182" H 3000 3300 50  0001 C CNN
 F 1 "+3.3V" H 3015 3623 50  0000 C CNN
 F 2 "" H 3000 3450 50  0001 C CNN
 F 3 "" H 3000 3450 50  0001 C CNN
@@ -413,10 +413,10 @@ Wire Wire Line
 Wire Wire Line
 	3000 4750 3000 4450
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0183
 U 1 1 5F799318
 P 3000 4750
-F 0 "#PWR?" H 3000 4500 50  0001 C CNN
+F 0 "#PWR0183" H 3000 4500 50  0001 C CNN
 F 1 "GND" H 3005 4577 50  0000 C CNN
 F 2 "" H 3000 4750 50  0001 C CNN
 F 3 "" H 3000 4750 50  0001 C CNN
@@ -465,10 +465,10 @@ HDMI_SDA
 Wire Wire Line
 	5950 4350 6550 4350
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0184
 U 1 1 5F760C2D
 P 5850 4850
-F 0 "#PWR?" H 5850 4600 50  0001 C CNN
+F 0 "#PWR0184" H 5850 4600 50  0001 C CNN
 F 1 "GND" H 5855 4677 50  0000 C CNN
 F 2 "" H 5850 4850 50  0001 C CNN
 F 3 "" H 5850 4850 50  0001 C CNN
@@ -529,62 +529,39 @@ Wire Wire Line
 Wire Wire Line
 	1500 2450 2900 2450
 $Comp
-L SAMAC:CAT16-49R9F4LF RN2
+L main_schematic-rescue:CAT16-49R9F4LF-SAMAC RN2
 U 1 1 5FC08B87
-P 4500 1450
-F 0 "RN2" V 4854 1578 50  0000 L CNN
-F 1 "CAT16-49R9F4LF" V 4945 1578 50  0000 L CNN
-F 2 "SAMAC:CAT16104J4LF" H 5150 1550 50  0001 L CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/CATCAY.pdf" H 5150 1450 50  0001 L CNN
-F 4 "Bourns CAT16 Series 49.9 +/-1% Isolated SMT Resistor Array, 4 Resistors 1206 (3216M) package" H 5150 1350 50  0001 L CNN "Description"
-F 5 "" H 5150 1250 50  0001 L CNN "Height"
-F 6 "652-CAT16-49R9F4LF" H 5150 1150 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Bourns/CAT16-49R9F4LF?qs=F7r1FP8aGjw%252BIZ5KdzcSoQ%3D%3D" H 5150 1050 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Bourns" H 5150 950 50  0001 L CNN "Manufacturer_Name"
-F 9 "CAT16-49R9F4LF" H 5150 850 50  0001 L CNN "Manufacturer_Part_Number"
-	1    4500 1450
-	0    1    1    0   
+P 4200 1450
+F 0 "RN2" V 4554 1578 50  0000 L CNN
+F 1 "CAT16-49R9F4LF" V 4645 1578 50  0000 L CNN
+F 2 "SAMAC:CAT16104J4LF" H 4850 1550 50  0001 L CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/CATCAY.pdf" H 4850 1450 50  0001 L CNN
+F 4 "Bourns CAT16 Series 49.9 +/-1% Isolated SMT Resistor Array, 4 Resistors 1206 (3216M) package" H 4850 1350 50  0001 L CNN "Description"
+F 5 "" H 4850 1250 50  0001 L CNN "Height"
+F 6 "652-CAT16-49R9F4LF" H 4850 1150 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Bourns/CAT16-49R9F4LF?qs=F7r1FP8aGjw%252BIZ5KdzcSoQ%3D%3D" H 4850 1050 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Bourns" H 4850 950 50  0001 L CNN "Manufacturer_Name"
+F 9 "CAT16-49R9F4LF" H 4850 850 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4200 1450
+	0    -1   1    0   
 $EndComp
 $Comp
-L SAMAC:CAT16-49R9F4LF RN1
+L main_schematic-rescue:CAT16-49R9F4LF-SAMAC RN1
 U 1 1 5FC0F18D
-P 3200 1450
-F 0 "RN1" V 3554 1578 50  0000 L CNN
-F 1 "CAT16-49R9F4LF" V 3645 1578 50  0000 L CNN
-F 2 "SAMAC:CAT16104J4LF" H 3850 1550 50  0001 L CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/CATCAY.pdf" H 3850 1450 50  0001 L CNN
-F 4 "Bourns CAT16 Series 49.9 +/-1% Isolated SMT Resistor Array, 4 Resistors 1206 (3216M) package" H 3850 1350 50  0001 L CNN "Description"
-F 5 "" H 3850 1250 50  0001 L CNN "Height"
-F 6 "652-CAT16-49R9F4LF" H 3850 1150 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Bourns/CAT16-49R9F4LF?qs=F7r1FP8aGjw%252BIZ5KdzcSoQ%3D%3D" H 3850 1050 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Bourns" H 3850 950 50  0001 L CNN "Manufacturer_Name"
-F 9 "CAT16-49R9F4LF" H 3850 850 50  0001 L CNN "Manufacturer_Part_Number"
-	1    3200 1450
-	0    1    1    0   
+P 2900 1450
+F 0 "RN1" V 3254 1578 50  0000 L CNN
+F 1 "CAT16-49R9F4LF" V 3345 1578 50  0000 L CNN
+F 2 "SAMAC:CAT16104J4LF" H 3550 1550 50  0001 L CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/CATCAY.pdf" H 3550 1450 50  0001 L CNN
+F 4 "Bourns CAT16 Series 49.9 +/-1% Isolated SMT Resistor Array, 4 Resistors 1206 (3216M) package" H 3550 1350 50  0001 L CNN "Description"
+F 5 "" H 3550 1250 50  0001 L CNN "Height"
+F 6 "652-CAT16-49R9F4LF" H 3550 1150 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Bourns/CAT16-49R9F4LF?qs=F7r1FP8aGjw%252BIZ5KdzcSoQ%3D%3D" H 3550 1050 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Bourns" H 3550 950 50  0001 L CNN "Manufacturer_Name"
+F 9 "CAT16-49R9F4LF" H 3550 850 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2900 1450
+	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	2900 1450 3000 1450
-Connection ~ 3000 1450
-Wire Wire Line
-	3000 1450 3100 1450
-Connection ~ 3100 1450
-Wire Wire Line
-	3100 1450 3200 1450
-Connection ~ 3200 1450
-Wire Wire Line
-	3200 1450 4200 1450
-Connection ~ 4200 1450
-Wire Wire Line
-	4200 1450 4300 1450
-Connection ~ 4300 1450
-Wire Wire Line
-	4300 1450 4400 1450
-Connection ~ 4400 1450
-Wire Wire Line
-	4400 1450 4500 1450
-Connection ~ 4500 1450
-Wire Wire Line
-	4500 1450 4900 1450
 Wire Wire Line
 	2900 2250 2900 2450
 Connection ~ 2900 2450
@@ -622,9 +599,32 @@ Wire Wire Line
 	4400 3050 5250 3050
 Wire Wire Line
 	4500 2250 4500 3150
-Wire Bus Line
-	1400 2200 1400 3050
 Connection ~ 4500 3150
 Wire Wire Line
 	4500 3150 5250 3150
+Wire Wire Line
+	2900 1450 3000 1450
+Wire Bus Line
+	1400 2200 1400 3050
+Connection ~ 3000 1450
+Wire Wire Line
+	3000 1450 3100 1450
+Connection ~ 3100 1450
+Wire Wire Line
+	3100 1450 3200 1450
+Connection ~ 3200 1450
+Wire Wire Line
+	3200 1450 4200 1450
+Connection ~ 4200 1450
+Wire Wire Line
+	4200 1450 4300 1450
+Connection ~ 4300 1450
+Wire Wire Line
+	4300 1450 4400 1450
+Connection ~ 4400 1450
+Wire Wire Line
+	4400 1450 4500 1450
+Connection ~ 4500 1450
+Wire Wire Line
+	4500 1450 4900 1450
 $EndSCHEMATC

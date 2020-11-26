@@ -1,4 +1,4 @@
-18633274143029838
+18630390808018543
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -10667,6 +10667,13 @@ Wuerth FPC 68611214422 connector 12 bottom-side contacts 1.0mm pitch 1.0mm heigh
 0
 14
 13
+Connector_HDMI
+HDMI-10029449-111RLF
+
+
+0
+23
+20
 Connector_HDMI
 HDMI_A_Contact_Technology_HDMI-19APL2_Horizontal
 HDMI Contact Technology Type A http://www.contactswitch.com/en/download.aspx?id=1449
@@ -75424,34 +75431,6 @@ rotary encoder
 0
 5
 4
-SAMAC
-20413762
-2041376-2-2
-Connector
-0
-52
-52
-SAMAC
-CAT16104J4LF
-CAT16-104J4LF
-Resistor Network
-0
-8
-8
-SAMAC
-NE555DR
-D (R-PDSO-G8)
-Integrated Circuit
-0
-8
-8
-SAMAC
-SMH10602LD
-SMH-106-02-L-D-3
-Connector
-0
-12
-12
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
